@@ -1,0 +1,31 @@
+[1.052s] Invoking command in '/home/soroush/ros2_ws/src/alicesim': PYTHONPATH=/home/soroush/ros2_ws/build/alicesim/prefix_override:/home/soroush/ros2_ws/install/alicesim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/alicesim build --build-base /home/soroush/ros2_ws/build/alicesim/build install --record /home/soroush/ros2_ws/build/alicesim/install.log --single-version-externally-managed
+[1.476s] running egg_info
+[1.477s] writing ../../build/alicesim/alicesim.egg-info/PKG-INFO
+[1.477s] writing dependency_links to ../../build/alicesim/alicesim.egg-info/dependency_links.txt
+[1.478s] writing entry points to ../../build/alicesim/alicesim.egg-info/entry_points.txt
+[1.478s] writing requirements to ../../build/alicesim/alicesim.egg-info/requires.txt
+[1.478s] writing top-level names to ../../build/alicesim/alicesim.egg-info/top_level.txt
+[1.481s] reading manifest file '../../build/alicesim/alicesim.egg-info/SOURCES.txt'
+[1.482s] writing manifest file '../../build/alicesim/alicesim.egg-info/SOURCES.txt'
+[1.483s] running build
+[1.483s] running build_py
+[1.483s] copying alicesim/subscriber_member_function.py -> /home/soroush/ros2_ws/build/alicesim/build/lib/alicesim
+[1.483s] running install
+[1.484s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.484s]   warnings.warn(
+[1.484s] running install_lib
+[1.485s] copying /home/soroush/ros2_ws/build/alicesim/build/lib/alicesim/subscriber_member_function.py -> /home/soroush/ros2_ws/install/alicesim/lib/python3.10/site-packages/alicesim
+[1.486s] byte-compiling /home/soroush/ros2_ws/install/alicesim/lib/python3.10/site-packages/alicesim/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[1.487s]   File "/home/soroush/ros2_ws/install/alicesim/lib/python3.10/site-packages/alicesim/subscriber_member_function.py", line 28
+[1.487s]     		for i in range len(result) :
+[1.487s]     		               ^^^
+[1.487s] SyntaxError: invalid syntax
+[1.487s] 
+[1.487s] running install_data
+[1.488s] running install_egg_info
+[1.490s] removing '/home/soroush/ros2_ws/install/alicesim/lib/python3.10/site-packages/alicesim-0.0.0-py3.10.egg-info' (and everything under it)
+[1.491s] Copying ../../build/alicesim/alicesim.egg-info to /home/soroush/ros2_ws/install/alicesim/lib/python3.10/site-packages/alicesim-0.0.0-py3.10.egg-info
+[1.492s] running install_scripts
+[1.531s] Installing listener script to /home/soroush/ros2_ws/install/alicesim/lib/alicesim
+[1.531s] writing list of installed files to '/home/soroush/ros2_ws/build/alicesim/install.log'
+[1.566s] Invoked command in '/home/soroush/ros2_ws/src/alicesim' returned '0': PYTHONPATH=/home/soroush/ros2_ws/build/alicesim/prefix_override:/home/soroush/ros2_ws/install/alicesim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/alicesim build --build-base /home/soroush/ros2_ws/build/alicesim/build install --record /home/soroush/ros2_ws/build/alicesim/install.log --single-version-externally-managed

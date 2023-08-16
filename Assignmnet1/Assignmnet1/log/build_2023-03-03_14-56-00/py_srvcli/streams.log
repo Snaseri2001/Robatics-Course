@@ -1,0 +1,40 @@
+[1.080s] Invoking command in '/home/soroush/ros2_ws/src/py_srvcli': PYTHONPATH=/home/soroush/ros2_ws/build/py_srvcli/prefix_override:/home/soroush/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/soroush/ros2_ws/build/py_srvcli/build install --record /home/soroush/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed
+[1.514s] running egg_info
+[1.515s] creating ../../build/py_srvcli/py_srvcli.egg-info
+[1.515s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[1.516s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[1.516s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[1.516s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[1.516s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[1.517s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.519s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.521s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.521s] running build
+[1.521s] running build_py
+[1.521s] creating /home/soroush/ros2_ws/build/py_srvcli/build
+[1.521s] creating /home/soroush/ros2_ws/build/py_srvcli/build/lib
+[1.522s] creating /home/soroush/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[1.522s] copying py_srvcli/__init__.py -> /home/soroush/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[1.522s] copying py_srvcli/service_member_function.py -> /home/soroush/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[1.522s] running install
+[1.523s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.523s]   warnings.warn(
+[1.523s] running install_lib
+[1.524s] creating /home/soroush/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[1.525s] copying /home/soroush/ros2_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/soroush/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[1.525s] copying /home/soroush/ros2_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/soroush/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[1.526s] byte-compiling /home/soroush/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__init__.py to __init__.cpython-310.pyc
+[1.526s] byte-compiling /home/soroush/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-310.pyc
+[1.527s] running install_data
+[1.527s] creating /home/soroush/ros2_ws/install/py_srvcli/share/ament_index
+[1.528s] creating /home/soroush/ros2_ws/install/py_srvcli/share/ament_index/resource_index
+[1.528s] creating /home/soroush/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[1.528s] copying resource/py_srvcli -> /home/soroush/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[1.528s] copying package.xml -> /home/soroush/ros2_ws/install/py_srvcli/share/py_srvcli
+[1.529s] running install_egg_info
+[1.531s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/soroush/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[1.533s] running install_scripts
+[1.569s] Installing client script to /home/soroush/ros2_ws/install/py_srvcli/lib/py_srvcli
+[1.569s] Installing service script to /home/soroush/ros2_ws/install/py_srvcli/lib/py_srvcli
+[1.570s] writing list of installed files to '/home/soroush/ros2_ws/build/py_srvcli/install.log'
+[1.604s] Invoked command in '/home/soroush/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/soroush/ros2_ws/build/py_srvcli/prefix_override:/home/soroush/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/soroush/ros2_ws/build/py_srvcli/build install --record /home/soroush/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed

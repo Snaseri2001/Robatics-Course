@@ -1,0 +1,16 @@
+/home/soroush/ros2_ws/install/bobsim/lib/bobsim/talker
+/home/soroush/ros2_ws/install/bobsim/share/ament_index/resource_index/package_run_dependencies/bobsim
+/home/soroush/ros2_ws/install/bobsim/share/ament_index/resource_index/parent_prefix_path/bobsim
+/home/soroush/ros2_ws/install/bobsim/share/bobsim/environment/ament_prefix_path.sh
+/home/soroush/ros2_ws/install/bobsim/share/bobsim/environment/ament_prefix_path.dsv
+/home/soroush/ros2_ws/install/bobsim/share/bobsim/environment/path.sh
+/home/soroush/ros2_ws/install/bobsim/share/bobsim/environment/path.dsv
+/home/soroush/ros2_ws/install/bobsim/share/bobsim/local_setup.bash
+/home/soroush/ros2_ws/install/bobsim/share/bobsim/local_setup.sh
+/home/soroush/ros2_ws/install/bobsim/share/bobsim/local_setup.zsh
+/home/soroush/ros2_ws/install/bobsim/share/bobsim/local_setup.dsv
+/home/soroush/ros2_ws/install/bobsim/share/bobsim/package.dsv
+/home/soroush/ros2_ws/install/bobsim/share/ament_index/resource_index/packages/bobsim
+/home/soroush/ros2_ws/install/bobsim/share/bobsim/cmake/bobsimConfig.cmake
+/home/soroush/ros2_ws/install/bobsim/share/bobsim/cmake/bobsimConfig-version.cmake
+/home/soroush/ros2_ws/install/bobsim/share/bobsim/package.xml

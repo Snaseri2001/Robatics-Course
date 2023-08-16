@@ -1,0 +1,4 @@
+source;share/bobsim/local_setup.bash
+source;share/bobsim/local_setup.dsv
+source;share/bobsim/local_setup.sh
+source;share/bobsim/local_setup.zsh

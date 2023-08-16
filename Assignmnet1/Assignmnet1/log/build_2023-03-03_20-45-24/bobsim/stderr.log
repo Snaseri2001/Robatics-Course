@@ -1,0 +1,6 @@
+[01m[K/home/soroush/ros2_ws/src/bobsim/src/publisher_member_function.cpp:45:20:[m[K [01;31m[Kerror: [m[Kinitializer-string for ‘[01m[Kchar [11][m[K’ is too long [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   45 |     char arr[11] = [01;31m[K"SEND_HELP!,"[m[K;
+      |                    [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

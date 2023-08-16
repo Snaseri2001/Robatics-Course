@@ -1,0 +1,10 @@
+[0.030s] Invoking command in '/home/soroush/ros2_ws/build/bobsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soroush/ros2_ws/install/alicesim:/home/soroush/ros2_ws/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/soroush/ros2_ws/build/bobsim -- -j8 -l8
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.148s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[4.437s] [01m[K/home/soroush/ros2_ws/src/bobsim/src/publisher_member_function.cpp:45:20:[m[K [01;31m[Kerror: [m[Kinitializer-string for ‘[01m[Kchar [11][m[K’ is too long [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[4.437s]    45 |     char arr[11] = [01;31m[K"SEND_HELP!,"[m[K;
+[4.437s]       |                    [01;31m[K^~~~~~~~~~~~~[m[K
+[5.896s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[5.897s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+[5.897s] gmake: *** [Makefile:146: all] Error 2
+[5.901s] Invoked command in '/home/soroush/ros2_ws/build/bobsim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soroush/ros2_ws/install/alicesim:/home/soroush/ros2_ws/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/soroush/ros2_ws/build/bobsim -- -j8 -l8

@@ -1,0 +1,8 @@
+source;share/bobsim/hook/cmake_prefix_path.ps1
+source;share/bobsim/hook/cmake_prefix_path.dsv
+source;share/bobsim/hook/cmake_prefix_path.sh
+source;share/bobsim/local_setup.bash
+source;share/bobsim/local_setup.dsv
+source;share/bobsim/local_setup.ps1
+source;share/bobsim/local_setup.sh
+source;share/bobsim/local_setup.zsh

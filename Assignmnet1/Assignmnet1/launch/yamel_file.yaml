@@ -1,0 +1,16 @@
+launch:
+
+
+
+- node:
+    pkg: "alicesim"
+    exec: "listener"
+    name: "sim"
+    namespace: "turtlesim2"
+
+
+- node:
+    pkg: "bobsim"
+    exec: "talker"
+    name: "sim"
+    namespace: "turtlesim1"

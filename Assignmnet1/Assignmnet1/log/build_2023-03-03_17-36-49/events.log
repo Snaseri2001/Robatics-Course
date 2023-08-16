@@ -1,0 +1,215 @@
+[0.000000] (-) TimerEvent: {}
+[0.000202] (-) JobUnselected: {'identifier': 'alicesim'}
+[0.000255] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000293] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000329] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000383] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000445] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000513] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000582] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001401] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001477] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001521] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001561] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.002251] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.002622] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.002680] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.002738] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.002781] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.002821] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.004373] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.004533] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.004639] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.004722] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.004797] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.004985] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.005046] (-) JobUnselected: {'identifier': 'my_package'}
+[0.005238] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.005299] (bobsim) JobQueued: {'identifier': 'bobsim', 'dependencies': OrderedDict()}
+[0.005365] (bobsim) JobStarted: {'identifier': 'bobsim'}
+[0.025275] (bobsim) JobProgress: {'identifier': 'bobsim', 'progress': 'cmake'}
+[0.025644] (bobsim) Command: {'cmd': ['/usr/bin/cmake', '/home/soroush/ros2_ws/src/bobsim', '-DCMAKE_INSTALL_PREFIX=/home/soroush/ros2_ws/install/bobsim'], 'cwd': '/home/soroush/ros2_ws/build/bobsim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soroush'), ('LC_TIME', 'az_IR'), ('HOSTNAME', 'rosbox.soroush-HP-Laptop-15-da0xxx'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/soroush'), ('OLDPWD', '/home/soroush/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'az_IR'), ('DISTROBOX_ENTER_PATH', '/usr/local/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '2459'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/soroush/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soroush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'soroush'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/home/soroush/.local/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/soroush-HP-Laptop-15-da0xxx:@/tmp/.ICE-unix/2198,unix/soroush-HP-Laptop-15-da0xxx:/tmp/.ICE-unix/2198'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'az_IR'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0a0cbf20_8640_472e_ad91_7769a2d7c843'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'az_IR'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/soroush/ros2_ws/install/py_srvcli:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'az_IR'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'az_IR'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'az_IR'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/soroush/ros2_ws/build/bobsim'), ('CONTAINER_ID', 'rosbox'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/soroush/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'az_IR'), ('LC_PAPER', 'az_IR'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/soroush/ros2_ws/install/py_srvcli:/opt/ros/humble')]), 'shell': False}
+[0.097956] (-) TimerEvent: {}
+[0.198393] (-) TimerEvent: {}
+[0.249289] (bobsim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.298591] (-) TimerEvent: {}
+[0.399347] (-) TimerEvent: {}
+[0.458657] (bobsim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.476347] (bobsim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.499323] (-) TimerEvent: {}
+[0.599665] (-) TimerEvent: {}
+[0.605680] (bobsim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.619731] (bobsim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.620627] (bobsim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.621622] (bobsim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.628137] (bobsim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.699816] (-) TimerEvent: {}
+[0.771818] (bobsim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.786574] (bobsim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.787269] (bobsim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.788253] (bobsim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.799952] (-) TimerEvent: {}
+[0.800701] (bobsim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.900101] (-) TimerEvent: {}
+[1.000470] (-) TimerEvent: {}
+[1.100881] (-) TimerEvent: {}
+[1.116856] (bobsim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.200981] (-) TimerEvent: {}
+[1.301343] (-) TimerEvent: {}
+[1.309982] (bobsim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.401491] (-) TimerEvent: {}
+[1.436258] (bobsim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.449836] (bobsim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.473353] (bobsim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.501612] (-) TimerEvent: {}
+[1.508109] (bobsim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.555457] (bobsim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.601747] (-) TimerEvent: {}
+[1.702084] (-) TimerEvent: {}
+[1.718034] (bobsim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.725873] (bobsim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.802235] (-) TimerEvent: {}
+[1.902606] (-) TimerEvent: {}
+[1.958317] (bobsim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.002750] (-) TimerEvent: {}
+[2.025354] (bobsim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.102907] (-) TimerEvent: {}
+[2.136035] (bobsim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.162125] (bobsim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.203058] (-) TimerEvent: {}
+[2.296961] (bobsim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.297904] (bobsim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.303188] (-) TimerEvent: {}
+[2.403550] (-) TimerEvent: {}
+[2.431618] (bobsim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.433761] (bobsim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.503696] (-) TimerEvent: {}
+[2.604069] (-) TimerEvent: {}
+[2.704436] (-) TimerEvent: {}
+[2.792636] (bobsim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.804545] (-) TimerEvent: {}
+[2.904952] (-) TimerEvent: {}
+[2.953625] (bobsim) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.953973] (bobsim) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.954111] (bobsim) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.955652] (bobsim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.958008] (bobsim) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.958194] (bobsim) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.959266] (bobsim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.961999] (bobsim) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.980963] (bobsim) StdoutLine: {'line': b'-- Generating done\n'}
+[2.983431] (bobsim) StdoutLine: {'line': b'-- Build files have been written to: /home/soroush/ros2_ws/build/bobsim\n'}
+[2.996405] (bobsim) CommandEnded: {'returncode': 0}
+[3.000725] (bobsim) JobProgress: {'identifier': 'bobsim', 'progress': 'build'}
+[3.001227] (bobsim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/soroush/ros2_ws/build/bobsim', '--', '-j8', '-l8'], 'cwd': '/home/soroush/ros2_ws/build/bobsim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soroush'), ('LC_TIME', 'az_IR'), ('HOSTNAME', 'rosbox.soroush-HP-Laptop-15-da0xxx'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/soroush'), ('OLDPWD', '/home/soroush/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'az_IR'), ('DISTROBOX_ENTER_PATH', '/usr/local/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '2459'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/soroush/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soroush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'soroush'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/home/soroush/.local/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/soroush-HP-Laptop-15-da0xxx:@/tmp/.ICE-unix/2198,unix/soroush-HP-Laptop-15-da0xxx:/tmp/.ICE-unix/2198'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'az_IR'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0a0cbf20_8640_472e_ad91_7769a2d7c843'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'az_IR'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/soroush/ros2_ws/install/py_srvcli:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'az_IR'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'az_IR'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'az_IR'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/soroush/ros2_ws/build/bobsim'), ('CONTAINER_ID', 'rosbox'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/soroush/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'az_IR'), ('LC_PAPER', 'az_IR'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/soroush/ros2_ws/install/py_srvcli:/opt/ros/humble')]), 'shell': False}
+[3.005022] (-) TimerEvent: {}
+[3.085016] (bobsim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[3.105178] (-) TimerEvent: {}
+[3.205536] (-) TimerEvent: {}
+[3.305917] (-) TimerEvent: {}
+[3.406282] (-) TimerEvent: {}
+[3.506657] (-) TimerEvent: {}
+[3.607039] (-) TimerEvent: {}
+[3.707368] (-) TimerEvent: {}
+[3.807732] (-) TimerEvent: {}
+[3.908107] (-) TimerEvent: {}
+[4.008482] (-) TimerEvent: {}
+[4.108860] (-) TimerEvent: {}
+[4.209235] (-) TimerEvent: {}
+[4.309609] (-) TimerEvent: {}
+[4.409988] (-) TimerEvent: {}
+[4.510327] (-) TimerEvent: {}
+[4.610724] (-) TimerEvent: {}
+[4.711097] (-) TimerEvent: {}
+[4.811496] (-) TimerEvent: {}
+[4.911867] (-) TimerEvent: {}
+[5.012238] (-) TimerEvent: {}
+[5.112608] (-) TimerEvent: {}
+[5.212985] (-) TimerEvent: {}
+[5.313376] (-) TimerEvent: {}
+[5.413769] (-) TimerEvent: {}
+[5.514159] (-) TimerEvent: {}
+[5.614551] (-) TimerEvent: {}
+[5.714923] (-) TimerEvent: {}
+[5.815413] (-) TimerEvent: {}
+[5.915796] (-) TimerEvent: {}
+[6.016153] (-) TimerEvent: {}
+[6.116528] (-) TimerEvent: {}
+[6.216903] (-) TimerEvent: {}
+[6.317280] (-) TimerEvent: {}
+[6.417674] (-) TimerEvent: {}
+[6.518050] (-) TimerEvent: {}
+[6.618422] (-) TimerEvent: {}
+[6.718793] (-) TimerEvent: {}
+[6.819165] (-) TimerEvent: {}
+[6.919512] (-) TimerEvent: {}
+[7.019881] (-) TimerEvent: {}
+[7.120258] (-) TimerEvent: {}
+[7.220630] (-) TimerEvent: {}
+[7.321002] (-) TimerEvent: {}
+[7.421369] (-) TimerEvent: {}
+[7.521741] (-) TimerEvent: {}
+[7.622113] (-) TimerEvent: {}
+[7.722518] (-) TimerEvent: {}
+[7.822888] (-) TimerEvent: {}
+[7.923267] (-) TimerEvent: {}
+[8.023625] (-) TimerEvent: {}
+[8.123990] (-) TimerEvent: {}
+[8.224357] (-) TimerEvent: {}
+[8.324730] (-) TimerEvent: {}
+[8.425099] (-) TimerEvent: {}
+[8.525475] (-) TimerEvent: {}
+[8.625851] (-) TimerEvent: {}
+[8.726234] (-) TimerEvent: {}
+[8.826606] (-) TimerEvent: {}
+[8.926977] (-) TimerEvent: {}
+[9.027344] (-) TimerEvent: {}
+[9.127709] (-) TimerEvent: {}
+[9.228068] (-) TimerEvent: {}
+[9.328435] (-) TimerEvent: {}
+[9.428807] (-) TimerEvent: {}
+[9.529184] (-) TimerEvent: {}
+[9.629546] (-) TimerEvent: {}
+[9.729911] (-) TimerEvent: {}
+[9.830275] (-) TimerEvent: {}
+[9.930643] (-) TimerEvent: {}
+[10.031007] (-) TimerEvent: {}
+[10.131377] (-) TimerEvent: {}
+[10.231740] (-) TimerEvent: {}
+[10.332117] (-) TimerEvent: {}
+[10.432490] (-) TimerEvent: {}
+[10.532850] (-) TimerEvent: {}
+[10.633225] (-) TimerEvent: {}
+[10.733600] (-) TimerEvent: {}
+[10.804306] (bobsim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[10.833753] (-) TimerEvent: {}
+[10.934123] (-) TimerEvent: {}
+[11.034495] (-) TimerEvent: {}
+[11.134831] (-) TimerEvent: {}
+[11.153599] (bobsim) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[11.172211] (bobsim) CommandEnded: {'returncode': 0}
+[11.215905] (bobsim) JobProgress: {'identifier': 'bobsim', 'progress': 'install'}
+[11.231424] (bobsim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/soroush/ros2_ws/build/bobsim'], 'cwd': '/home/soroush/ros2_ws/build/bobsim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soroush'), ('LC_TIME', 'az_IR'), ('HOSTNAME', 'rosbox.soroush-HP-Laptop-15-da0xxx'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/soroush'), ('OLDPWD', '/home/soroush/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'az_IR'), ('DISTROBOX_ENTER_PATH', '/usr/local/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '2459'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/soroush/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soroush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'soroush'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/home/soroush/.local/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/soroush-HP-Laptop-15-da0xxx:@/tmp/.ICE-unix/2198,unix/soroush-HP-Laptop-15-da0xxx:/tmp/.ICE-unix/2198'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'az_IR'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0a0cbf20_8640_472e_ad91_7769a2d7c843'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'az_IR'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/soroush/ros2_ws/install/py_srvcli:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'az_IR'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'az_IR'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'az_IR'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/soroush/ros2_ws/build/bobsim'), ('CONTAINER_ID', 'rosbox'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/soroush/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'az_IR'), ('LC_PAPER', 'az_IR'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/soroush/ros2_ws/install/py_srvcli:/opt/ros/humble')]), 'shell': False}
+[11.234955] (-) TimerEvent: {}
+[11.243435] (bobsim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.243779] (bobsim) StdoutLine: {'line': b'-- Installing: /home/soroush/ros2_ws/install/bobsim/lib/bobsim/talker\n'}
+[11.246485] (bobsim) StdoutLine: {'line': b'-- Set runtime path of "/home/soroush/ros2_ws/install/bobsim/lib/bobsim/talker" to ""\n'}
+[11.246815] (bobsim) StdoutLine: {'line': b'-- Installing: /home/soroush/ros2_ws/install/bobsim/share/ament_index/resource_index/package_run_dependencies/bobsim\n'}
+[11.247161] (bobsim) StdoutLine: {'line': b'-- Installing: /home/soroush/ros2_ws/install/bobsim/share/ament_index/resource_index/parent_prefix_path/bobsim\n'}
+[11.247491] (bobsim) StdoutLine: {'line': b'-- Installing: /home/soroush/ros2_ws/install/bobsim/share/bobsim/environment/ament_prefix_path.sh\n'}
+[11.247840] (bobsim) StdoutLine: {'line': b'-- Installing: /home/soroush/ros2_ws/install/bobsim/share/bobsim/environment/ament_prefix_path.dsv\n'}
+[11.248091] (bobsim) StdoutLine: {'line': b'-- Installing: /home/soroush/ros2_ws/install/bobsim/share/bobsim/environment/path.sh\n'}
+[11.248347] (bobsim) StdoutLine: {'line': b'-- Installing: /home/soroush/ros2_ws/install/bobsim/share/bobsim/environment/path.dsv\n'}
+[11.248722] (bobsim) StdoutLine: {'line': b'-- Installing: /home/soroush/ros2_ws/install/bobsim/share/bobsim/local_setup.bash\n'}
+[11.248892] (bobsim) StdoutLine: {'line': b'-- Installing: /home/soroush/ros2_ws/install/bobsim/share/bobsim/local_setup.sh\n'}
+[11.249067] (bobsim) StdoutLine: {'line': b'-- Installing: /home/soroush/ros2_ws/install/bobsim/share/bobsim/local_setup.zsh\n'}
+[11.249234] (bobsim) StdoutLine: {'line': b'-- Installing: /home/soroush/ros2_ws/install/bobsim/share/bobsim/local_setup.dsv\n'}
+[11.249492] (bobsim) StdoutLine: {'line': b'-- Installing: /home/soroush/ros2_ws/install/bobsim/share/bobsim/package.dsv\n'}
+[11.249902] (bobsim) StdoutLine: {'line': b'-- Installing: /home/soroush/ros2_ws/install/bobsim/share/ament_index/resource_index/packages/bobsim\n'}
+[11.250291] (bobsim) StdoutLine: {'line': b'-- Installing: /home/soroush/ros2_ws/install/bobsim/share/bobsim/cmake/bobsimConfig.cmake\n'}
+[11.250611] (bobsim) StdoutLine: {'line': b'-- Installing: /home/soroush/ros2_ws/install/bobsim/share/bobsim/cmake/bobsimConfig-version.cmake\n'}
+[11.250900] (bobsim) StdoutLine: {'line': b'-- Installing: /home/soroush/ros2_ws/install/bobsim/share/bobsim/package.xml\n'}
+[11.253695] (bobsim) CommandEnded: {'returncode': 0}
+[11.335060] (-) TimerEvent: {}
+[11.343695] (bobsim) JobEnded: {'identifier': 'bobsim', 'rc': 0}
+[11.344828] (-) EventReactorShutdown: {}

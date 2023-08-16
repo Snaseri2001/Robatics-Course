@@ -1,0 +1,11 @@
+[0.026s] Invoking command in '/home/soroush/ros2_ws/build/bobsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soroush/ros2_ws/install/alicesim:/home/soroush/ros2_ws/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/soroush/ros2_ws/build/bobsim -- -j8 -l8
+[0.096s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.129s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[4.165s] [01m[K/home/soroush/ros2_ws/src/bobsim/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[4.165s] [01m[K/home/soroush/ros2_ws/src/bobsim/src/publisher_member_function.cpp:35:15:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kdata[m[K’ in ‘[01m[Kmassage[m[K’, which is of non-class type ‘[01m[Kchar[m[K’
+[4.165s]    35 |       massage.[01;31m[Kdata[m[K = massage ;
+[4.165s]       |               [01;31m[K^~~~[m[K
+[5.591s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[5.591s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+[5.592s] gmake: *** [Makefile:146: all] Error 2
+[5.595s] Invoked command in '/home/soroush/ros2_ws/build/bobsim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soroush/ros2_ws/install/alicesim:/home/soroush/ros2_ws/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/soroush/ros2_ws/build/bobsim -- -j8 -l8

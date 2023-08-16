@@ -1,0 +1,10 @@
+/home/soroush/ros2_ws/build/bobsim/CMakeFiles/uninstall.dir
+/home/soroush/ros2_ws/build/bobsim/CMakeFiles/bobsim_uninstall.dir
+/home/soroush/ros2_ws/build/bobsim/CMakeFiles/talker.dir
+/home/soroush/ros2_ws/build/bobsim/CMakeFiles/test.dir
+/home/soroush/ros2_ws/build/bobsim/CMakeFiles/edit_cache.dir
+/home/soroush/ros2_ws/build/bobsim/CMakeFiles/rebuild_cache.dir
+/home/soroush/ros2_ws/build/bobsim/CMakeFiles/list_install_components.dir
+/home/soroush/ros2_ws/build/bobsim/CMakeFiles/install.dir
+/home/soroush/ros2_ws/build/bobsim/CMakeFiles/install/local.dir
+/home/soroush/ros2_ws/build/bobsim/CMakeFiles/install/strip.dir

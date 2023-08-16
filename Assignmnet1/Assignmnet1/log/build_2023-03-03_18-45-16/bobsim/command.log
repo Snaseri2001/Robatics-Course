@@ -1,0 +1,2 @@
+Invoking command in '/home/soroush/ros2_ws/build/bobsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soroush/ros2_ws/install/alicesim:/home/soroush/ros2_ws/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/soroush/ros2_ws/build/bobsim -- -j8 -l8
+Invoked command in '/home/soroush/ros2_ws/build/bobsim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soroush/ros2_ws/install/alicesim:/home/soroush/ros2_ws/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/soroush/ros2_ws/build/bobsim -- -j8 -l8

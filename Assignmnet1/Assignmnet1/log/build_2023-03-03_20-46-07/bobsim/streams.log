@@ -1,0 +1,26 @@
+[0.027s] Invoking command in '/home/soroush/ros2_ws/build/bobsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soroush/ros2_ws/install/alicesim:/home/soroush/ros2_ws/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/soroush/ros2_ws/build/bobsim -- -j8 -l8
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.144s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[7.831s] [100%] [32m[1mLinking CXX executable talker[0m
+[8.164s] [100%] Built target talker
+[8.182s] Invoked command in '/home/soroush/ros2_ws/build/bobsim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soroush/ros2_ws/install/alicesim:/home/soroush/ros2_ws/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/soroush/ros2_ws/build/bobsim -- -j8 -l8
+[8.243s] Invoking command in '/home/soroush/ros2_ws/build/bobsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soroush/ros2_ws/install/alicesim:/home/soroush/ros2_ws/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --install /home/soroush/ros2_ws/build/bobsim
+[8.255s] -- Install configuration: ""
+[8.255s] -- Installing: /home/soroush/ros2_ws/install/bobsim/lib/bobsim/talker
+[8.259s] -- Set runtime path of "/home/soroush/ros2_ws/install/bobsim/lib/bobsim/talker" to ""
+[8.259s] -- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/ament_index/resource_index/package_run_dependencies/bobsim
+[8.259s] -- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/ament_index/resource_index/parent_prefix_path/bobsim
+[8.259s] -- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/bobsim/environment/ament_prefix_path.sh
+[8.260s] -- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/bobsim/environment/ament_prefix_path.dsv
+[8.260s] -- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/bobsim/environment/path.sh
+[8.260s] -- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/bobsim/environment/path.dsv
+[8.260s] -- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/bobsim/local_setup.bash
+[8.260s] -- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/bobsim/local_setup.sh
+[8.260s] -- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/bobsim/local_setup.zsh
+[8.260s] -- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/bobsim/local_setup.dsv
+[8.260s] -- Installing: /home/soroush/ros2_ws/install/bobsim/share/bobsim/package.dsv
+[8.260s] -- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/ament_index/resource_index/packages/bobsim
+[8.261s] -- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/bobsim/cmake/bobsimConfig.cmake
+[8.261s] -- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/bobsim/cmake/bobsimConfig-version.cmake
+[8.261s] -- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/bobsim/package.xml
+[8.264s] Invoked command in '/home/soroush/ros2_ws/build/bobsim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soroush/ros2_ws/install/alicesim:/home/soroush/ros2_ws/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --install /home/soroush/ros2_ws/build/bobsim

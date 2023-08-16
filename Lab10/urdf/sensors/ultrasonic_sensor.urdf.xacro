@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<robot name="ultrasonic_sensor" xmlns:xacro="http://ros.org/wiki/xacro">
+
+
+    <xacro:macro name="ultrasonic_sensor_sim" params="name linkname jointname  parent x y z roll pitch yaw topic">
+        <link name="${linkname}">
+            <xacro:inertial_cuboid mass="1" x="0.06" y="0.06" z="0.06"/>
+            <visual>
+                <geometry>
+                    <box size="0.06 0.06 0.06" />
+                </geometry>
+                <material name ="material_darkgray" />
+            </visual>
+            <collision>
+                <origin xyz="0.0 0.0 0.0" rpy="0 0 0" />
+                <geometry>
+                    <box size="0.06 0.06 0.06" />
+                </geometry>
+            </collision>
+        </link>
+        <joint name="${jointname}" type="fixed">
+            <origin xyz="${x} ${y} ${z}" rpy="${roll} ${pitch} ${yaw}" />
+            <parent link="${parent}" />
+            <child link="${linkname}" />
+        </joint>   
+
+        <gazebo reference="${linkname}">
+            <sensor name="${name}" type="gpu_lidar">
+                <topic>${topic}_1</topic>
+                <always_on>1</always_on>
+                <update_rate>5</update_rate>
+                <visualize>1</visualize>
+                <ray>
+                    <scan>
+                        <horizontal>
+                            <samples>640</samples>
+                            <resolution>1</resolution>
+                            <min_angle>-1.396263</min_angle>
+                            <max_angle>1.396263</max_angle>
+                        </horizontal>
+                    </scan>
+                    <range>
+                        <min>0.08</min>
+                        <max>4</max>
+                        <resolution>0.02</resolution>
+                    </range>
+                    <noise>
+                        <type>gaussian</type>
+                        <mean>0.1</mean>
+                        <stddev>0.005</stddev>
+                    </noise>
+                </ray>
+            </sensor>
+        </gazebo>     
+    </xacro:macro>
+</robot>

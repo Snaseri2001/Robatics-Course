@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[100%] [32m[1mLinking CXX executable talker[0m
+[100%] Built target talker
+-- Install configuration: ""
+-- Installing: /home/soroush/ros2_ws/install/bobsim/lib/bobsim/talker
+-- Set runtime path of "/home/soroush/ros2_ws/install/bobsim/lib/bobsim/talker" to ""
+-- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/ament_index/resource_index/package_run_dependencies/bobsim
+-- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/ament_index/resource_index/parent_prefix_path/bobsim
+-- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/bobsim/environment/ament_prefix_path.sh
+-- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/bobsim/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/bobsim/environment/path.sh
+-- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/bobsim/environment/path.dsv
+-- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/bobsim/local_setup.bash
+-- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/bobsim/local_setup.sh
+-- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/bobsim/local_setup.zsh
+-- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/bobsim/local_setup.dsv
+-- Installing: /home/soroush/ros2_ws/install/bobsim/share/bobsim/package.dsv
+-- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/ament_index/resource_index/packages/bobsim
+-- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/bobsim/cmake/bobsimConfig.cmake
+-- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/bobsim/cmake/bobsimConfig-version.cmake
+-- Up-to-date: /home/soroush/ros2_ws/install/bobsim/share/bobsim/package.xml
