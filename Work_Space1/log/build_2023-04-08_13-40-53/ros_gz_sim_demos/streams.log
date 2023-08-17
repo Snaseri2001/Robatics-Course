@@ -1,0 +1,84 @@
+[0.011s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim_demos': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_sim_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos
+[0.061s] -- The C compiler identification is GNU 11.3.0
+[0.116s] -- The CXX compiler identification is GNU 11.3.0
+[0.123s] -- Detecting C compiler ABI info
+[0.184s] -- Detecting C compiler ABI info - done
+[0.191s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.191s] -- Detecting C compile features
+[0.192s] -- Detecting C compile features - done
+[0.194s] -- Detecting CXX compiler ABI info
+[0.266s] -- Detecting CXX compiler ABI info - done
+[0.273s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.273s] -- Detecting CXX compile features
+[0.274s] -- Detecting CXX compile features - done
+[0.277s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.599s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.655s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.691s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.786s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.792s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.793s] -- Added test 'lint_cmake' to check CMake code style
+[0.794s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.797s] -- Added test 'xmllint' to check XML markup files
+[0.799s] -- Configuring done
+[0.802s] -- Generating done
+[0.803s] -- Build files have been written to: /home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim_demos
+[0.807s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim_demos' returned '0': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_sim_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos
+[0.808s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim_demos': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim_demos -- -j8 -l8
+[0.841s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim_demos' returned '0': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim_demos -- -j8 -l8
+[0.861s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim_demos': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim_demos
+[0.867s] -- Install configuration: ""
+[0.867s] -- Execute custom install script
+[0.868s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/air_pressure.launch.py
+[0.875s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/battery.launch.py
+[0.883s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/camera.launch.py
+[0.890s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/depth_camera.launch.py
+[0.898s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/diff_drive.launch.py
+[0.905s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/gpu_lidar.launch.py
+[0.912s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/gpu_lidar_bridge.launch.py
+[0.920s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/image_bridge.launch.py
+[0.927s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/imu.launch.py
+[0.935s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/joint_states.launch.py
+[0.942s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/magnetometer.launch.py
+[0.949s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/navsat.launch.py
+[0.957s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/navsat_gpsfix.launch.py
+[0.964s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/rgbd_camera.launch.py
+[0.971s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/rgbd_camera_bridge.launch.py
+[0.979s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/robot_description_publisher.launch.py
+[0.986s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/sdf_parser.launch.py
+[0.994s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/tf_bridge.launch.py
+[1.001s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/triggered_camera.launch.py
+[1.009s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/camera.rviz
+[1.016s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/depth_camera.rviz
+[1.023s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/diff_drive.rviz
+[1.031s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/gpu_lidar.rviz
+[1.038s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/gpu_lidar_bridge.rviz
+[1.045s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/imu.rviz
+[1.053s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/joint_states.rviz
+[1.060s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/rgbd_camera.rviz
+[1.068s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/rgbd_camera_bridge.rviz
+[1.075s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/robot_description_publisher.rviz
+[1.083s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/tf_bridge.rviz
+[1.090s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/vehicle.rviz
+[1.098s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/models/double_pendulum_model.sdf
+[1.106s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/models/rrbot.xacro
+[1.113s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/models/vehicle/model.config
+[1.121s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/models/vehicle/model.sdf
+[1.129s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/worlds/vehicle.sdf
+[1.137s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/environment/ros_gz_sim_demos.dsv
+[1.145s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ament_index/resource_index/package_run_dependencies/ros_gz_sim_demos
+[1.152s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ament_index/resource_index/parent_prefix_path/ros_gz_sim_demos
+[1.160s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/environment/ament_prefix_path.sh
+[1.168s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/environment/ament_prefix_path.dsv
+[1.176s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/environment/path.sh
+[1.183s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/environment/path.dsv
+[1.191s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/local_setup.bash
+[1.199s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/local_setup.sh
+[1.206s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/local_setup.zsh
+[1.214s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/local_setup.dsv
+[1.222s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/package.dsv
+[1.229s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ament_index/resource_index/packages/ros_gz_sim_demos
+[1.237s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/cmake/ros_gz_sim_demosConfig.cmake
+[1.245s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/cmake/ros_gz_sim_demosConfig-version.cmake
+[1.252s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/package.xml
+[1.264s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim_demos' returned '0': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim_demos

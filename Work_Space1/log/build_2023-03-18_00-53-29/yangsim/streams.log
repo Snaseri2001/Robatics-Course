@@ -1,0 +1,26 @@
+[0.035s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim': CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/yangsim -- -j8 -l8
+[0.112s] [35m[1mConsolidate compiler generated dependencies of target yangnode[0m
+[0.146s] [ 50%] [32mBuilding CXX object CMakeFiles/yangnode.dir/src/yangnode.cpp.o[0m
+[6.585s] [100%] [32m[1mLinking CXX executable yangnode[0m
+[6.875s] [100%] Built target yangnode
+[6.894s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim' returned '0': CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/yangsim -- -j8 -l8
+[6.957s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim': CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/yangsim
+[6.970s] -- Install configuration: ""
+[6.971s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/lib/yangsim/yangnode
+[6.973s] -- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/yangsim/lib/yangsim/yangnode" to ""
+[6.973s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/ament_index/resource_index/package_run_dependencies/yangsim
+[6.974s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/ament_index/resource_index/parent_prefix_path/yangsim
+[6.974s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/environment/ament_prefix_path.sh
+[6.974s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/environment/ament_prefix_path.dsv
+[6.975s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/environment/path.sh
+[6.975s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/environment/path.dsv
+[6.975s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/local_setup.bash
+[6.975s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/local_setup.sh
+[6.976s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/local_setup.zsh
+[6.976s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/local_setup.dsv
+[6.976s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/package.dsv
+[6.976s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/ament_index/resource_index/packages/yangsim
+[6.976s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/cmake/yangsimConfig.cmake
+[6.977s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/cmake/yangsimConfig-version.cmake
+[6.977s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/package.xml
+[6.979s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim' returned '0': CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/yangsim

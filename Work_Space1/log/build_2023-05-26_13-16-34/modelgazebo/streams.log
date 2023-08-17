@@ -1,0 +1,28 @@
+[0.802s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/src/modelgazebo': PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/build/modelgazebo/prefix_override:/home/soroush/robatics/Assignment2/assi2/install/modelgazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/modelgazebo build --build-base /home/soroush/robatics/Assignment2/assi2/build/modelgazebo/build install --record /home/soroush/robatics/Assignment2/assi2/build/modelgazebo/install.log --single-version-externally-managed
+[1.034s] running egg_info
+[1.049s] writing ../../build/modelgazebo/modelgazebo.egg-info/PKG-INFO
+[1.049s] writing dependency_links to ../../build/modelgazebo/modelgazebo.egg-info/dependency_links.txt
+[1.049s] writing entry points to ../../build/modelgazebo/modelgazebo.egg-info/entry_points.txt
+[1.049s] writing requirements to ../../build/modelgazebo/modelgazebo.egg-info/requires.txt
+[1.049s] writing top-level names to ../../build/modelgazebo/modelgazebo.egg-info/top_level.txt
+[1.088s] reading manifest file '../../build/modelgazebo/modelgazebo.egg-info/SOURCES.txt'
+[1.089s] writing manifest file '../../build/modelgazebo/modelgazebo.egg-info/SOURCES.txt'
+[1.089s] running build
+[1.089s] running build_py
+[1.089s] copying modelgazebo/gazebotwist.py -> /home/soroush/robatics/Assignment2/assi2/build/modelgazebo/build/lib/modelgazebo
+[1.089s] running install
+[1.090s] /home/soroush/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.090s]   warnings.warn(
+[1.095s] running install_lib
+[1.109s] copying /home/soroush/robatics/Assignment2/assi2/build/modelgazebo/build/lib/modelgazebo/gazebotwist.py -> /home/soroush/robatics/Assignment2/assi2/install/modelgazebo/lib/python3.10/site-packages/modelgazebo
+[1.110s] byte-compiling /home/soroush/robatics/Assignment2/assi2/install/modelgazebo/lib/python3.10/site-packages/modelgazebo/gazebotwist.py to gazebotwist.cpython-310.pyc
+[1.110s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (gazebotwist.py, line 28)
+[1.110s] running install_data
+[1.124s] running install_egg_info
+[1.140s] removing '/home/soroush/robatics/Assignment2/assi2/install/modelgazebo/lib/python3.10/site-packages/modelgazebo-0.0.0-py3.10.egg-info' (and everything under it)
+[1.140s] Copying ../../build/modelgazebo/modelgazebo.egg-info to /home/soroush/robatics/Assignment2/assi2/install/modelgazebo/lib/python3.10/site-packages/modelgazebo-0.0.0-py3.10.egg-info
+[1.141s] running install_scripts
+[1.309s] Installing modelgazebo script to /home/soroush/robatics/Assignment2/assi2/install/modelgazebo/lib/modelgazebo
+[1.310s] Installing twist script to /home/soroush/robatics/Assignment2/assi2/install/modelgazebo/lib/modelgazebo
+[1.310s] writing list of installed files to '/home/soroush/robatics/Assignment2/assi2/build/modelgazebo/install.log'
+[1.336s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/src/modelgazebo' returned '0': PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/build/modelgazebo/prefix_override:/home/soroush/robatics/Assignment2/assi2/install/modelgazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/modelgazebo build --build-base /home/soroush/robatics/Assignment2/assi2/build/modelgazebo/build install --record /home/soroush/robatics/Assignment2/assi2/build/modelgazebo/install.log --single-version-externally-managed

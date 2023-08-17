@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target yangnode[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/yangnode.dir/src/yangnode.cpp.o[0m
+[100%] [32m[1mLinking CXX executable yangnode[0m
+[100%] Built target yangnode
+-- Install configuration: ""
+-- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/ament_index/resource_index/package_run_dependencies/yangsim
+-- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/ament_index/resource_index/parent_prefix_path/yangsim
+-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/environment/ament_prefix_path.sh
+-- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/environment/path.sh
+-- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/environment/path.dsv
+-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/local_setup.bash
+-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/local_setup.sh
+-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/local_setup.zsh
+-- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/local_setup.dsv
+-- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/package.dsv
+-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/ament_index/resource_index/packages/yangsim
+-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/cmake/yangsimConfig.cmake
+-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/cmake/yangsimConfig-version.cmake
+-- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/package.xml

@@ -1,0 +1,4 @@
+Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces -- -j8 -l8
+Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces -- -j8 -l8
+Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces
+Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces

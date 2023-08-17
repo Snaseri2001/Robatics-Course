@@ -1,0 +1,35 @@
+[0.025s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/opt/ros/humble /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/yangsim -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/yangsim
+[0.050s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.331s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.400s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.405s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.418s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.443s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.476s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.604s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.607s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.893s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.224s] -- Found interfaces: 0.0.0 (/home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake)
+[1.256s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.390s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.392s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.393s] -- Configured cppcheck include dirs: 
+[1.393s] -- Configured cppcheck exclude dirs and/or files: 
+[1.394s] -- Added test 'lint_cmake' to check CMake code style
+[1.396s] -- Added test 'uncrustify' to check C / C++ code style
+[1.396s] -- Configured uncrustify additional arguments: 
+[1.397s] -- Added test 'xmllint' to check XML markup files
+[1.400s] -- Configuring done
+[1.420s] -- Generating done
+[1.422s] -- Build files have been written to: /home/soroush/robatics/Assignment2/assi2/build/yangsim
+[1.436s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/opt/ros/humble /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/yangsim -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/yangsim
+[1.439s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/yangsim -- -j8 -l8
+[1.524s] [ 50%] [32mBuilding CXX object CMakeFiles/yangnode.dir/src/yangnode.cpp.o[0m
+[2.143s] [01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstructures/srv/structure.hpp: No such file or directory
+[2.143s]     2 | #include [01;31m[K"structures/srv/structure.hpp"[m[K
+[2.144s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.144s] compilation terminated.
+[2.148s] gmake[2]: *** [CMakeFiles/yangnode.dir/build.make:76: CMakeFiles/yangnode.dir/src/yangnode.cpp.o] Error 1
+[2.149s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yangnode.dir/all] Error 2
+[2.149s] gmake: *** [Makefile:146: all] Error 2
+[2.153s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/yangsim -- -j8 -l8

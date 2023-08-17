@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/yinsim/yinsim.egg-info
+writing ../../build/yinsim/yinsim.egg-info/PKG-INFO
+writing dependency_links to ../../build/yinsim/yinsim.egg-info/dependency_links.txt
+writing entry points to ../../build/yinsim/yinsim.egg-info/entry_points.txt
+writing requirements to ../../build/yinsim/yinsim.egg-info/requires.txt
+writing top-level names to ../../build/yinsim/yinsim.egg-info/top_level.txt
+writing manifest file '../../build/yinsim/yinsim.egg-info/SOURCES.txt'
+reading manifest file '../../build/yinsim/yinsim.egg-info/SOURCES.txt'
+writing manifest file '../../build/yinsim/yinsim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/soroush/robatics/Assignment2/assi2/build/yinsim/build
+creating /home/soroush/robatics/Assignment2/assi2/build/yinsim/build/lib
+creating /home/soroush/robatics/Assignment2/assi2/build/yinsim/build/lib/yinsim
+copying yinsim/__init__.py -> /home/soroush/robatics/Assignment2/assi2/build/yinsim/build/lib/yinsim
+copying yinsim/yinnode.py -> /home/soroush/robatics/Assignment2/assi2/build/yinsim/build/lib/yinsim
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/soroush/robatics/Assignment2/assi2/install/yinsim/lib/python3.10/site-packages/yinsim
+copying /home/soroush/robatics/Assignment2/assi2/build/yinsim/build/lib/yinsim/__init__.py -> /home/soroush/robatics/Assignment2/assi2/install/yinsim/lib/python3.10/site-packages/yinsim
+copying /home/soroush/robatics/Assignment2/assi2/build/yinsim/build/lib/yinsim/yinnode.py -> /home/soroush/robatics/Assignment2/assi2/install/yinsim/lib/python3.10/site-packages/yinsim
+byte-compiling /home/soroush/robatics/Assignment2/assi2/install/yinsim/lib/python3.10/site-packages/yinsim/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/soroush/robatics/Assignment2/assi2/install/yinsim/lib/python3.10/site-packages/yinsim/yinnode.py to yinnode.cpython-310.pyc
+running install_data
+creating /home/soroush/robatics/Assignment2/assi2/install/yinsim/share/ament_index
+creating /home/soroush/robatics/Assignment2/assi2/install/yinsim/share/ament_index/resource_index
+creating /home/soroush/robatics/Assignment2/assi2/install/yinsim/share/ament_index/resource_index/packages
+copying resource/yinsim -> /home/soroush/robatics/Assignment2/assi2/install/yinsim/share/ament_index/resource_index/packages
+copying package.xml -> /home/soroush/robatics/Assignment2/assi2/install/yinsim/share/yinsim
+running install_egg_info
+Copying ../../build/yinsim/yinsim.egg-info to /home/soroush/robatics/Assignment2/assi2/install/yinsim/lib/python3.10/site-packages/yinsim-0.0.0-py3.10.egg-info
+running install_scripts
+Installing service script to /home/soroush/robatics/Assignment2/assi2/install/yinsim/lib/yinsim
+writing list of installed files to '/home/soroush/robatics/Assignment2/assi2/build/yinsim/install.log'

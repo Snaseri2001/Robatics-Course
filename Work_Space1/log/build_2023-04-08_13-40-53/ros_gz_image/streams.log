@@ -1,0 +1,97 @@
+[0.010s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_image': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_image -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image
+[0.060s] -- The C compiler identification is GNU 11.3.0
+[0.112s] -- The CXX compiler identification is GNU 11.3.0
+[0.119s] -- Detecting C compiler ABI info
+[0.179s] -- Detecting C compiler ABI info - done
+[0.186s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.186s] -- Detecting C compile features
+[0.186s] -- Detecting C compile features - done
+[0.189s] -- Detecting CXX compiler ABI info
+[0.262s] -- Detecting CXX compiler ABI info - done
+[0.269s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.270s] -- Detecting CXX compile features
+[0.270s] -- Detecting CXX compile features - done
+[0.276s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.599s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.654s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.705s] -- Found image_transport: 3.1.5 (/opt/ros/humble/share/image_transport/cmake)
+[0.779s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.785s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.794s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.809s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.829s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.899s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.902s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.998s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.031s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.093s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.107s] -- Looking for pthread.h
+[1.172s] -- Looking for pthread.h - found
+[1.172s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.238s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.239s] -- Found Threads: TRUE  
+[1.605s] -- Found ros_gz_bridge: 0.245.0 (/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/cmake)
+[2.472s] -- Looking for gz-transport12 -- found version 12.1.0
+[2.487s] -- Searching for dependencies of gz-transport12
+[2.542s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.578s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.587s] -- Checking for module 'libzmq >= 4'
+[2.611s] --   Found libzmq , version 4.3.4
+[2.677s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.688s] -- Checking for module 'uuid'
+[2.710s] --   Found uuid, version 2.37.2
+[2.769s] -- Found UUID: TRUE  
+[2.775s] -- Looking for gz-utils2 -- found version 2.0.0
+[2.776s] -- Searching for dependencies of gz-utils2
+[2.777s] -- Searching for <gz-utils2> component [cli]
+[2.783s] -- Looking for gz-utils2-cli -- found version 2.0.0
+[2.784s] -- Searching for dependencies of gz-utils2-cli
+[2.791s] -- Looking for gz-msgs9 -- found version 9.4.0
+[2.792s] -- Searching for dependencies of gz-msgs9
+[2.847s] -- Looking for gz-math7 -- found version 7.1.0
+[2.848s] -- Searching for dependencies of gz-math7
+[2.849s] -- Looking for gz-utils2 -- found version 2.0.0
+[2.859s] -- Checking for module 'tinyxml2'
+[2.882s] --   Found tinyxml2, version 9.0.0
+[2.943s] -- Looking for gz-msgs9 -- found version 9.4.0
+[2.943s] -- Compiling against Gazebo Garden
+[3.562s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.662s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.664s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.664s] -- Configured cppcheck include dirs: /home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_image/include
+[3.664s] -- Configured cppcheck exclude dirs and/or files: 
+[3.666s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.666s] -- Configured cpplint exclude dirs and/or files: 
+[3.667s] -- Added test 'lint_cmake' to check CMake code style
+[3.668s] -- Added test 'uncrustify' to check C / C++ code style
+[3.668s] -- Configured uncrustify additional arguments: 
+[3.669s] -- Added test 'xmllint' to check XML markup files
+[3.670s] -- Configuring done
+[3.729s] -- Generating done
+[3.731s] -- Build files have been written to: /home/soroush/robatics/Assignment2/assi2/build/ros_gz_image
+[3.741s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_image' returned '0': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_image -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image
+[3.742s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_image': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/ros_gz_image -- -j8 -l8
+[3.791s] [ 50%] [32mBuilding CXX object CMakeFiles/image_bridge.dir/src/image_bridge.cpp.o[0m
+[9.660s] [100%] [32m[1mLinking CXX executable image_bridge[0m
+[24.864s] [100%] Built target image_bridge
+[24.877s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_image' returned '0': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/ros_gz_image -- -j8 -l8
+[24.907s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_image': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/ros_gz_image
+[24.914s] -- Install configuration: ""
+[24.915s] -- Execute custom install script
+[24.915s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/lib/ros_gz_image/image_bridge
+[24.924s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ament_index/resource_index/package_run_dependencies/ros_gz_image
+[24.932s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ament_index/resource_index/parent_prefix_path/ros_gz_image
+[24.940s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/environment/ament_prefix_path.sh
+[24.948s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/environment/ament_prefix_path.dsv
+[24.956s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/environment/path.sh
+[24.964s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/environment/path.dsv
+[24.971s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/local_setup.bash
+[24.979s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/local_setup.sh
+[24.986s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/local_setup.zsh
+[24.993s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/local_setup.dsv
+[25.000s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/package.dsv
+[25.008s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ament_index/resource_index/packages/ros_gz_image
+[25.015s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/cmake/ros_gz_imageConfig.cmake
+[25.022s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/cmake/ros_gz_imageConfig-version.cmake
+[25.030s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/package.xml
+[25.040s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_image' returned '0': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/ros_gz_image

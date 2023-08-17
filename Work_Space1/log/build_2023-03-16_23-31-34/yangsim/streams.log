@@ -1,0 +1,47 @@
+[0.073s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim': CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/yangsim -- -j8 -l8
+[0.173s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.750s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.907s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.921s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.953s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.005s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.079s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.354s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.362s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.959s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.671s] -- Found interfaces: 0.0.0 (/home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake)
+[2.740s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.048s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.048s] -- Configured cppcheck include dirs: 
+[3.048s] -- Configured cppcheck exclude dirs and/or files: 
+[3.051s] -- Added test 'lint_cmake' to check CMake code style
+[3.056s] -- Added test 'uncrustify' to check C / C++ code style
+[3.056s] -- Configured uncrustify additional arguments: 
+[3.058s] -- Added test 'xmllint' to check XML markup files
+[3.062s] -- Configuring done
+[3.111s] -- Generating done
+[3.118s] -- Build files have been written to: /home/soroush/robatics/Assignment2/assi2/build/yangsim
+[3.214s] [35m[1mConsolidate compiler generated dependencies of target yangnode[0m
+[3.289s] [ 50%] [32m[1mLinking CXX executable yangnode[0m
+[3.900s] [100%] Built target yangnode
+[3.942s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim' returned '0': CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/yangsim -- -j8 -l8
+[4.084s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim': CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/yangsim
+[4.111s] -- Install configuration: ""
+[4.112s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/lib/yangsim/yangnode
+[4.117s] -- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/yangsim/lib/yangsim/yangnode" to ""
+[4.117s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/ament_index/resource_index/package_run_dependencies/yangsim
+[4.118s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/ament_index/resource_index/parent_prefix_path/yangsim
+[4.119s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/environment/ament_prefix_path.sh
+[4.119s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/environment/ament_prefix_path.dsv
+[4.120s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/environment/path.sh
+[4.120s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/environment/path.dsv
+[4.121s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/local_setup.bash
+[4.121s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/local_setup.sh
+[4.121s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/local_setup.zsh
+[4.122s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/local_setup.dsv
+[4.122s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/package.dsv
+[4.123s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/ament_index/resource_index/packages/yangsim
+[4.123s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/cmake/yangsimConfig.cmake
+[4.123s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/cmake/yangsimConfig-version.cmake
+[4.123s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/package.xml
+[4.131s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim' returned '0': CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/yangsim

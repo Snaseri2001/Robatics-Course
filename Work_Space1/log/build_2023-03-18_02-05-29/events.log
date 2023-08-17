@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.000203] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.000258] (-) JobUnselected: {'identifier': 'turtlesim_controller'}
+[0.001172] (-) JobUnselected: {'identifier': 'yinsim'}
+[0.001236] (yangsim) JobQueued: {'identifier': 'yangsim', 'dependencies': OrderedDict([('interfaces', '/home/soroush/robatics/Assignment2/assi2/install/interfaces')])}
+[0.001291] (yangsim) JobStarted: {'identifier': 'yangsim'}
+[0.029130] (yangsim) JobProgress: {'identifier': 'yangsim', 'progress': 'cmake'}
+[0.030592] (yangsim) JobProgress: {'identifier': 'yangsim', 'progress': 'build'}
+[0.031815] (yangsim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/soroush/robatics/Assignment2/assi2/build/yangsim', '--', '-j8', '-l8'], 'cwd': '/home/soroush/robatics/Assignment2/assi2/build/yangsim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soroush'), ('LC_TIME', 'fa_IR.UTF-8'), ('HOSTNAME', 'rosbox.soroush-HP-Laptop-15-da0xxx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/soroush'), ('OLDPWD', '/home/soroush'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fa_IR.UTF-8'), ('DISTROBOX_ENTER_PATH', '/usr/local/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '2107'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/soroush/robatics/Assignment2/assi2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soroush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'soroush'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/home/soroush/.local/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/soroush-HP-Laptop-15-da0xxx:@/tmp/.ICE-unix/1913,unix/soroush-HP-Laptop-15-da0xxx:/tmp/.ICE-unix/1913'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fa_IR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c8b84a41_1bea_4626_b1d5_b76fa0fbbbd6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fa_IR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.U9EB21'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/home/soroush/robatics/Assignment2/assi2/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fa_IR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fa_IR.UTF-8'), ('LC_IDENTIFICATION', 'fa_IR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/soroush/robatics/Assignment2/assi2/build/yangsim'), ('CONTAINER_ID', 'rosbox'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/soroush/robatics/Assignment2/assi2/install/yinsim/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fa_IR.UTF-8'), ('LC_PAPER', 'fa_IR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/soroush/robatics/Assignment2/assi2/install/interfaces:/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/opt/ros/humble')]), 'shell': False}
+[0.098052] (-) TimerEvent: {}
+[0.108350] (yangsim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target yangnode\x1b[0m\n'}
+[0.143237] (yangsim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/yangnode.dir/src/yangnode.cpp.o\x1b[0m\n'}
+[0.198200] (-) TimerEvent: {}
+[0.298594] (-) TimerEvent: {}
+[0.398963] (-) TimerEvent: {}
+[0.499336] (-) TimerEvent: {}
+[0.599703] (-) TimerEvent: {}
+[0.700075] (-) TimerEvent: {}
+[0.800446] (-) TimerEvent: {}
+[0.900793] (-) TimerEvent: {}
+[1.001161] (-) TimerEvent: {}
+[1.101541] (-) TimerEvent: {}
+[1.201910] (-) TimerEvent: {}
+[1.302277] (-) TimerEvent: {}
+[1.402646] (-) TimerEvent: {}
+[1.503013] (-) TimerEvent: {}
+[1.603384] (-) TimerEvent: {}
+[1.703757] (-) TimerEvent: {}
+[1.804123] (-) TimerEvent: {}
+[1.904488] (-) TimerEvent: {}
+[2.004847] (-) TimerEvent: {}
+[2.105221] (-) TimerEvent: {}
+[2.205603] (-) TimerEvent: {}
+[2.305980] (-) TimerEvent: {}
+[2.406354] (-) TimerEvent: {}
+[2.506729] (-) TimerEvent: {}
+[2.607116] (-) TimerEvent: {}
+[2.707507] (-) TimerEvent: {}
+[2.807876] (-) TimerEvent: {}
+[2.908253] (-) TimerEvent: {}
+[3.008639] (-) TimerEvent: {}
+[3.108991] (-) TimerEvent: {}
+[3.209357] (-) TimerEvent: {}
+[3.309738] (-) TimerEvent: {}
+[3.410106] (-) TimerEvent: {}
+[3.510480] (-) TimerEvent: {}
+[3.610853] (-) TimerEvent: {}
+[3.711229] (-) TimerEvent: {}
+[3.811602] (-) TimerEvent: {}
+[3.911971] (-) TimerEvent: {}
+[4.012341] (-) TimerEvent: {}
+[4.112671] (-) TimerEvent: {}
+[4.213044] (-) TimerEvent: {}
+[4.313409] (-) TimerEvent: {}
+[4.397139] (yangsim) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.397530] (yangsim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.397768] (yangsim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.397989] (yangsim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.398206] (yangsim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.398433] (yangsim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.398646] (yangsim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.398861] (yangsim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.399069] (yangsim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.399276] (yangsim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.399477] (yangsim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.399680] (yangsim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:1\x1b[m\x1b[K:\n'}
+[4.399893] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid yang::callForMessage(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.400120] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:86:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.400349] (yangsim) StderrLine: {'line': b'   86 |             RCLCPP_INFO(this->get_logger(), \x1b[01;31m\x1b[Kthis->colour[this->stage]\x1b[m\x1b[K);\n'}
+[4.400585] (yangsim) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[4.400822] (yangsim) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[4.401038] (yangsim) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[Kstd::string {aka std::__cxx11::basic_string<char>}\x1b[m\x1b[K\n'}
+[4.401251] (yangsim) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rmw/rmw/types.h:28\x1b[m\x1b[K,\n'}
+[4.401436] (yangsim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/types.h:20\x1b[m\x1b[K,\n'}
+[4.401619] (yangsim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/log_level.h:22\x1b[m\x1b[K,\n'}
+[4.401796] (yangsim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/arguments.h:21\x1b[m\x1b[K,\n'}
+[4.401978] (yangsim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/context.h:28\x1b[m\x1b[K,\n'}
+[4.402164] (yangsim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26\x1b[m\x1b[K,\n'}
+[4.402367] (yangsim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30\x1b[m\x1b[K,\n'}
+[4.402573] (yangsim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.402784] (yangsim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.402993] (yangsim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.403224] (yangsim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:1\x1b[m\x1b[K:\n'}
+[4.403449] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcutils/rcutils/logging.h:479:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 4 of \xe2\x80\x98\x1b[01m\x1b[Kvoid rcutils_log(const rcutils_log_location_t*, int, const char*, const char*, ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.403673] (yangsim) StderrLine: {'line': b'  479 |   \x1b[01;36m\x1b[Kconst char * format\x1b[m\x1b[K,\n'}
+[4.403866] (yangsim) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[4.413512] (-) TimerEvent: {}
+[4.513893] (-) TimerEvent: {}
+[4.614313] (-) TimerEvent: {}
+[4.714739] (-) TimerEvent: {}
+[4.815191] (-) TimerEvent: {}
+[4.915597] (-) TimerEvent: {}
+[5.016008] (-) TimerEvent: {}
+[5.116427] (-) TimerEvent: {}
+[5.216862] (-) TimerEvent: {}
+[5.317273] (-) TimerEvent: {}
+[5.417703] (-) TimerEvent: {}
+[5.518126] (-) TimerEvent: {}
+[5.618547] (-) TimerEvent: {}
+[5.718971] (-) TimerEvent: {}
+[5.819402] (-) TimerEvent: {}
+[5.851219] (yangsim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/yangnode.dir/build.make:76: CMakeFiles/yangnode.dir/src/yangnode.cpp.o] Error 1\n'}
+[5.851562] (yangsim) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yangnode.dir/all] Error 2\n'}
+[5.851918] (yangsim) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.855277] (yangsim) CommandEnded: {'returncode': 2}
+[5.919609] (-) TimerEvent: {}
+[5.930567] (yangsim) JobEnded: {'identifier': 'yangsim', 'rc': 2}
+[5.941520] (-) EventReactorShutdown: {}

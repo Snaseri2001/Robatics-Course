@@ -1,0 +1,45 @@
+[0.016s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/yangsim -- -j8 -l8
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target yangnode[0m
+[0.076s] [ 50%] [32mBuilding CXX object CMakeFiles/yangnode.dir/src/yangnode.cpp.o[0m
+[2.452s] [01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:5:27:[m[K [01;31m[Kerror: [m[K‘[01m[KFirstSreviceMessage[m[K’ does not name a type
+[2.452s]     5 |                           [01;31m[KFirstSreviceMessage[m[K
+[2.452s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.453s] [01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:16:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K:[m[K’ before ‘[01m[Kchar[m[K’
+[2.453s]    16 | public[01;31m[K [m[K[32m[Kchar[m[K* colour[5]
+[2.453s]       |       [01;31m[K^[m[K[32m[K~~~~[m[K
+[2.453s]       |       [32m[K:[m[K
+[2.453s] [01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:24:35:[m[K [01;31m[Kerror: [m[Ktoo many initializers for ‘[01m[Kchar* [5][m[K’
+[2.453s]    24 | "And you fade into the darkness." [01;31m[K}[m[K;
+[2.453s]       |                                   [01;31m[K^[m[K
+[2.511s] [01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:[m[K In member function ‘[01m[Kvoid yang::callForMessage(std::string)[m[K’:
+[2.511s] [01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:39:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kint64_t[m[K’
+[2.511s]    39 |         [01;31m[Kint64_t[m[K number_of_character = message.length() ;
+[2.511s]       |         [01;31m[K^~~~~~~[m[K
+[2.523s] [01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:41:25:[m[K [01;31m[Kerror: [m[K‘[01m[Knumber_of_character[m[K’ was not declared in this scope
+[2.523s]    41 |         request->len =  [01;31m[Knumber_of_character[m[K;
+[2.523s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.531s] [01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:53:13:[m[K [01;31m[Kerror: [m[K‘[01m[KisClient_[m[K’ was not declared in this scope; did you mean ‘[01m[Kclient[m[K’?
+[2.531s]    53 |             [01;31m[KisClient_[m[K=false;
+[2.531s]       |             [01;31m[K^~~~~~~~~[m[K
+[2.531s]       |             [32m[Kclient[m[K
+[2.540s] [01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.540s] [01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:69:34:[m[K [01;31m[Kerror: [m[K‘[01m[KAddTwoIntsClientNode[m[K’ was not declared in this scope
+[2.540s]    69 |     auto node = std::make_shared<[01;31m[KAddTwoIntsClientNode[m[K>();
+[2.540s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.541s] [01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:69:55:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[2.541s]    69 |     auto node = [01;31m[Kstd::make_shared<AddTwoIntsClientNode>()[m[K;
+[2.541s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.541s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[2.541s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.541s]                  from [01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:1[m[K:
+[2.541s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[2.541s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[2.541s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[2.541s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.541s] [01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:69:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.541s]    69 |     auto node = [01;31m[Kstd::make_shared<AddTwoIntsClientNode>()[m[K;
+[2.541s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.171s] gmake[2]: *** [CMakeFiles/yangnode.dir/build.make:76: CMakeFiles/yangnode.dir/src/yangnode.cpp.o] Error 1
+[3.172s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yangnode.dir/all] Error 2
+[3.172s] gmake: *** [Makefile:146: all] Error 2
+[3.174s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim' returned '2': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/yangsim -- -j8 -l8

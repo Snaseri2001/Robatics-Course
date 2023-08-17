@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.000162] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.000207] (-) JobUnselected: {'identifier': 'peresenr_one'}
+[0.000251] (-) JobUnselected: {'identifier': 'qosexample'}
+[0.000287] (-) JobUnselected: {'identifier': 'quality_of_service_demo'}
+[0.000322] (-) JobUnselected: {'identifier': 'ros_gz'}
+[0.000354] (-) JobUnselected: {'identifier': 'ros_gz_bridge'}
+[0.000444] (-) JobUnselected: {'identifier': 'ros_gz_image'}
+[0.000484] (-) JobUnselected: {'identifier': 'ros_gz_interfaces'}
+[0.000547] (-) JobUnselected: {'identifier': 'ros_gz_sim'}
+[0.000581] (-) JobUnselected: {'identifier': 'ros_gz_sim_demos'}
+[0.000614] (-) JobUnselected: {'identifier': 'turtlesim_controller'}
+[0.000648] (-) JobUnselected: {'identifier': 'yangsim'}
+[0.000679] (-) JobUnselected: {'identifier': 'yinsim'}
+[0.000714] (turtlemania) JobQueued: {'identifier': 'turtlemania', 'dependencies': OrderedDict()}
+[0.000751] (turtlemania) JobStarted: {'identifier': 'turtlemania'}
+[0.099014] (-) TimerEvent: {}
+[0.199279] (-) TimerEvent: {}
+[0.299521] (-) TimerEvent: {}
+[0.399783] (-) TimerEvent: {}
+[0.500011] (-) TimerEvent: {}
+[0.600306] (-) TimerEvent: {}
+[0.700540] (-) TimerEvent: {}
+[0.777979] (turtlemania) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/turtlemania', 'build', '--build-base', '/home/soroush/robatics/Assignment2/assi2/src/build/turtlemania/build', 'install', '--record', '/home/soroush/robatics/Assignment2/assi2/src/build/turtlemania/install.log', '--single-version-externally-managed'], 'cwd': '/home/soroush/robatics/Assignment2/assi2/src/turtlemania', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'no_proxy': 'localhost,127.0.0.0/8,::1', 'USER': 'soroush', 'LC_TIME': 'fa_IR.UTF-8', 'all_proxy': 'socks://127.0.0.1:2080/', 'HOSTNAME': 'rosbox.soroush-HP-Laptop-15-da0xxx', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/soroush', 'OLDPWD': '/home/soroush/robatics/Assignment2/assi2/src/turtlemania', 'DESKTOP_SESSION': 'ubuntu-xorg', 'NO_PROXY': 'localhost,127.0.0.0/8,::1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'fa_IR.UTF-8', 'DISTROBOX_ENTER_PATH': '/usr/local/bin/distrobox-enter', 'SYSTEMD_EXEC_PID': '2389', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'soroush', 'ALL_PROXY': 'socks://127.0.0.1:2080/', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'soroush', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/soroush/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/home/soroush/.local/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/soroush-HP-Laptop-15-da0xxx:@/tmp/.ICE-unix/2236,unix/soroush-HP-Laptop-15-da0xxx:/tmp/.ICE-unix/2236', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'fa_IR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b01104a7_ba8b_4179_8eb5_21e4d71b9663', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'fa_IR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.166', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'fa_IR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'fa_IR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'fa_IR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/soroush/robatics/Assignment2/assi2/src/build/turtlemania', 'CONTAINER_ID': 'rosbox', 'LC_ALL': 'C.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/soroush/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/soroush/robatics/Assignment2/assi2/src/build/turtlemania/prefix_override:/home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'fa_IR.UTF-8', 'LC_PAPER': 'fa_IR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.800641] (-) TimerEvent: {}
+[0.900869] (-) TimerEvent: {}
+[1.000080] (turtlemania) StdoutLine: {'line': b'running egg_info\n'}
+[1.000414] (turtlemania) StdoutLine: {'line': b'creating ../build/turtlemania/turtlemania.egg-info\n'}
+[1.000937] (-) TimerEvent: {}
+[1.016137] (turtlemania) StdoutLine: {'line': b'writing ../build/turtlemania/turtlemania.egg-info/PKG-INFO\n'}
+[1.016428] (turtlemania) StdoutLine: {'line': b'writing dependency_links to ../build/turtlemania/turtlemania.egg-info/dependency_links.txt\n'}
+[1.016618] (turtlemania) StdoutLine: {'line': b'writing entry points to ../build/turtlemania/turtlemania.egg-info/entry_points.txt\n'}
+[1.016814] (turtlemania) StdoutLine: {'line': b'writing requirements to ../build/turtlemania/turtlemania.egg-info/requires.txt\n'}
+[1.016992] (turtlemania) StdoutLine: {'line': b'writing top-level names to ../build/turtlemania/turtlemania.egg-info/top_level.txt\n'}
+[1.017097] (turtlemania) StdoutLine: {'line': b"writing manifest file '../build/turtlemania/turtlemania.egg-info/SOURCES.txt'\n"}
+[1.046005] (turtlemania) StdoutLine: {'line': b"reading manifest file '../build/turtlemania/turtlemania.egg-info/SOURCES.txt'\n"}
+[1.046708] (turtlemania) StdoutLine: {'line': b"writing manifest file '../build/turtlemania/turtlemania.egg-info/SOURCES.txt'\n"}
+[1.046892] (turtlemania) StdoutLine: {'line': b'running build\n'}
+[1.046979] (turtlemania) StdoutLine: {'line': b'running build_py\n'}
+[1.047076] (turtlemania) StdoutLine: {'line': b'creating /home/soroush/robatics/Assignment2/assi2/src/build/turtlemania/build\n'}
+[1.047192] (turtlemania) StdoutLine: {'line': b'creating /home/soroush/robatics/Assignment2/assi2/src/build/turtlemania/build/lib\n'}
+[1.047275] (turtlemania) StdoutLine: {'line': b'creating /home/soroush/robatics/Assignment2/assi2/src/build/turtlemania/build/lib/turtlemania\n'}
+[1.047333] (turtlemania) StdoutLine: {'line': b'copying turtlemania/__init__.py -> /home/soroush/robatics/Assignment2/assi2/src/build/turtlemania/build/lib/turtlemania\n'}
+[1.047413] (turtlemania) StdoutLine: {'line': b'copying turtlemania/listener.py -> /home/soroush/robatics/Assignment2/assi2/src/build/turtlemania/build/lib/turtlemania\n'}
+[1.047468] (turtlemania) StdoutLine: {'line': b'copying turtlemania/brodcaster.py -> /home/soroush/robatics/Assignment2/assi2/src/build/turtlemania/build/lib/turtlemania\n'}
+[1.047604] (turtlemania) StdoutLine: {'line': b'running install\n'}
+[1.048776] (turtlemania) StderrLine: {'line': b'/home/soroush/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.048981] (turtlemania) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.055077] (turtlemania) StdoutLine: {'line': b'running install_lib\n'}
+[1.070552] (turtlemania) StdoutLine: {'line': b'creating /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/python3.10/site-packages/turtlemania\n'}
+[1.070801] (turtlemania) StdoutLine: {'line': b'copying /home/soroush/robatics/Assignment2/assi2/src/build/turtlemania/build/lib/turtlemania/__init__.py -> /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/python3.10/site-packages/turtlemania\n'}
+[1.070935] (turtlemania) StdoutLine: {'line': b'copying /home/soroush/robatics/Assignment2/assi2/src/build/turtlemania/build/lib/turtlemania/listener.py -> /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/python3.10/site-packages/turtlemania\n'}
+[1.070999] (turtlemania) StdoutLine: {'line': b'copying /home/soroush/robatics/Assignment2/assi2/src/build/turtlemania/build/lib/turtlemania/brodcaster.py -> /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/python3.10/site-packages/turtlemania\n'}
+[1.071388] (turtlemania) StdoutLine: {'line': b'byte-compiling /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/python3.10/site-packages/turtlemania/__init__.py to __init__.cpython-310.pyc\n'}
+[1.071622] (turtlemania) StdoutLine: {'line': b'byte-compiling /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/python3.10/site-packages/turtlemania/listener.py to listener.cpython-310.pyc\n'}
+[1.072560] (turtlemania) StdoutLine: {'line': b'byte-compiling /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/python3.10/site-packages/turtlemania/brodcaster.py to brodcaster.cpython-310.pyc\n'}
+[1.073130] (turtlemania) StdoutLine: {'line': b'running install_data\n'}
+[1.090985] (turtlemania) StdoutLine: {'line': b'creating /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/share/ament_index\n'}
+[1.091262] (turtlemania) StdoutLine: {'line': b'creating /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/share/ament_index/resource_index\n'}
+[1.091473] (turtlemania) StdoutLine: {'line': b'creating /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/share/ament_index/resource_index/packages\n'}
+[1.091650] (turtlemania) StdoutLine: {'line': b'copying resource/turtlemania -> /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/share/ament_index/resource_index/packages\n'}
+[1.091822] (turtlemania) StdoutLine: {'line': b'copying package.xml -> /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/share/turtlemania\n'}
+[1.092007] (turtlemania) StdoutLine: {'line': b'copying launch/launch.py -> /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/share/turtlemania\n'}
+[1.092161] (turtlemania) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.101039] (-) TimerEvent: {}
+[1.107896] (turtlemania) StdoutLine: {'line': b'Copying ../build/turtlemania/turtlemania.egg-info to /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/python3.10/site-packages/turtlemania-0.0.0-py3.10.egg-info\n'}
+[1.108762] (turtlemania) StdoutLine: {'line': b'running install_scripts\n'}
+[1.201120] (-) TimerEvent: {}
+[1.275296] (turtlemania) StdoutLine: {'line': b'Installing brodcaster script to /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/turtlemania\n'}
+[1.275484] (turtlemania) StdoutLine: {'line': b'Installing listener script to /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/turtlemania\n'}
+[1.275701] (turtlemania) StdoutLine: {'line': b"writing list of installed files to '/home/soroush/robatics/Assignment2/assi2/src/build/turtlemania/install.log'\n"}
+[1.301882] (turtlemania) CommandEnded: {'returncode': 0}
+[1.302303] (-) TimerEvent: {}
+[1.322558] (turtlemania) JobEnded: {'identifier': 'turtlemania', 'rc': 0}
+[1.322986] (-) EventReactorShutdown: {}

@@ -1,0 +1,23 @@
+[0.834s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/src/Lab7': PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/src/build/Lab7/prefix_override:/home/soroush/robatics/Assignment2/assi2/src/install/Lab7/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/Lab7 build --build-base /home/soroush/robatics/Assignment2/assi2/src/build/Lab7/build install --record /home/soroush/robatics/Assignment2/assi2/src/build/Lab7/install.log --single-version-externally-managed
+[1.070s] running egg_info
+[1.084s] writing ../build/Lab7/Lab7.egg-info/PKG-INFO
+[1.085s] writing dependency_links to ../build/Lab7/Lab7.egg-info/dependency_links.txt
+[1.085s] writing entry points to ../build/Lab7/Lab7.egg-info/entry_points.txt
+[1.085s] writing requirements to ../build/Lab7/Lab7.egg-info/requires.txt
+[1.085s] writing top-level names to ../build/Lab7/Lab7.egg-info/top_level.txt
+[1.119s] reading manifest file '../build/Lab7/Lab7.egg-info/SOURCES.txt'
+[1.120s] writing manifest file '../build/Lab7/Lab7.egg-info/SOURCES.txt'
+[1.120s] running build
+[1.120s] running build_py
+[1.121s] running install
+[1.121s] /home/soroush/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.121s]   warnings.warn(
+[1.126s] running install_lib
+[1.142s] running install_data
+[1.158s] running install_egg_info
+[1.173s] removing '/home/soroush/robatics/Assignment2/assi2/src/install/Lab7/lib/python3.10/site-packages/Lab7-0.0.0-py3.10.egg-info' (and everything under it)
+[1.173s] Copying ../build/Lab7/Lab7.egg-info to /home/soroush/robatics/Assignment2/assi2/src/install/Lab7/lib/python3.10/site-packages/Lab7-0.0.0-py3.10.egg-info
+[1.174s] running install_scripts
+[1.355s] Installing modelgazebo script to /home/soroush/robatics/Assignment2/assi2/src/install/Lab7/lib/Lab7
+[1.355s] writing list of installed files to '/home/soroush/robatics/Assignment2/assi2/src/build/Lab7/install.log'
+[1.380s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/src/Lab7' returned '0': PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/src/build/Lab7/prefix_override:/home/soroush/robatics/Assignment2/assi2/src/install/Lab7/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/Lab7 build --build-base /home/soroush/robatics/Assignment2/assi2/src/build/Lab7/build install --record /home/soroush/robatics/Assignment2/assi2/src/build/Lab7/install.log --single-version-externally-managed

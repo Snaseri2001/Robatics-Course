@@ -1,0 +1,47 @@
+[0.025s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/sensor_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/home/soroush/robatics/Assignment2/assi2/install/peresenr_one:/opt/ros/humble:/home/soroush/ws_moveit2/install/moveit_configs_utils:/home/soroush/ws_moveit2/install/launch_param_builder /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/sensor_gazebo
+[0.109s] -- The C compiler identification is GNU 11.3.0
+[0.177s] -- The CXX compiler identification is GNU 11.3.0
+[0.185s] -- Detecting C compiler ABI info
+[0.278s] -- Detecting C compiler ABI info - done
+[0.286s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.286s] -- Detecting C compile features
+[0.287s] -- Detecting C compile features - done
+[0.290s] -- Detecting CXX compiler ABI info
+[0.398s] -- Detecting CXX compiler ABI info - done
+[0.406s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.406s] -- Detecting CXX compile features
+[0.407s] -- Detecting CXX compile features - done
+[0.424s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.842s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.087s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[1.243s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.267s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.297s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.337s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.390s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.569s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.586s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.792s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.846s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.937s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.982s] -- Looking for pthread.h
+[2.089s] -- Looking for pthread.h - found
+[2.090s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.197s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.198s] -- Found Threads: TRUE  
+[2.487s] -- Configuring done
+[2.491s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[2.491s]   Cannot find source file:
+[2.491s] 
+[2.491s]     src/publisher_member_function.cpp
+[2.491s] 
+[2.491s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[2.491s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[2.491s] 
+[2.491s] [0m
+[2.491s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[2.491s]   No SOURCES given to target: talker
+[2.491s] 
+[2.491s] [0m
+[2.492s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[2.500s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/sensor_gazebo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/home/soroush/robatics/Assignment2/assi2/install/peresenr_one:/opt/ros/humble:/home/soroush/ws_moveit2/install/moveit_configs_utils:/home/soroush/ws_moveit2/install/launch_param_builder /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/sensor_gazebo

@@ -1,0 +1,189 @@
+[0.000000] (-) TimerEvent: {}
+[0.000359] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.000463] (-) JobUnselected: {'identifier': 'turtlesim_controller'}
+[0.000586] (-) JobUnselected: {'identifier': 'yinsim'}
+[0.000697] (yangsim) JobQueued: {'identifier': 'yangsim', 'dependencies': OrderedDict([('interfaces', '/home/soroush/robatics/Assignment2/assi2/install/interfaces')])}
+[0.000813] (yangsim) JobStarted: {'identifier': 'yangsim'}
+[0.055233] (yangsim) JobProgress: {'identifier': 'yangsim', 'progress': 'cmake'}
+[0.057545] (yangsim) JobProgress: {'identifier': 'yangsim', 'progress': 'build'}
+[0.059851] (yangsim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/soroush/robatics/Assignment2/assi2/build/yangsim', '--', '-j8', '-l8'], 'cwd': '/home/soroush/robatics/Assignment2/assi2/build/yangsim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soroush'), ('LC_TIME', 'fa_IR.UTF-8'), ('HOSTNAME', 'rosbox.soroush-HP-Laptop-15-da0xxx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/soroush'), ('OLDPWD', '/home/soroush'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fa_IR.UTF-8'), ('DISTROBOX_ENTER_PATH', '/usr/local/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '2107'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/soroush/robatics/Assignment2/assi2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soroush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'soroush'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/home/soroush/.local/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/soroush-HP-Laptop-15-da0xxx:@/tmp/.ICE-unix/1913,unix/soroush-HP-Laptop-15-da0xxx:/tmp/.ICE-unix/1913'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fa_IR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c8b84a41_1bea_4626_b1d5_b76fa0fbbbd6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fa_IR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.U9EB21'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/home/soroush/robatics/Assignment2/assi2/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fa_IR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fa_IR.UTF-8'), ('LC_IDENTIFICATION', 'fa_IR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/soroush/robatics/Assignment2/assi2/build/yangsim'), ('CONTAINER_ID', 'rosbox'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/soroush/robatics/Assignment2/assi2/install/yinsim/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fa_IR.UTF-8'), ('LC_PAPER', 'fa_IR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/soroush/robatics/Assignment2/assi2/install/interfaces:/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/opt/ros/humble')]), 'shell': False}
+[0.096378] (-) TimerEvent: {}
+[0.196999] (-) TimerEvent: {}
+[0.214913] (yangsim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target yangnode\x1b[0m\n'}
+[0.281059] (yangsim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/yangnode.dir/src/yangnode.cpp.o\x1b[0m\n'}
+[0.297174] (-) TimerEvent: {}
+[0.397928] (-) TimerEvent: {}
+[0.498708] (-) TimerEvent: {}
+[0.599510] (-) TimerEvent: {}
+[0.700366] (-) TimerEvent: {}
+[0.801206] (-) TimerEvent: {}
+[0.901946] (-) TimerEvent: {}
+[1.002685] (-) TimerEvent: {}
+[1.103538] (-) TimerEvent: {}
+[1.204377] (-) TimerEvent: {}
+[1.305183] (-) TimerEvent: {}
+[1.405914] (-) TimerEvent: {}
+[1.506672] (-) TimerEvent: {}
+[1.607454] (-) TimerEvent: {}
+[1.708236] (-) TimerEvent: {}
+[1.809013] (-) TimerEvent: {}
+[1.909811] (-) TimerEvent: {}
+[2.010468] (-) TimerEvent: {}
+[2.111129] (-) TimerEvent: {}
+[2.211752] (-) TimerEvent: {}
+[2.312360] (-) TimerEvent: {}
+[2.413074] (-) TimerEvent: {}
+[2.513737] (-) TimerEvent: {}
+[2.614401] (-) TimerEvent: {}
+[2.715033] (-) TimerEvent: {}
+[2.815683] (-) TimerEvent: {}
+[2.916364] (-) TimerEvent: {}
+[3.017017] (-) TimerEvent: {}
+[3.117768] (-) TimerEvent: {}
+[3.218473] (-) TimerEvent: {}
+[3.319186] (-) TimerEvent: {}
+[3.419891] (-) TimerEvent: {}
+[3.520584] (-) TimerEvent: {}
+[3.621274] (-) TimerEvent: {}
+[3.721969] (-) TimerEvent: {}
+[3.822665] (-) TimerEvent: {}
+[3.923352] (-) TimerEvent: {}
+[4.024046] (-) TimerEvent: {}
+[4.124750] (-) TimerEvent: {}
+[4.225512] (-) TimerEvent: {}
+[4.326214] (-) TimerEvent: {}
+[4.426904] (-) TimerEvent: {}
+[4.527608] (-) TimerEvent: {}
+[4.628304] (-) TimerEvent: {}
+[4.729007] (-) TimerEvent: {}
+[4.829745] (-) TimerEvent: {}
+[4.930442] (-) TimerEvent: {}
+[5.031146] (-) TimerEvent: {}
+[5.131846] (-) TimerEvent: {}
+[5.232541] (-) TimerEvent: {}
+[5.333245] (-) TimerEvent: {}
+[5.433954] (-) TimerEvent: {}
+[5.534657] (-) TimerEvent: {}
+[5.635369] (-) TimerEvent: {}
+[5.736072] (-) TimerEvent: {}
+[5.836769] (-) TimerEvent: {}
+[5.937508] (-) TimerEvent: {}
+[6.038209] (-) TimerEvent: {}
+[6.138951] (-) TimerEvent: {}
+[6.239684] (-) TimerEvent: {}
+[6.340391] (-) TimerEvent: {}
+[6.441129] (-) TimerEvent: {}
+[6.541874] (-) TimerEvent: {}
+[6.642574] (-) TimerEvent: {}
+[6.743282] (-) TimerEvent: {}
+[6.843988] (-) TimerEvent: {}
+[6.944690] (-) TimerEvent: {}
+[7.045432] (-) TimerEvent: {}
+[7.146150] (-) TimerEvent: {}
+[7.246863] (-) TimerEvent: {}
+[7.347567] (-) TimerEvent: {}
+[7.448277] (-) TimerEvent: {}
+[7.548989] (-) TimerEvent: {}
+[7.649930] (-) TimerEvent: {}
+[7.750743] (-) TimerEvent: {}
+[7.851444] (-) TimerEvent: {}
+[7.952140] (-) TimerEvent: {}
+[8.052851] (-) TimerEvent: {}
+[8.153603] (-) TimerEvent: {}
+[8.254303] (-) TimerEvent: {}
+[8.355006] (-) TimerEvent: {}
+[8.455742] (-) TimerEvent: {}
+[8.556636] (-) TimerEvent: {}
+[8.657470] (-) TimerEvent: {}
+[8.758141] (-) TimerEvent: {}
+[8.858851] (-) TimerEvent: {}
+[8.959549] (-) TimerEvent: {}
+[9.060244] (-) TimerEvent: {}
+[9.160940] (-) TimerEvent: {}
+[9.261667] (-) TimerEvent: {}
+[9.362369] (-) TimerEvent: {}
+[9.463073] (-) TimerEvent: {}
+[9.563714] (-) TimerEvent: {}
+[9.664333] (-) TimerEvent: {}
+[9.764962] (-) TimerEvent: {}
+[9.865622] (-) TimerEvent: {}
+[9.966254] (-) TimerEvent: {}
+[10.066889] (-) TimerEvent: {}
+[10.167523] (-) TimerEvent: {}
+[10.268153] (-) TimerEvent: {}
+[10.368730] (-) TimerEvent: {}
+[10.469389] (-) TimerEvent: {}
+[10.570042] (-) TimerEvent: {}
+[10.670740] (-) TimerEvent: {}
+[10.771446] (-) TimerEvent: {}
+[10.872145] (-) TimerEvent: {}
+[10.972856] (-) TimerEvent: {}
+[11.073599] (-) TimerEvent: {}
+[11.174303] (-) TimerEvent: {}
+[11.275016] (-) TimerEvent: {}
+[11.375718] (-) TimerEvent: {}
+[11.476417] (-) TimerEvent: {}
+[11.577144] (-) TimerEvent: {}
+[11.677854] (-) TimerEvent: {}
+[11.778559] (-) TimerEvent: {}
+[11.879213] (-) TimerEvent: {}
+[11.979913] (-) TimerEvent: {}
+[12.080618] (-) TimerEvent: {}
+[12.181322] (-) TimerEvent: {}
+[12.282015] (-) TimerEvent: {}
+[12.382703] (-) TimerEvent: {}
+[12.483393] (-) TimerEvent: {}
+[12.584084] (-) TimerEvent: {}
+[12.684776] (-) TimerEvent: {}
+[12.785474] (-) TimerEvent: {}
+[12.886116] (-) TimerEvent: {}
+[12.986814] (-) TimerEvent: {}
+[13.087504] (-) TimerEvent: {}
+[13.188201] (-) TimerEvent: {}
+[13.288895] (-) TimerEvent: {}
+[13.389648] (-) TimerEvent: {}
+[13.490338] (-) TimerEvent: {}
+[13.591025] (-) TimerEvent: {}
+[13.691718] (-) TimerEvent: {}
+[13.792405] (-) TimerEvent: {}
+[13.893154] (-) TimerEvent: {}
+[13.993823] (-) TimerEvent: {}
+[14.094641] (-) TimerEvent: {}
+[14.195463] (-) TimerEvent: {}
+[14.287411] (yangsim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable yangnode\x1b[0m\n'}
+[14.295648] (-) TimerEvent: {}
+[14.396297] (-) TimerEvent: {}
+[14.496987] (-) TimerEvent: {}
+[14.597717] (-) TimerEvent: {}
+[14.698447] (-) TimerEvent: {}
+[14.799165] (-) TimerEvent: {}
+[14.885100] (yangsim) StdoutLine: {'line': b'[100%] Built target yangnode\n'}
+[14.899324] (-) TimerEvent: {}
+[14.929017] (yangsim) CommandEnded: {'returncode': 0}
+[14.999540] (-) TimerEvent: {}
+[15.032663] (yangsim) JobProgress: {'identifier': 'yangsim', 'progress': 'install'}
+[15.065643] (yangsim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/soroush/robatics/Assignment2/assi2/build/yangsim'], 'cwd': '/home/soroush/robatics/Assignment2/assi2/build/yangsim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soroush'), ('LC_TIME', 'fa_IR.UTF-8'), ('HOSTNAME', 'rosbox.soroush-HP-Laptop-15-da0xxx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/soroush'), ('OLDPWD', '/home/soroush'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fa_IR.UTF-8'), ('DISTROBOX_ENTER_PATH', '/usr/local/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '2107'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/soroush/robatics/Assignment2/assi2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soroush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'soroush'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/home/soroush/.local/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/soroush-HP-Laptop-15-da0xxx:@/tmp/.ICE-unix/1913,unix/soroush-HP-Laptop-15-da0xxx:/tmp/.ICE-unix/1913'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fa_IR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c8b84a41_1bea_4626_b1d5_b76fa0fbbbd6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fa_IR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.U9EB21'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/home/soroush/robatics/Assignment2/assi2/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fa_IR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fa_IR.UTF-8'), ('LC_IDENTIFICATION', 'fa_IR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/soroush/robatics/Assignment2/assi2/build/yangsim'), ('CONTAINER_ID', 'rosbox'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/soroush/robatics/Assignment2/assi2/install/yinsim/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fa_IR.UTF-8'), ('LC_PAPER', 'fa_IR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/soroush/robatics/Assignment2/assi2/install/interfaces:/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/opt/ros/humble')]), 'shell': False}
+[15.095995] (yangsim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.097136] (yangsim) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/lib/yangsim/yangnode\n'}
+[15.099715] (-) TimerEvent: {}
+[15.102048] (yangsim) StdoutLine: {'line': b'-- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/yangsim/lib/yangsim/yangnode" to ""\n'}
+[15.103032] (yangsim) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/ament_index/resource_index/package_run_dependencies/yangsim\n'}
+[15.103838] (yangsim) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/ament_index/resource_index/parent_prefix_path/yangsim\n'}
+[15.104404] (yangsim) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/environment/ament_prefix_path.sh\n'}
+[15.104720] (yangsim) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/environment/ament_prefix_path.dsv\n'}
+[15.105251] (yangsim) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/environment/path.sh\n'}
+[15.105569] (yangsim) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/environment/path.dsv\n'}
+[15.106007] (yangsim) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/local_setup.bash\n'}
+[15.106300] (yangsim) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/local_setup.sh\n'}
+[15.106585] (yangsim) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/local_setup.zsh\n'}
+[15.106867] (yangsim) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/local_setup.dsv\n'}
+[15.107150] (yangsim) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/package.dsv\n'}
+[15.107430] (yangsim) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/ament_index/resource_index/packages/yangsim\n'}
+[15.107711] (yangsim) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/cmake/yangsimConfig.cmake\n'}
+[15.107995] (yangsim) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/cmake/yangsimConfig-version.cmake\n'}
+[15.108280] (yangsim) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/package.xml\n'}
+[15.112005] (yangsim) CommandEnded: {'returncode': 0}
+[15.199938] (-) TimerEvent: {}
+[15.305496] (-) TimerEvent: {}
+[15.329661] (yangsim) JobEnded: {'identifier': 'yangsim', 'rc': 0}
+[15.332069] (-) EventReactorShutdown: {}

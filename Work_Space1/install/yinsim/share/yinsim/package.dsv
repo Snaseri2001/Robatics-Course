@@ -1,0 +1,6 @@
+source;share/yinsim/hook/pythonpath.ps1
+source;share/yinsim/hook/pythonpath.dsv
+source;share/yinsim/hook/pythonpath.sh
+source;share/yinsim/hook/ament_prefix_path.ps1
+source;share/yinsim/hook/ament_prefix_path.dsv
+source;share/yinsim/hook/ament_prefix_path.sh

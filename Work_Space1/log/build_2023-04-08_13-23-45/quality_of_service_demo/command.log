@@ -1,0 +1,1 @@
+Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/quality_of_service_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/quality_of_service_demo -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/quality_of_service_demo

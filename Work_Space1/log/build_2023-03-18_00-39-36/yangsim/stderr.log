@@ -1,0 +1,7 @@
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:[m[K In member function ‘[01m[Kint64_t yang::callbackService(interfaces::srv::FirstSreviceMessage_Request_<std::allocator<void> >::SharedPtr, interfaces::srv::FirstSreviceMessage_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:51:32:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<interfaces::srv::FirstSreviceMessage_Response_<std::allocator<void> > >[m[K’} to ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} in return
+   51 |                         return [01;31m[Kresponse[m[K ;
+      |                                [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/yangnode.dir/build.make:76: CMakeFiles/yangnode.dir/src/yangnode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yangnode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,10 @@
+[0.027s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/yangsim -- -j8 -l8
+[0.115s] [ 50%] [32mBuilding CXX object CMakeFiles/yangnode.dir/src/yangnode.cpp.o[0m
+[0.633s] [01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:2:10:[m[K [01;31m[Kfatal error: [m[K/interfaces/srv/FirstSreviceMessage.hpp: No such file or directory
+[0.633s]     2 | #include [01;31m[K"/interfaces/srv/FirstSreviceMessage.hpp"[m[K
+[0.633s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.633s] compilation terminated.
+[0.640s] gmake[2]: *** [CMakeFiles/yangnode.dir/build.make:76: CMakeFiles/yangnode.dir/src/yangnode.cpp.o] Error 1
+[0.640s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yangnode.dir/all] Error 2
+[0.641s] gmake: *** [Makefile:146: all] Error 2
+[0.644s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/yangsim -- -j8 -l8

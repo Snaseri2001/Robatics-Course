@@ -1,0 +1,9 @@
+[0.026s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/sensor_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/home/soroush/robatics/Assignment2/assi2/install/peresenr_one:/opt/ros/humble:/home/soroush/ws_moveit2/install/moveit_configs_utils:/home/soroush/ws_moveit2/install/launch_param_builder /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/sensor_gazebo -- -j8 -l8
+[0.427s] [31mCMake Error at CMakeLists.txt:17 (install):
+[0.427s]   install TARGETS given target "talker" which does not exist.
+[0.427s] 
+[0.427s] [0m
+[0.427s] -- Configuring incomplete, errors occurred!
+[0.427s] See also "/home/soroush/robatics/Assignment2/assi2/build/sensor_gazebo/CMakeFiles/CMakeOutput.log".
+[0.430s] gmake: *** [Makefile:138: cmake_check_build_system] Error 1
+[0.432s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/sensor_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/home/soroush/robatics/Assignment2/assi2/install/peresenr_one:/opt/ros/humble:/home/soroush/ws_moveit2/install/moveit_configs_utils:/home/soroush/ws_moveit2/install/launch_param_builder /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/sensor_gazebo -- -j8 -l8

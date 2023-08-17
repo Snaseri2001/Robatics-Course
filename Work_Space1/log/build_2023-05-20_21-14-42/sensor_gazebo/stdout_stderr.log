@@ -1,0 +1,7 @@
+[31mCMake Error at CMakeLists.txt:17 (install):
+  install TARGETS given target "talker" which does not exist.
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/soroush/robatics/Assignment2/assi2/build/sensor_gazebo/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:138: cmake_check_build_system] Error 1

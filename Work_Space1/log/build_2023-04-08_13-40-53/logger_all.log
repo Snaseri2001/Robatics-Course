@@ -1,0 +1,604 @@
+[0.244s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--parallel-workers', '1', '--symlink-install', '--packages-select', 'ros_gz', 'ros_gz_bridge', 'ros_gz_image', 'ros_gz_interfaces', 'ros_gz_sim', 'ros_gz_sim_demos']
+[0.244s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=1, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['ros_gz', 'ros_gz_bridge', 'ros_gz_image', 'ros_gz_interfaces', 'ros_gz_sim', 'ros_gz_sim_demos'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7feca88000a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7feca9323670>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7feca9323670>>, mixin_verb=('build',))
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.278s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/soroush/robatics/Assignment2/assi2'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ros'
+[0.296s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/peresenr_one) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/peresenr_one) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/peresenr_one) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/peresenr_one) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/peresenr_one) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/peresenr_one) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/peresenr_one) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/peresenr_one) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/peresenr_one) by extension 'ros'
+[0.297s] DEBUG:colcon.colcon_core.package_identification:Package 'src/peresenr_one' with type 'ros.ament_python' and name 'peresenr_one'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/qosexample) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/qosexample) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/qosexample) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/qosexample) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/qosexample) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/qosexample) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/qosexample) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/qosexample) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/qosexample) by extension 'ros'
+[0.298s] DEBUG:colcon.colcon_core.package_identification:Package 'src/qosexample' with type 'ros.ament_python' and name 'qosexample'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/quality_of_service_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/quality_of_service_demo) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/quality_of_service_demo) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/quality_of_service_demo) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/quality_of_service_demo) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/quality_of_service_demo) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/quality_of_service_demo) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/quality_of_service_demo) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/quality_of_service_demo) by extension 'ros'
+[0.299s] DEBUG:colcon.colcon_core.package_identification:Package 'src/quality_of_service_demo' with type 'ros.ament_cmake' and name 'quality_of_service_demo'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extension 'ros'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extensions ['cmake', 'python']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extension 'cmake'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extension 'python'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extensions ['python_setup_py']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extension 'python_setup_py'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/img) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/img) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/img) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/img) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/img) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/img) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/img) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/img) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/img) by extension 'ros'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/img) by extensions ['cmake', 'python']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/img) by extension 'cmake'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/img) by extension 'python'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/img) by extensions ['python_setup_py']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/img) by extension 'python_setup_py'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz) by extension 'ros'
+[0.301s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz/ros_gz' with type 'ros.ament_cmake' and name 'ros_gz'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_bridge) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_bridge) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_bridge) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_bridge) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_bridge) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_bridge) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_bridge) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_bridge) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz/ros_gz_bridge' with type 'ros.ament_cmake' and name 'ros_gz_bridge'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_image) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_image) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_image) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_image) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_image) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_image) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_image) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_image) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_image) by extension 'ros'
+[0.311s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz/ros_gz_image' with type 'ros.ament_cmake' and name 'ros_gz_image'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_interfaces) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_interfaces) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_interfaces) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_interfaces) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_interfaces) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_interfaces) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_interfaces) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_interfaces) by extension 'ros'
+[0.312s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz/ros_gz_interfaces' with type 'ros.ament_cmake' and name 'ros_gz_interfaces'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_point_cloud) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_point_cloud) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_point_cloud) ignored
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim) by extension 'ros'
+[0.316s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz/ros_gz_sim' with type 'ros.ament_cmake' and name 'ros_gz_sim'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim_demos) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim_demos) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim_demos) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim_demos) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim_demos) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim_demos) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim_demos) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim_demos) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz/ros_gz_sim_demos' with type 'ros.ament_cmake' and name 'ros_gz_sim_demos'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_controller) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_controller) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_controller) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_controller) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_controller) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_controller) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_controller) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_controller) by extension 'ros'
+[0.319s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_controller' with type 'ros.ament_python' and name 'turtlesim_controller'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/yangsim) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/yangsim) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/yangsim) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/yangsim) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/yangsim) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/yangsim) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/yangsim) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/yangsim) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/yangsim) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yangsim' with type 'ros.ament_cmake' and name 'yangsim'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/yinsim) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/yinsim) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/yinsim) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/yinsim) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/yinsim) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/yinsim) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/yinsim) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/yinsim) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/yinsim) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yinsim' with type 'ros.ament_python' and name 'yinsim'
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.352s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interfaces' in 'src/interfaces'
+[0.352s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'peresenr_one' in 'src/peresenr_one'
+[0.352s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'qosexample' in 'src/qosexample'
+[0.352s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'quality_of_service_demo' in 'src/quality_of_service_demo'
+[0.352s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlesim_controller' in 'src/turtlesim_controller'
+[0.352s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yangsim' in 'src/yangsim'
+[0.352s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yinsim' in 'src/yinsim'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.354s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces', 'merge_install': False, 'path': '/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_target' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.355s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim', 'merge_install': False, 'path': '/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_sim', 'symlink_install': True, 'test_result_base': None}
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_target' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.357s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge', 'merge_install': False, 'path': '/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_bridge', 'symlink_install': True, 'test_result_base': None}
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_target' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_clean_cache' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_clean_first' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_force_configure' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'ament_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'catkin_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.358s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_image' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_image', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image', 'merge_install': False, 'path': '/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_image', 'symlink_install': True, 'test_result_base': None}
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'cmake_target' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.360s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_sim_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos', 'merge_install': False, 'path': '/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_sim_demos', 'symlink_install': True, 'test_result_base': None}
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_target' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_clean_first' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_force_configure' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'ament_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.361s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/soroush/robatics/Assignment2/assi2/build/ros_gz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/soroush/robatics/Assignment2/assi2/install/ros_gz', 'merge_install': False, 'path': '/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz', 'symlink_install': True, 'test_result_base': None}
+[0.362s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.365s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.365s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_interfaces' with build type 'ament_cmake'
+[0.365s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_interfaces'
+[0.370s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.370s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.370s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces -- -j8 -l8
+[0.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces -- -j8 -l8
+[1.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces
+[1.344s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_interfaces)
+[1.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces' for CMake module files
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces' for CMake config files
+[1.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_interfaces', 'cmake_prefix_path')
+[1.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/cmake_prefix_path.ps1'
+[1.352s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/cmake_prefix_path.dsv'
+[1.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/cmake_prefix_path.sh'
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib'
+[1.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_interfaces', 'ld_library_path_lib')
+[1.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/ld_library_path_lib.ps1'
+[1.355s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/ld_library_path_lib.dsv'
+[1.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/ld_library_path_lib.sh'
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/bin'
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib/pkgconfig/ros_gz_interfaces.pc'
+[1.357s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib/python3.10/site-packages'
+[1.357s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/bin'
+[1.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/package.ps1'
+[1.359s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/package.dsv'
+[1.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/package.sh'
+[1.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/package.bash'
+[1.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/package.zsh'
+[1.361s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/colcon-core/packages/ros_gz_interfaces)
+[1.760s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_interfaces)
+[1.761s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces' for CMake module files
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces' for CMake config files
+[1.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_interfaces', 'cmake_prefix_path')
+[1.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/cmake_prefix_path.ps1'
+[1.764s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/cmake_prefix_path.dsv'
+[1.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/cmake_prefix_path.sh'
+[1.765s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib'
+[1.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_interfaces', 'ld_library_path_lib')
+[1.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/ld_library_path_lib.ps1'
+[1.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/ld_library_path_lib.dsv'
+[1.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/ld_library_path_lib.sh'
+[1.767s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/bin'
+[1.767s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib/pkgconfig/ros_gz_interfaces.pc'
+[1.767s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib/python3.10/site-packages'
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/bin'
+[1.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/package.ps1'
+[1.769s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/package.dsv'
+[1.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/package.sh'
+[1.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/package.bash'
+[1.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/package.zsh'
+[1.771s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/colcon-core/packages/ros_gz_interfaces)
+[1.771s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_bridge' with build type 'ament_cmake'
+[1.771s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_bridge'
+[1.772s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.772s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge
+[3.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge' returned '0': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge
+[3.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge -- -j8 -l8
+[250.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge' returned '0': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge -- -j8 -l8
+[250.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge
+[250.945s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_bridge)
+[250.951s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge' for CMake module files
+[250.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge' returned '0': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge
+[250.953s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge' for CMake config files
+[250.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_bridge', 'cmake_prefix_path')
+[250.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/hook/cmake_prefix_path.ps1'
+[250.959s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/hook/cmake_prefix_path.dsv'
+[250.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/hook/cmake_prefix_path.sh'
+[250.961s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib'
+[250.961s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_bridge', 'ld_library_path_lib')
+[250.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/hook/ld_library_path_lib.ps1'
+[250.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/hook/ld_library_path_lib.dsv'
+[250.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/hook/ld_library_path_lib.sh'
+[250.968s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/bin'
+[250.968s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib/pkgconfig/ros_gz_bridge.pc'
+[250.969s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib/python3.10/site-packages'
+[250.970s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/bin'
+[250.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/package.ps1'
+[250.975s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/package.dsv'
+[250.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/package.sh'
+[250.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/package.bash'
+[250.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/package.zsh'
+[250.979s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/colcon-core/packages/ros_gz_bridge)
+[251.328s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_bridge)
+[251.332s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge' for CMake module files
+[251.333s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge' for CMake config files
+[251.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_bridge', 'cmake_prefix_path')
+[251.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/hook/cmake_prefix_path.ps1'
+[251.337s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/hook/cmake_prefix_path.dsv'
+[251.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/hook/cmake_prefix_path.sh'
+[251.339s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib'
+[251.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_bridge', 'ld_library_path_lib')
+[251.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/hook/ld_library_path_lib.ps1'
+[251.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/hook/ld_library_path_lib.dsv'
+[251.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/hook/ld_library_path_lib.sh'
+[251.343s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/bin'
+[251.343s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib/pkgconfig/ros_gz_bridge.pc'
+[251.344s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib/python3.10/site-packages'
+[251.344s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/bin'
+[251.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/package.ps1'
+[251.348s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/package.dsv'
+[251.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/package.sh'
+[251.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/package.bash'
+[251.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/package.zsh'
+[251.351s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/colcon-core/packages/ros_gz_bridge)
+[251.351s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_sim' with build type 'ament_cmake'
+[251.351s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_sim'
+[251.353s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[251.353s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[251.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim
+[253.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim
+[253.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim -- -j8 -l8
+[267.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim -- -j8 -l8
+[267.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim
+[267.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_sim)
+[267.493s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim' for CMake module files
+[267.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim
+[267.494s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim' for CMake config files
+[267.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_sim', 'cmake_prefix_path')
+[267.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/ros_gz_sim/hook/cmake_prefix_path.ps1'
+[267.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/ros_gz_sim/hook/cmake_prefix_path.dsv'
+[267.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/ros_gz_sim/hook/cmake_prefix_path.sh'
+[267.496s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib'
+[267.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_sim', 'ld_library_path_lib')
+[267.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/ros_gz_sim/hook/ld_library_path_lib.ps1'
+[267.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/ros_gz_sim/hook/ld_library_path_lib.dsv'
+[267.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/ros_gz_sim/hook/ld_library_path_lib.sh'
+[267.498s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/bin'
+[267.498s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib/pkgconfig/ros_gz_sim.pc'
+[267.498s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib/python3.10/site-packages'
+[267.498s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/bin'
+[267.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/ros_gz_sim/package.ps1'
+[267.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/ros_gz_sim/package.dsv'
+[267.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/ros_gz_sim/package.sh'
+[267.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/ros_gz_sim/package.bash'
+[267.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/ros_gz_sim/package.zsh'
+[267.501s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/colcon-core/packages/ros_gz_sim)
+[267.531s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_sim)
+[267.533s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim' for CMake module files
+[267.533s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim' for CMake config files
+[267.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_sim', 'cmake_prefix_path')
+[267.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/ros_gz_sim/hook/cmake_prefix_path.ps1'
+[267.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/ros_gz_sim/hook/cmake_prefix_path.dsv'
+[267.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/ros_gz_sim/hook/cmake_prefix_path.sh'
+[267.535s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib'
+[267.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_sim', 'ld_library_path_lib')
+[267.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/ros_gz_sim/hook/ld_library_path_lib.ps1'
+[267.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/ros_gz_sim/hook/ld_library_path_lib.dsv'
+[267.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/ros_gz_sim/hook/ld_library_path_lib.sh'
+[267.537s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/bin'
+[267.537s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib/pkgconfig/ros_gz_sim.pc'
+[267.538s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib/python3.10/site-packages'
+[267.538s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/bin'
+[267.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/ros_gz_sim/package.ps1'
+[267.539s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/ros_gz_sim/package.dsv'
+[267.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/ros_gz_sim/package.sh'
+[267.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/ros_gz_sim/package.bash'
+[267.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/ros_gz_sim/package.zsh'
+[267.541s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/share/colcon-core/packages/ros_gz_sim)
+[267.541s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_image' with build type 'ament_cmake'
+[267.541s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_image'
+[267.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[267.542s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[267.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_image': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_image -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image
+[271.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_image' returned '0': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_image -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image
+[271.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_image': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/ros_gz_image -- -j8 -l8
+[292.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_image' returned '0': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/ros_gz_image -- -j8 -l8
+[292.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_image': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/ros_gz_image
+[292.582s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_image)
+[292.583s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image' for CMake module files
+[292.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_image' returned '0': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/ros_gz_image
+[292.584s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image' for CMake config files
+[292.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_image', 'cmake_prefix_path')
+[292.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/hook/cmake_prefix_path.ps1'
+[292.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/hook/cmake_prefix_path.dsv'
+[292.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/hook/cmake_prefix_path.sh'
+[292.587s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/lib'
+[292.587s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/bin'
+[292.587s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/lib/pkgconfig/ros_gz_image.pc'
+[292.587s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/lib/python3.10/site-packages'
+[292.587s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/bin'
+[292.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/package.ps1'
+[292.589s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/package.dsv'
+[292.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/package.sh'
+[292.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/package.bash'
+[292.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/package.zsh'
+[292.590s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/colcon-core/packages/ros_gz_image)
+[292.613s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_image)
+[292.615s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image' for CMake module files
+[292.615s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image' for CMake config files
+[292.615s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_image', 'cmake_prefix_path')
+[292.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/hook/cmake_prefix_path.ps1'
+[292.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/hook/cmake_prefix_path.dsv'
+[292.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/hook/cmake_prefix_path.sh'
+[292.617s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/lib'
+[292.617s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/bin'
+[292.617s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/lib/pkgconfig/ros_gz_image.pc'
+[292.618s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/lib/python3.10/site-packages'
+[292.618s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/bin'
+[292.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/package.ps1'
+[292.619s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/package.dsv'
+[292.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/package.sh'
+[292.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/package.bash'
+[292.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/ros_gz_image/package.zsh'
+[292.621s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image/share/colcon-core/packages/ros_gz_image)
+[292.621s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_sim_demos' with build type 'ament_cmake'
+[292.621s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_sim_demos'
+[292.622s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[292.622s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[292.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim_demos': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_sim_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos
+[293.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim_demos' returned '0': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_sim_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos
+[293.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim_demos': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim_demos -- -j8 -l8
+[293.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim_demos' returned '0': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim_demos -- -j8 -l8
+[293.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim_demos': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim_demos
+[293.885s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_sim_demos)
+[293.887s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos' for CMake module files
+[293.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim_demos' returned '0': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim_demos
+[293.888s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos' for CMake config files
+[293.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_sim_demos', 'cmake_prefix_path')
+[293.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/hook/cmake_prefix_path.ps1'
+[293.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/hook/cmake_prefix_path.dsv'
+[293.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/hook/cmake_prefix_path.sh'
+[293.890s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/bin'
+[293.890s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/lib/pkgconfig/ros_gz_sim_demos.pc'
+[293.891s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/lib/python3.10/site-packages'
+[293.891s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/bin'
+[293.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/package.ps1'
+[293.892s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/package.dsv'
+[293.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/package.sh'
+[293.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/package.bash'
+[293.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/package.zsh'
+[293.893s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/colcon-core/packages/ros_gz_sim_demos)
+[293.915s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_sim_demos)
+[293.918s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos' for CMake module files
+[293.919s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos' for CMake config files
+[293.919s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_sim_demos', 'cmake_prefix_path')
+[293.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/hook/cmake_prefix_path.ps1'
+[293.922s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/hook/cmake_prefix_path.dsv'
+[293.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/hook/cmake_prefix_path.sh'
+[293.922s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/bin'
+[293.922s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/lib/pkgconfig/ros_gz_sim_demos.pc'
+[293.923s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/lib/python3.10/site-packages'
+[293.923s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/bin'
+[293.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/package.ps1'
+[293.924s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/package.dsv'
+[293.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/package.sh'
+[293.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/package.bash'
+[293.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/ros_gz_sim_demos/package.zsh'
+[293.926s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share/colcon-core/packages/ros_gz_sim_demos)
+[293.926s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz' with build type 'ament_cmake'
+[293.926s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz'
+[293.927s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[293.927s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[293.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/ros_gz
+[294.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz' returned '0': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/ros_gz
+[294.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/ros_gz -- -j8 -l8
+[294.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz' returned '0': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/ros_gz -- -j8 -l8
+[294.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/ros_gz
+[294.900s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz)
+[294.902s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz' for CMake module files
+[294.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz' returned '0': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/ros_gz
+[294.903s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz' for CMake config files
+[294.903s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz', 'cmake_prefix_path')
+[294.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/share/ros_gz/hook/cmake_prefix_path.ps1'
+[294.905s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/share/ros_gz/hook/cmake_prefix_path.dsv'
+[294.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/share/ros_gz/hook/cmake_prefix_path.sh'
+[294.905s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/bin'
+[294.905s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/lib/pkgconfig/ros_gz.pc'
+[294.905s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/lib/python3.10/site-packages'
+[294.906s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/bin'
+[294.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/share/ros_gz/package.ps1'
+[294.907s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/share/ros_gz/package.dsv'
+[294.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/share/ros_gz/package.sh'
+[294.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/share/ros_gz/package.bash'
+[294.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/share/ros_gz/package.zsh'
+[294.908s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soroush/robatics/Assignment2/assi2/install/ros_gz/share/colcon-core/packages/ros_gz)
+[294.928s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz)
+[294.930s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz' for CMake module files
+[294.931s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz' for CMake config files
+[294.931s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz', 'cmake_prefix_path')
+[294.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/share/ros_gz/hook/cmake_prefix_path.ps1'
+[294.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/share/ros_gz/hook/cmake_prefix_path.dsv'
+[294.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/share/ros_gz/hook/cmake_prefix_path.sh'
+[294.933s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/bin'
+[294.933s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/lib/pkgconfig/ros_gz.pc'
+[294.933s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/lib/python3.10/site-packages'
+[294.933s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/bin'
+[294.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/share/ros_gz/package.ps1'
+[294.935s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/share/ros_gz/package.dsv'
+[294.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/share/ros_gz/package.sh'
+[294.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/share/ros_gz/package.bash'
+[294.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/install/ros_gz/share/ros_gz/package.zsh'
+[294.936s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soroush/robatics/Assignment2/assi2/install/ros_gz/share/colcon-core/packages/ros_gz)
+[294.936s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[294.937s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[294.937s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[294.937s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[294.946s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[294.946s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[294.946s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[294.946s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[294.957s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[294.958s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/soroush/robatics/Assignment2/assi2/install/local_setup.ps1'
+[294.959s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/soroush/robatics/Assignment2/assi2/install/_local_setup_util_ps1.py'
+[294.960s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/soroush/robatics/Assignment2/assi2/install/setup.ps1'
+[294.961s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/soroush/robatics/Assignment2/assi2/install/local_setup.sh'
+[294.961s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/soroush/robatics/Assignment2/assi2/install/_local_setup_util_sh.py'
+[294.962s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/soroush/robatics/Assignment2/assi2/install/setup.sh'
+[294.963s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/soroush/robatics/Assignment2/assi2/install/local_setup.bash'
+[294.963s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/soroush/robatics/Assignment2/assi2/install/setup.bash'
+[294.964s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/soroush/robatics/Assignment2/assi2/install/local_setup.zsh'
+[294.965s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/soroush/robatics/Assignment2/assi2/install/setup.zsh'

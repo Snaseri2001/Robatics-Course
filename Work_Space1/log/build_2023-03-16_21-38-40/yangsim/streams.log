@@ -1,0 +1,24 @@
+[0.014s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/yangsim -- -j8 -l8
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target yangnode[0m
+[0.079s] [ 50%] [32mBuilding CXX object CMakeFiles/yangnode.dir/src/yangnode.cpp.o[0m
+[3.778s] [100%] [32m[1mLinking CXX executable yangnode[0m
+[3.995s] [100%] Built target yangnode
+[4.007s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim' returned '0': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/yangsim -- -j8 -l8
+[4.047s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/yangsim
+[4.055s] -- Install configuration: ""
+[4.055s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/ament_index/resource_index/package_run_dependencies/yangsim
+[4.055s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/ament_index/resource_index/parent_prefix_path/yangsim
+[4.056s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/environment/ament_prefix_path.sh
+[4.056s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/environment/ament_prefix_path.dsv
+[4.056s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/environment/path.sh
+[4.056s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/environment/path.dsv
+[4.057s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/local_setup.bash
+[4.057s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/local_setup.sh
+[4.057s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/local_setup.zsh
+[4.057s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/local_setup.dsv
+[4.057s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/package.dsv
+[4.057s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/ament_index/resource_index/packages/yangsim
+[4.057s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/cmake/yangsimConfig.cmake
+[4.057s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/cmake/yangsimConfig-version.cmake
+[4.058s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/yangsim/share/yangsim/package.xml
+[4.060s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim' returned '0': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/yangsim

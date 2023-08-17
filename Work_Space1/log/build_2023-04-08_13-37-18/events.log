@@ -1,0 +1,1075 @@
+[0.000000] (-) TimerEvent: {}
+[0.001125] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.001196] (-) JobUnselected: {'identifier': 'peresenr_one'}
+[0.001225] (-) JobUnselected: {'identifier': 'qosexample'}
+[0.001266] (-) JobUnselected: {'identifier': 'quality_of_service_demo'}
+[0.001303] (-) JobUnselected: {'identifier': 'turtlesim_controller'}
+[0.001326] (-) JobUnselected: {'identifier': 'yangsim'}
+[0.001516] (-) JobUnselected: {'identifier': 'yinsim'}
+[0.001538] (ros_gz_interfaces) JobQueued: {'identifier': 'ros_gz_interfaces', 'dependencies': OrderedDict()}
+[0.001962] (ros_gz_sim) JobQueued: {'identifier': 'ros_gz_sim', 'dependencies': OrderedDict()}
+[0.002078] (ros_gz_bridge) JobQueued: {'identifier': 'ros_gz_bridge', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces')])}
+[0.002135] (ros_gz_image) JobQueued: {'identifier': 'ros_gz_image', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces'), ('ros_gz_bridge', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge')])}
+[0.002229] (ros_gz_sim_demos) JobQueued: {'identifier': 'ros_gz_sim_demos', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces'), ('ros_gz_sim', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim'), ('ros_gz_bridge', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge'), ('ros_gz_image', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image')])}
+[0.002280] (ros_gz) JobQueued: {'identifier': 'ros_gz', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces'), ('ros_gz_sim', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim'), ('ros_gz_bridge', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge'), ('ros_gz_image', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image'), ('ros_gz_sim_demos', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos')])}
+[0.002317] (ros_gz_interfaces) JobStarted: {'identifier': 'ros_gz_interfaces'}
+[0.013684] (ros_gz_interfaces) JobProgress: {'identifier': 'ros_gz_interfaces', 'progress': 'cmake'}
+[0.014235] (ros_gz_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces'], 'cwd': '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soroush'), ('LC_TIME', 'fa_IR.UTF-8'), ('HOSTNAME', 'rosbox.soroush-HP-Laptop-15-da0xxx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/soroush'), ('OLDPWD', '/home/soroush/robatics/Assignment2/assi2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fa_IR.UTF-8'), ('DISTROBOX_ENTER_PATH', '/usr/local/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '2109'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soroush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'soroush'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/soroush/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/home/soroush/.local/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/soroush-HP-Laptop-15-da0xxx:@/tmp/.ICE-unix/2091,unix/soroush-HP-Laptop-15-da0xxx:/tmp/.ICE-unix/2091'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fa_IR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/05fdf6a6_f6e5_42e2_8beb_3951d343f317'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fa_IR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4YYB31'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fa_IR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fa_IR.UTF-8'), ('LC_IDENTIFICATION', 'fa_IR.UTF-8'), ('GZ_VERSION', 'edifice'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces'), ('CONTAINER_ID', 'rosbox'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/soroush/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fa_IR.UTF-8'), ('LC_PAPER', 'fa_IR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.029065] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100026] (-) TimerEvent: {}
+[0.164746] (ros_gz_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.174079] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.200153] (-) TimerEvent: {}
+[0.201307] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.204315] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.212943] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.225201] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.244800] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.261195] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rcl_interfaces: 1.2.1 (/opt/ros/humble/share/rcl_interfaces/cmake)\n'}
+[0.291553] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.300248] (-) TimerEvent: {}
+[0.324676] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.370950] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.400370] (-) TimerEvent: {}
+[0.500614] (-) TimerEvent: {}
+[0.600870] (-) TimerEvent: {}
+[0.701122] (-) TimerEvent: {}
+[0.766290] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.5 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[0.767062] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.5 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[0.767827] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.5 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[0.768858] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.801242] (-) TimerEvent: {}
+[0.901466] (-) TimerEvent: {}
+[1.001726] (-) TimerEvent: {}
+[1.101999] (-) TimerEvent: {}
+[1.202241] (-) TimerEvent: {}
+[1.211963] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.302360] (-) TimerEvent: {}
+[1.386352] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.402474] (-) TimerEvent: {}
+[1.411242] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.434309] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.434456] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.434524] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.484711] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.5 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[1.485382] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.5 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[1.498646] (ros_gz_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.502573] (-) TimerEvent: {}
+[1.567820] (ros_gz_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.570733] (ros_gz_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces\n'}
+[1.577675] (ros_gz_interfaces) CommandEnded: {'returncode': 0}
+[1.578251] (ros_gz_interfaces) JobProgress: {'identifier': 'ros_gz_interfaces', 'progress': 'build'}
+[1.579513] (ros_gz_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soroush'), ('LC_TIME', 'fa_IR.UTF-8'), ('HOSTNAME', 'rosbox.soroush-HP-Laptop-15-da0xxx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/soroush'), ('OLDPWD', '/home/soroush/robatics/Assignment2/assi2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fa_IR.UTF-8'), ('DISTROBOX_ENTER_PATH', '/usr/local/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '2109'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soroush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'soroush'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/soroush/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/home/soroush/.local/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/soroush-HP-Laptop-15-da0xxx:@/tmp/.ICE-unix/2091,unix/soroush-HP-Laptop-15-da0xxx:/tmp/.ICE-unix/2091'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fa_IR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/05fdf6a6_f6e5_42e2_8beb_3951d343f317'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fa_IR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4YYB31'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fa_IR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fa_IR.UTF-8'), ('LC_IDENTIFICATION', 'fa_IR.UTF-8'), ('GZ_VERSION', 'edifice'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces'), ('CONTAINER_ID', 'rosbox'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/soroush/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fa_IR.UTF-8'), ('LC_PAPER', 'fa_IR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.602681] (-) TimerEvent: {}
+[1.626168] (ros_gz_interfaces) StdoutLine: {'line': b'[  0%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.637310] (ros_gz_interfaces) StdoutLine: {'line': b'[  0%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.645294] (ros_gz_interfaces) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_ros_gz_interfaces\n'}
+[1.702781] (-) TimerEvent: {}
+[1.803080] (-) TimerEvent: {}
+[1.852198] (ros_gz_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.853311] (ros_gz_interfaces) StdoutLine: {'line': b'creating ros_gz_interfaces.egg-info\n'}
+[1.868874] (ros_gz_interfaces) StdoutLine: {'line': b'writing ros_gz_interfaces.egg-info/PKG-INFO\n'}
+[1.869041] (ros_gz_interfaces) StdoutLine: {'line': b'writing dependency_links to ros_gz_interfaces.egg-info/dependency_links.txt\n'}
+[1.869297] (ros_gz_interfaces) StdoutLine: {'line': b'writing top-level names to ros_gz_interfaces.egg-info/top_level.txt\n'}
+[1.869487] (ros_gz_interfaces) StdoutLine: {'line': b"writing manifest file 'ros_gz_interfaces.egg-info/SOURCES.txt'\n"}
+[1.903195] (-) TimerEvent: {}
+[1.916053] (ros_gz_interfaces) StdoutLine: {'line': b"reading manifest file 'ros_gz_interfaces.egg-info/SOURCES.txt'\n"}
+[1.916658] (ros_gz_interfaces) StdoutLine: {'line': b"writing manifest file 'ros_gz_interfaces.egg-info/SOURCES.txt'\n"}
+[1.942573] (ros_gz_interfaces) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_build_ros_gz_interfaces_egg\n'}
+[2.003317] (-) TimerEvent: {}
+[2.103550] (-) TimerEvent: {}
+[2.203786] (-) TimerEvent: {}
+[2.304030] (-) TimerEvent: {}
+[2.404265] (-) TimerEvent: {}
+[2.504502] (-) TimerEvent: {}
+[2.604764] (-) TimerEvent: {}
+[2.705016] (-) TimerEvent: {}
+[2.805274] (-) TimerEvent: {}
+[2.905478] (-) TimerEvent: {}
+[3.005720] (-) TimerEvent: {}
+[3.105979] (-) TimerEvent: {}
+[3.206234] (-) TimerEvent: {}
+[3.306500] (-) TimerEvent: {}
+[3.406736] (-) TimerEvent: {}
+[3.506989] (-) TimerEvent: {}
+[3.607227] (-) TimerEvent: {}
+[3.707453] (-) TimerEvent: {}
+[3.807788] (-) TimerEvent: {}
+[3.810354] (ros_gz_interfaces) StdoutLine: {'line': b'[  0%] Built target ros_gz_interfaces__cpp\n'}
+[3.829054] (ros_gz_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.838355] (ros_gz_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.842903] (ros_gz_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.907898] (-) TimerEvent: {}
+[4.008233] (-) TimerEvent: {}
+[4.071700] (ros_gz_interfaces) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/contacts__functions.c.o\x1b[0m\n'}
+[4.072037] (ros_gz_interfaces) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/dataframe__functions.c.o\x1b[0m\n'}
+[4.072237] (ros_gz_interfaces) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/contact__functions.c.o\x1b[0m\n'}
+[4.072664] (ros_gz_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity__functions.c.o\x1b[0m\n'}
+[4.083912] (ros_gz_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity_factory__functions.c.o\x1b[0m\n'}
+[4.108333] (-) TimerEvent: {}
+[4.181575] (ros_gz_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/float32_array__functions.c.o\x1b[0m\n'}
+[4.181898] (ros_gz_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/gui_camera__functions.c.o\x1b[0m\n'}
+[4.185625] (ros_gz_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/joint_wrench__functions.c.o\x1b[0m\n'}
+[4.187216] (ros_gz_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/light__functions.c.o\x1b[0m\n'}
+[4.190735] (ros_gz_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/param_vec__functions.c.o\x1b[0m\n'}
+[4.208449] (-) TimerEvent: {}
+[4.274105] (ros_gz_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/string_vec__functions.c.o\x1b[0m\n'}
+[4.286222] (ros_gz_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/track_visual__functions.c.o\x1b[0m\n'}
+[4.289687] (ros_gz_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/video_record__functions.c.o\x1b[0m\n'}
+[4.296226] (ros_gz_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/world_control__functions.c.o\x1b[0m\n'}
+[4.304444] (ros_gz_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/world_reset__functions.c.o\x1b[0m\n'}
+[4.308545] (-) TimerEvent: {}
+[4.376901] (ros_gz_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/control_world__functions.c.o\x1b[0m\n'}
+[4.385320] (ros_gz_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/delete_entity__functions.c.o\x1b[0m\n'}
+[4.388155] (ros_gz_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/set_entity_pose__functions.c.o\x1b[0m\n'}
+[4.396949] (ros_gz_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/spawn_entity__functions.c.o\x1b[0m\n'}
+[4.408653] (-) TimerEvent: {}
+[4.496949] (ros_gz_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libros_gz_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.508751] (-) TimerEvent: {}
+[4.550737] (ros_gz_interfaces) StdoutLine: {'line': b'[ 14%] Built target ros_gz_interfaces__rosidl_generator_c\n'}
+[4.564575] (ros_gz_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.568105] (ros_gz_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.568312] (ros_gz_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.608871] (-) TimerEvent: {}
+[4.710843] (-) TimerEvent: {}
+[4.812831] (-) TimerEvent: {}
+[4.913238] (-) TimerEvent: {}
+[5.013670] (-) TimerEvent: {}
+[5.114063] (-) TimerEvent: {}
+[5.214457] (-) TimerEvent: {}
+[5.314851] (-) TimerEvent: {}
+[5.415250] (-) TimerEvent: {}
+[5.515723] (-) TimerEvent: {}
+[5.616261] (-) TimerEvent: {}
+[5.716775] (-) TimerEvent: {}
+[5.817431] (-) TimerEvent: {}
+[5.917988] (-) TimerEvent: {}
+[6.018548] (-) TimerEvent: {}
+[6.119097] (-) TimerEvent: {}
+[6.219516] (-) TimerEvent: {}
+[6.319935] (-) TimerEvent: {}
+[6.420356] (-) TimerEvent: {}
+[6.520775] (-) TimerEvent: {}
+[6.621186] (-) TimerEvent: {}
+[6.721609] (-) TimerEvent: {}
+[6.822021] (-) TimerEvent: {}
+[6.922428] (-) TimerEvent: {}
+[7.023273] (-) TimerEvent: {}
+[7.123702] (-) TimerEvent: {}
+[7.224114] (-) TimerEvent: {}
+[7.324507] (-) TimerEvent: {}
+[7.424915] (-) TimerEvent: {}
+[7.525331] (-) TimerEvent: {}
+[7.625736] (-) TimerEvent: {}
+[7.726285] (-) TimerEvent: {}
+[7.826778] (-) TimerEvent: {}
+[7.904492] (ros_gz_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/contacts__type_support.cpp.o\x1b[0m\n'}
+[7.905286] (ros_gz_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/contact__type_support.cpp.o\x1b[0m\n'}
+[7.906140] (ros_gz_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/dataframe__type_support.cpp.o\x1b[0m\n'}
+[7.926892] (-) TimerEvent: {}
+[8.027426] (-) TimerEvent: {}
+[8.128620] (-) TimerEvent: {}
+[8.229122] (-) TimerEvent: {}
+[8.329629] (-) TimerEvent: {}
+[8.430317] (-) TimerEvent: {}
+[8.530781] (-) TimerEvent: {}
+[8.631238] (-) TimerEvent: {}
+[8.731701] (-) TimerEvent: {}
+[8.832165] (-) TimerEvent: {}
+[8.932642] (-) TimerEvent: {}
+[9.033122] (-) TimerEvent: {}
+[9.112708] (ros_gz_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/contact__type_support.cpp.o\x1b[0m\n'}
+[9.133244] (-) TimerEvent: {}
+[9.233832] (-) TimerEvent: {}
+[9.334536] (-) TimerEvent: {}
+[9.403766] (ros_gz_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/entity__type_support.cpp.o\x1b[0m\n'}
+[9.434658] (-) TimerEvent: {}
+[9.506717] (ros_gz_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/entity_factory__type_support.cpp.o\x1b[0m\n'}
+[9.534780] (-) TimerEvent: {}
+[9.618011] (ros_gz_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/float32_array__type_support.cpp.o\x1b[0m\n'}
+[9.634900] (-) TimerEvent: {}
+[9.735307] (-) TimerEvent: {}
+[9.835739] (-) TimerEvent: {}
+[9.843282] (ros_gz_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/contact__type_support_c.cpp.o\x1b[0m\n'}
+[9.935864] (-) TimerEvent: {}
+[10.008217] (ros_gz_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/contacts__type_support.cpp.o\x1b[0m\n'}
+[10.035989] (-) TimerEvent: {}
+[10.137083] (-) TimerEvent: {}
+[10.192670] (ros_gz_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/contact__type_support.cpp.o\x1b[0m\n'}
+[10.237214] (-) TimerEvent: {}
+[10.338599] (-) TimerEvent: {}
+[10.440040] (-) TimerEvent: {}
+[10.455420] (ros_gz_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/contact__type_support.cpp.o\x1b[0m\n'}
+[10.540164] (-) TimerEvent: {}
+[10.548964] (ros_gz_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/contacts__type_support.cpp.o\x1b[0m\n'}
+[10.600318] (ros_gz_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/gui_camera__type_support.cpp.o\x1b[0m\n'}
+[10.640293] (-) TimerEvent: {}
+[10.651035] (ros_gz_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/dataframe__type_support.cpp.o\x1b[0m\n'}
+[10.740414] (-) TimerEvent: {}
+[10.747337] (ros_gz_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/entity__type_support.cpp.o\x1b[0m\n'}
+[10.838270] (ros_gz_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/entity_factory__type_support.cpp.o\x1b[0m\n'}
+[10.840553] (-) TimerEvent: {}
+[10.846902] (ros_gz_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/joint_wrench__type_support.cpp.o\x1b[0m\n'}
+[10.857407] (ros_gz_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/dataframe__type_support.cpp.o\x1b[0m\n'}
+[10.899622] (ros_gz_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/contacts__type_support_c.cpp.o\x1b[0m\n'}
+[10.932597] (ros_gz_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/float32_array__type_support.cpp.o\x1b[0m\n'}
+[10.940682] (-) TimerEvent: {}
+[11.024260] (ros_gz_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/gui_camera__type_support.cpp.o\x1b[0m\n'}
+[11.039971] (ros_gz_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/joint_wrench__type_support.cpp.o\x1b[0m\n'}
+[11.040773] (-) TimerEvent: {}
+[11.135391] (ros_gz_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/light__type_support.cpp.o\x1b[0m\n'}
+[11.140913] (-) TimerEvent: {}
+[11.144960] (ros_gz_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/param_vec__type_support.cpp.o\x1b[0m\n'}
+[11.241074] (-) TimerEvent: {}
+[11.242115] (ros_gz_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/string_vec__type_support.cpp.o\x1b[0m\n'}
+[11.248782] (ros_gz_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/track_visual__type_support.cpp.o\x1b[0m\n'}
+[11.341204] (-) TimerEvent: {}
+[11.343397] (ros_gz_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/video_record__type_support.cpp.o\x1b[0m\n'}
+[11.351934] (ros_gz_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/world_control__type_support.cpp.o\x1b[0m\n'}
+[11.431314] (ros_gz_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/world_reset__type_support.cpp.o\x1b[0m\n'}
+[11.436935] (ros_gz_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/control_world__type_support.cpp.o\x1b[0m\n'}
+[11.441349] (-) TimerEvent: {}
+[11.537954] (ros_gz_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/delete_entity__type_support.cpp.o\x1b[0m\n'}
+[11.541479] (-) TimerEvent: {}
+[11.551621] (ros_gz_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/set_entity_pose__type_support.cpp.o\x1b[0m\n'}
+[11.639152] (ros_gz_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/spawn_entity__type_support.cpp.o\x1b[0m\n'}
+[11.641614] (-) TimerEvent: {}
+[11.728703] (ros_gz_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/light__type_support.cpp.o\x1b[0m\n'}
+[11.736533] (ros_gz_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/entity__type_support.cpp.o\x1b[0m\n'}
+[11.738326] (ros_gz_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.741744] (-) TimerEvent: {}
+[11.762733] (ros_gz_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/contact__type_support.c.o\x1b[0m\n'}
+[11.841873] (-) TimerEvent: {}
+[11.883904] (ros_gz_interfaces) StdoutLine: {'line': b'[ 38%] Built target ros_gz_interfaces__rosidl_typesupport_c\n'}
+[11.890030] (ros_gz_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/contacts__type_support.cpp.o\x1b[0m\n'}
+[11.906434] (ros_gz_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/dataframe__type_support.cpp.o\x1b[0m\n'}
+[11.914067] (ros_gz_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/param_vec__type_support.cpp.o\x1b[0m\n'}
+[11.929355] (ros_gz_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/contacts__type_support.c.o\x1b[0m\n'}
+[11.941998] (-) TimerEvent: {}
+[12.007026] (ros_gz_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/dataframe__type_support_c.cpp.o\x1b[0m\n'}
+[12.042132] (-) TimerEvent: {}
+[12.060163] (ros_gz_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/dataframe__type_support.c.o\x1b[0m\n'}
+[12.097280] (ros_gz_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/string_vec__type_support.cpp.o\x1b[0m\n'}
+[12.142265] (-) TimerEvent: {}
+[12.178703] (ros_gz_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/entity__type_support.c.o\x1b[0m\n'}
+[12.242394] (-) TimerEvent: {}
+[12.280789] (ros_gz_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/entity_factory__type_support.c.o\x1b[0m\n'}
+[12.342521] (-) TimerEvent: {}
+[12.390399] (ros_gz_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/float32_array__type_support.c.o\x1b[0m\n'}
+[12.442653] (-) TimerEvent: {}
+[12.509432] (ros_gz_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/gui_camera__type_support.c.o\x1b[0m\n'}
+[12.542779] (-) TimerEvent: {}
+[12.599047] (ros_gz_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/entity_factory__type_support.cpp.o\x1b[0m\n'}
+[12.624527] (ros_gz_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/joint_wrench__type_support.c.o\x1b[0m\n'}
+[12.642908] (-) TimerEvent: {}
+[12.743390] (-) TimerEvent: {}
+[12.745729] (ros_gz_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/light__type_support.c.o\x1b[0m\n'}
+[12.843523] (-) TimerEvent: {}
+[12.884154] (ros_gz_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/param_vec__type_support.c.o\x1b[0m\n'}
+[12.943650] (-) TimerEvent: {}
+[13.003625] (ros_gz_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/string_vec__type_support.c.o\x1b[0m\n'}
+[13.043783] (-) TimerEvent: {}
+[13.058093] (ros_gz_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/track_visual__type_support.cpp.o\x1b[0m\n'}
+[13.122973] (ros_gz_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/track_visual__type_support.c.o\x1b[0m\n'}
+[13.126501] (ros_gz_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/entity__type_support_c.cpp.o\x1b[0m\n'}
+[13.143921] (-) TimerEvent: {}
+[13.213480] (ros_gz_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/entity__type_support.cpp.o\x1b[0m\n'}
+[13.244048] (-) TimerEvent: {}
+[13.247461] (ros_gz_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/video_record__type_support.c.o\x1b[0m\n'}
+[13.344191] (-) TimerEvent: {}
+[13.351632] (ros_gz_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/world_control__type_support.c.o\x1b[0m\n'}
+[13.444316] (-) TimerEvent: {}
+[13.458403] (ros_gz_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/world_reset__type_support.c.o\x1b[0m\n'}
+[13.460140] (ros_gz_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/float32_array__type_support.cpp.o\x1b[0m\n'}
+[13.471398] (ros_gz_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/video_record__type_support.cpp.o\x1b[0m\n'}
+[13.544445] (-) TimerEvent: {}
+[13.556624] (ros_gz_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/control_world__type_support.c.o\x1b[0m\n'}
+[13.618867] (ros_gz_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/world_control__type_support.cpp.o\x1b[0m\n'}
+[13.644567] (-) TimerEvent: {}
+[13.667182] (ros_gz_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/delete_entity__type_support.c.o\x1b[0m\n'}
+[13.744703] (-) TimerEvent: {}
+[13.769374] (ros_gz_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/entity_factory__type_support.cpp.o\x1b[0m\n'}
+[13.796182] (ros_gz_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.c.o\x1b[0m\n'}
+[13.844853] (-) TimerEvent: {}
+[13.944120] (ros_gz_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/spawn_entity__type_support.c.o\x1b[0m\n'}
+[13.944945] (-) TimerEvent: {}
+[14.045667] (-) TimerEvent: {}
+[14.073603] (ros_gz_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking C shared library libros_gz_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[14.145799] (-) TimerEvent: {}
+[14.201368] (ros_gz_interfaces) StdoutLine: {'line': b'[ 55%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_c\n'}
+[14.223211] (ros_gz_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/float32_array__type_support.cpp.o\x1b[0m\n'}
+[14.245936] (-) TimerEvent: {}
+[14.271873] (ros_gz_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/entity_factory__type_support_c.cpp.o\x1b[0m\n'}
+[14.346067] (-) TimerEvent: {}
+[14.348742] (ros_gz_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/gui_camera__type_support.cpp.o\x1b[0m\n'}
+[14.349297] (ros_gz_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/world_reset__type_support.cpp.o\x1b[0m\n'}
+[14.439250] (ros_gz_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/gui_camera__type_support.cpp.o\x1b[0m\n'}
+[14.446184] (-) TimerEvent: {}
+[14.546635] (-) TimerEvent: {}
+[14.647054] (-) TimerEvent: {}
+[14.747504] (-) TimerEvent: {}
+[14.752719] (ros_gz_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/control_world__type_support.cpp.o\x1b[0m\n'}
+[14.847633] (-) TimerEvent: {}
+[14.882407] (ros_gz_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/delete_entity__type_support.cpp.o\x1b[0m\n'}
+[14.947759] (-) TimerEvent: {}
+[15.048343] (-) TimerEvent: {}
+[15.093687] (ros_gz_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/joint_wrench__type_support.cpp.o\x1b[0m\n'}
+[15.148477] (-) TimerEvent: {}
+[15.214115] (ros_gz_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/joint_wrench__type_support.cpp.o\x1b[0m\n'}
+[15.248611] (-) TimerEvent: {}
+[15.349188] (-) TimerEvent: {}
+[15.449767] (-) TimerEvent: {}
+[15.473507] (ros_gz_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/float32_array__type_support_c.cpp.o\x1b[0m\n'}
+[15.496173] (ros_gz_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/light__type_support.cpp.o\x1b[0m\n'}
+[15.549894] (-) TimerEvent: {}
+[15.594375] (ros_gz_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/set_entity_pose__type_support.cpp.o\x1b[0m\n'}
+[15.650020] (-) TimerEvent: {}
+[15.664346] (ros_gz_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/param_vec__type_support.cpp.o\x1b[0m\n'}
+[15.750165] (-) TimerEvent: {}
+[15.850687] (-) TimerEvent: {}
+[15.951152] (-) TimerEvent: {}
+[16.051640] (-) TimerEvent: {}
+[16.114355] (ros_gz_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/spawn_entity__type_support.cpp.o\x1b[0m\n'}
+[16.151917] (-) TimerEvent: {}
+[16.155932] (ros_gz_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/light__type_support.cpp.o\x1b[0m\n'}
+[16.156581] (ros_gz_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/string_vec__type_support.cpp.o\x1b[0m\n'}
+[16.258059] (-) TimerEvent: {}
+[16.338388] (ros_gz_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/param_vec__type_support.cpp.o\x1b[0m\n'}
+[16.358187] (-) TimerEvent: {}
+[16.459240] (-) TimerEvent: {}
+[16.486417] (ros_gz_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/gui_camera__type_support_c.cpp.o\x1b[0m\n'}
+[16.559356] (-) TimerEvent: {}
+[16.616311] (ros_gz_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/track_visual__type_support.cpp.o\x1b[0m\n'}
+[16.659473] (-) TimerEvent: {}
+[16.716715] (ros_gz_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/video_record__type_support.cpp.o\x1b[0m\n'}
+[16.759591] (-) TimerEvent: {}
+[16.801382] (ros_gz_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/string_vec__type_support.cpp.o\x1b[0m\n'}
+[16.859704] (-) TimerEvent: {}
+[16.918471] (ros_gz_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/track_visual__type_support.cpp.o\x1b[0m\n'}
+[16.959818] (-) TimerEvent: {}
+[17.060191] (-) TimerEvent: {}
+[17.086256] (ros_gz_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/world_control__type_support.cpp.o\x1b[0m\n'}
+[17.160307] (-) TimerEvent: {}
+[17.175495] (ros_gz_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[17.215378] (ros_gz_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/joint_wrench__type_support_c.cpp.o\x1b[0m\n'}
+[17.220047] (ros_gz_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/world_reset__type_support.cpp.o\x1b[0m\n'}
+[17.260431] (-) TimerEvent: {}
+[17.360836] (-) TimerEvent: {}
+[17.362897] (ros_gz_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/video_record__type_support.cpp.o\x1b[0m\n'}
+[17.374282] (ros_gz_interfaces) StdoutLine: {'line': b'[ 70%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[17.388582] (ros_gz_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/world_control__type_support.cpp.o\x1b[0m\n'}
+[17.403274] (ros_gz_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/control_world__type_support.cpp.o\x1b[0m\n'}
+[17.458369] (ros_gz_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/world_reset__type_support.cpp.o\x1b[0m\n'}
+[17.460927] (-) TimerEvent: {}
+[17.500181] (ros_gz_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/delete_entity__type_support.cpp.o\x1b[0m\n'}
+[17.561050] (-) TimerEvent: {}
+[17.662325] (-) TimerEvent: {}
+[17.763326] (-) TimerEvent: {}
+[17.853776] (ros_gz_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.cpp.o\x1b[0m\n'}
+[17.863437] (-) TimerEvent: {}
+[17.903128] (ros_gz_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/control_world__type_support.cpp.o\x1b[0m\n'}
+[17.944886] (ros_gz_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/delete_entity__type_support.cpp.o\x1b[0m\n'}
+[17.945798] (ros_gz_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/light__type_support_c.cpp.o\x1b[0m\n'}
+[17.963625] (-) TimerEvent: {}
+[18.001976] (ros_gz_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/spawn_entity__type_support.cpp.o\x1b[0m\n'}
+[18.002723] (ros_gz_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/set_entity_pose__type_support.cpp.o\x1b[0m\n'}
+[18.063732] (-) TimerEvent: {}
+[18.164108] (-) TimerEvent: {}
+[18.232655] (ros_gz_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/spawn_entity__type_support.cpp.o\x1b[0m\n'}
+[18.264223] (-) TimerEvent: {}
+[18.271523] (ros_gz_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/param_vec__type_support_c.cpp.o\x1b[0m\n'}
+[18.364337] (-) TimerEvent: {}
+[18.464761] (-) TimerEvent: {}
+[18.480873] (ros_gz_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/string_vec__type_support_c.cpp.o\x1b[0m\n'}
+[18.506861] (ros_gz_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/track_visual__type_support_c.cpp.o\x1b[0m\n'}
+[18.564879] (-) TimerEvent: {}
+[18.571420] (ros_gz_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/video_record__type_support_c.cpp.o\x1b[0m\n'}
+[18.665007] (-) TimerEvent: {}
+[18.708756] (ros_gz_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/world_control__type_support_c.cpp.o\x1b[0m\n'}
+[18.723923] (ros_gz_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/world_reset__type_support_c.cpp.o\x1b[0m\n'}
+[18.765117] (-) TimerEvent: {}
+[18.801700] (ros_gz_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[18.809912] (ros_gz_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[18.865233] (-) TimerEvent: {}
+[18.891192] (ros_gz_interfaces) StdoutLine: {'line': b'[ 81%] Built target ros_gz_interfaces__rosidl_typesupport_cpp\n'}
+[18.905698] (ros_gz_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/control_world__type_support_c.cpp.o\x1b[0m\n'}
+[18.963903] (ros_gz_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/delete_entity__type_support_c.cpp.o\x1b[0m\n'}
+[18.965310] (-) TimerEvent: {}
+[19.029875] (ros_gz_interfaces) StdoutLine: {'line': b'[ 83%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[19.044098] (ros_gz_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/set_entity_pose__type_support_c.cpp.o\x1b[0m\n'}
+[19.065424] (-) TimerEvent: {}
+[19.165778] (-) TimerEvent: {}
+[19.233467] (ros_gz_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/spawn_entity__type_support_c.cpp.o\x1b[0m\n'}
+[19.265884] (-) TimerEvent: {}
+[19.366901] (-) TimerEvent: {}
+[19.467209] (-) TimerEvent: {}
+[19.567557] (-) TimerEvent: {}
+[19.667828] (-) TimerEvent: {}
+[19.687001] (ros_gz_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[19.767967] (-) TimerEvent: {}
+[19.778519] (ros_gz_interfaces) StdoutLine: {'line': b'[ 84%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[19.800609] (ros_gz_interfaces) StdoutLine: {'line': b'[ 84%] Built target ros_gz_interfaces\n'}
+[19.823943] (ros_gz_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[19.868081] (-) TimerEvent: {}
+[19.968317] (-) TimerEvent: {}
+[20.068571] (-) TimerEvent: {}
+[20.168834] (-) TimerEvent: {}
+[20.269178] (-) TimerEvent: {}
+[20.369497] (-) TimerEvent: {}
+[20.469846] (-) TimerEvent: {}
+[20.570205] (-) TimerEvent: {}
+[20.670573] (-) TimerEvent: {}
+[20.770900] (-) TimerEvent: {}
+[20.871278] (-) TimerEvent: {}
+[20.971631] (-) TimerEvent: {}
+[21.071976] (-) TimerEvent: {}
+[21.172319] (-) TimerEvent: {}
+[21.272672] (-) TimerEvent: {}
+[21.373027] (-) TimerEvent: {}
+[21.473373] (-) TimerEvent: {}
+[21.573721] (-) TimerEvent: {}
+[21.674079] (-) TimerEvent: {}
+[21.774447] (-) TimerEvent: {}
+[21.874802] (-) TimerEvent: {}
+[21.975152] (-) TimerEvent: {}
+[22.075495] (-) TimerEvent: {}
+[22.175845] (-) TimerEvent: {}
+[22.276187] (-) TimerEvent: {}
+[22.376549] (-) TimerEvent: {}
+[22.476908] (-) TimerEvent: {}
+[22.577280] (-) TimerEvent: {}
+[22.677617] (-) TimerEvent: {}
+[22.777966] (-) TimerEvent: {}
+[22.878317] (-) TimerEvent: {}
+[22.978676] (-) TimerEvent: {}
+[23.079035] (-) TimerEvent: {}
+[23.179381] (-) TimerEvent: {}
+[23.279740] (-) TimerEvent: {}
+[23.380088] (-) TimerEvent: {}
+[23.480436] (-) TimerEvent: {}
+[23.580783] (-) TimerEvent: {}
+[23.681142] (-) TimerEvent: {}
+[23.781473] (-) TimerEvent: {}
+[23.881837] (-) TimerEvent: {}
+[23.982183] (-) TimerEvent: {}
+[24.082527] (-) TimerEvent: {}
+[24.182873] (-) TimerEvent: {}
+[24.283215] (-) TimerEvent: {}
+[24.383571] (-) TimerEvent: {}
+[24.483934] (-) TimerEvent: {}
+[24.584288] (-) TimerEvent: {}
+[24.684643] (-) TimerEvent: {}
+[24.784997] (-) TimerEvent: {}
+[24.885359] (-) TimerEvent: {}
+[24.985734] (-) TimerEvent: {}
+[25.086102] (-) TimerEvent: {}
+[25.186459] (-) TimerEvent: {}
+[25.286777] (-) TimerEvent: {}
+[25.387125] (-) TimerEvent: {}
+[25.487493] (-) TimerEvent: {}
+[25.587868] (-) TimerEvent: {}
+[25.688246] (-) TimerEvent: {}
+[25.788625] (-) TimerEvent: {}
+[25.888980] (-) TimerEvent: {}
+[25.989342] (-) TimerEvent: {}
+[26.089684] (-) TimerEvent: {}
+[26.190035] (-) TimerEvent: {}
+[26.290388] (-) TimerEvent: {}
+[26.390740] (-) TimerEvent: {}
+[26.491128] (-) TimerEvent: {}
+[26.591481] (-) TimerEvent: {}
+[26.691836] (-) TimerEvent: {}
+[26.792205] (-) TimerEvent: {}
+[26.892554] (-) TimerEvent: {}
+[26.993016] (-) TimerEvent: {}
+[27.008375] (ros_gz_interfaces) StdoutLine: {'line': b'[ 85%] Built target ros_gz_interfaces__py\n'}
+[27.050548] (ros_gz_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_contact_s.c.o\x1b[0m\n'}
+[27.050920] (ros_gz_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_contacts_s.c.o\x1b[0m\n'}
+[27.051745] (ros_gz_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_dataframe_s.c.o\x1b[0m\n'}
+[27.052145] (ros_gz_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_entity_s.c.o\x1b[0m\n'}
+[27.052795] (ros_gz_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_entity_factory_s.c.o\x1b[0m\n'}
+[27.054408] (ros_gz_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_gui_camera_s.c.o\x1b[0m\n'}
+[27.054893] (ros_gz_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_joint_wrench_s.c.o\x1b[0m\n'}
+[27.055444] (ros_gz_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_float32_array_s.c.o\x1b[0m\n'}
+[27.093159] (-) TimerEvent: {}
+[27.193800] (-) TimerEvent: {}
+[27.294238] (-) TimerEvent: {}
+[27.395648] (-) TimerEvent: {}
+[27.414834] (ros_gz_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_light_s.c.o\x1b[0m\n'}
+[27.424711] (ros_gz_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_param_vec_s.c.o\x1b[0m\n'}
+[27.429391] (ros_gz_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_string_vec_s.c.o\x1b[0m\n'}
+[27.431897] (ros_gz_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_track_visual_s.c.o\x1b[0m\n'}
+[27.435369] (ros_gz_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_video_record_s.c.o\x1b[0m\n'}
+[27.444918] (ros_gz_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_world_control_s.c.o\x1b[0m\n'}
+[27.453627] (ros_gz_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_world_reset_s.c.o\x1b[0m\n'}
+[27.485237] (ros_gz_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_control_world_s.c.o\x1b[0m\n'}
+[27.495780] (-) TimerEvent: {}
+[27.596494] (-) TimerEvent: {}
+[27.696936] (-) TimerEvent: {}
+[27.787873] (ros_gz_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_delete_entity_s.c.o\x1b[0m\n'}
+[27.796510] (ros_gz_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_set_entity_pose_s.c.o\x1b[0m\n'}
+[27.797020] (-) TimerEvent: {}
+[27.799803] (ros_gz_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_spawn_entity_s.c.o\x1b[0m\n'}
+[27.897162] (-) TimerEvent: {}
+[27.997636] (-) TimerEvent: {}
+[28.021138] (ros_gz_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/libros_gz_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[28.097779] (-) TimerEvent: {}
+[28.113481] (ros_gz_interfaces) StdoutLine: {'line': b'[ 96%] Built target ros_gz_interfaces__rosidl_generator_py\n'}
+[28.148993] (ros_gz_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[28.149466] (ros_gz_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[28.150296] (ros_gz_interfaces) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[28.197921] (-) TimerEvent: {}
+[28.298402] (-) TimerEvent: {}
+[28.398842] (-) TimerEvent: {}
+[28.492143] (ros_gz_interfaces) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[28.493225] (ros_gz_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[28.498962] (-) TimerEvent: {}
+[28.506901] (ros_gz_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[28.578209] (ros_gz_interfaces) StdoutLine: {'line': b'[100%] Built target ros_gz_interfaces__rosidl_typesupport_c__pyext\n'}
+[28.578600] (ros_gz_interfaces) StdoutLine: {'line': b'[100%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[28.593045] (ros_gz_interfaces) StdoutLine: {'line': b'[100%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[28.599091] (-) TimerEvent: {}
+[28.614591] (ros_gz_interfaces) CommandEnded: {'returncode': 0}
+[28.699231] (-) TimerEvent: {}
+[28.799558] (-) TimerEvent: {}
+[28.899998] (-) TimerEvent: {}
+[29.000388] (-) TimerEvent: {}
+[29.100846] (-) TimerEvent: {}
+[29.201203] (-) TimerEvent: {}
+[29.301636] (-) TimerEvent: {}
+[29.349209] (ros_gz_interfaces) JobProgress: {'identifier': 'ros_gz_interfaces', 'progress': 'install'}
+[29.364434] (ros_gz_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces'], 'cwd': '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soroush'), ('LC_TIME', 'fa_IR.UTF-8'), ('HOSTNAME', 'rosbox.soroush-HP-Laptop-15-da0xxx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/soroush'), ('OLDPWD', '/home/soroush/robatics/Assignment2/assi2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fa_IR.UTF-8'), ('DISTROBOX_ENTER_PATH', '/usr/local/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '2109'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soroush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'soroush'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/soroush/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/home/soroush/.local/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/soroush-HP-Laptop-15-da0xxx:@/tmp/.ICE-unix/2091,unix/soroush-HP-Laptop-15-da0xxx:/tmp/.ICE-unix/2091'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fa_IR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/05fdf6a6_f6e5_42e2_8beb_3951d343f317'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fa_IR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4YYB31'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fa_IR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fa_IR.UTF-8'), ('LC_IDENTIFICATION', 'fa_IR.UTF-8'), ('GZ_VERSION', 'edifice'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces'), ('CONTAINER_ID', 'rosbox'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/soroush/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fa_IR.UTF-8'), ('LC_PAPER', 'fa_IR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[29.377016] (ros_gz_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.378465] (ros_gz_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[29.379038] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ament_index/resource_index/rosidl_interfaces/ros_gz_interfaces\n'}
+[29.395518] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/contact.h\n'}
+[29.401761] (-) TimerEvent: {}
+[29.409385] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/contacts.h\n'}
+[29.423326] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/dataframe.h\n'}
+[29.437934] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__functions.h\n'}
+[29.452204] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__struct.h\n'}
+[29.466719] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__type_support.h\n'}
+[29.480647] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__functions.h\n'}
+[29.494479] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__struct.h\n'}
+[29.501891] (-) TimerEvent: {}
+[29.508396] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__type_support.h\n'}
+[29.522518] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__functions.h\n'}
+[29.537553] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__struct.h\n'}
+[29.551741] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__type_support.h\n'}
+[29.566259] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__functions.h\n'}
+[29.580165] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__struct.h\n'}
+[29.593944] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__type_support.h\n'}
+[29.602018] (-) TimerEvent: {}
+[29.607823] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__functions.h\n'}
+[29.621819] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__struct.h\n'}
+[29.636670] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__type_support.h\n'}
+[29.650825] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__functions.h\n'}
+[29.665652] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__struct.h\n'}
+[29.680242] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__type_support.h\n'}
+[29.694226] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__functions.h\n'}
+[29.702148] (-) TimerEvent: {}
+[29.708175] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__struct.h\n'}
+[29.722309] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__type_support.h\n'}
+[29.736799] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__functions.h\n'}
+[29.750907] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__struct.h\n'}
+[29.765378] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__type_support.h\n'}
+[29.779290] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__functions.h\n'}
+[29.793295] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__struct.h\n'}
+[29.802280] (-) TimerEvent: {}
+[29.807431] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__type_support.h\n'}
+[29.821370] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__functions.h\n'}
+[29.835657] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__struct.h\n'}
+[29.849787] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__type_support.h\n'}
+[29.864202] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__functions.h\n'}
+[29.878551] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__struct.h\n'}
+[29.892430] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__type_support.h\n'}
+[29.902409] (-) TimerEvent: {}
+[29.906484] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__functions.h\n'}
+[29.920514] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__struct.h\n'}
+[29.934882] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__type_support.h\n'}
+[29.949140] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__functions.h\n'}
+[29.963840] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__struct.h\n'}
+[29.978485] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__type_support.h\n'}
+[29.992864] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__functions.h\n'}
+[30.002516] (-) TimerEvent: {}
+[30.007824] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__struct.h\n'}
+[30.023513] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__type_support.h\n'}
+[30.040439] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__functions.h\n'}
+[30.054837] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__struct.h\n'}
+[30.069221] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__type_support.h\n'}
+[30.083412] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity.h\n'}
+[30.097552] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity_factory.h\n'}
+[30.102637] (-) TimerEvent: {}
+[30.111471] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/float32_array.h\n'}
+[30.125354] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/gui_camera.h\n'}
+[30.139935] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/joint_wrench.h\n'}
+[30.154208] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/light.h\n'}
+[30.168692] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/param_vec.h\n'}
+[30.183157] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[30.197003] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/string_vec.h\n'}
+[30.202767] (-) TimerEvent: {}
+[30.212766] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/track_visual.h\n'}
+[30.226854] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/video_record.h\n'}
+[30.241573] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/world_control.h\n'}
+[30.256006] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/world_reset.h\n'}
+[30.270534] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/control_world.h\n'}
+[30.284804] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/delete_entity.h\n'}
+[30.299013] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__functions.h\n'}
+[30.302890] (-) TimerEvent: {}
+[30.313052] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__struct.h\n'}
+[30.327063] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__type_support.h\n'}
+[30.342322] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__functions.h\n'}
+[30.356583] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__struct.h\n'}
+[30.371073] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__type_support.h\n'}
+[30.384938] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__functions.h\n'}
+[30.398887] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__struct.h\n'}
+[30.403019] (-) TimerEvent: {}
+[30.412823] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.h\n'}
+[30.426860] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__functions.h\n'}
+[30.441410] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__struct.h\n'}
+[30.455690] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__type_support.h\n'}
+[30.469988] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/set_entity_pose.h\n'}
+[30.483879] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/spawn_entity.h\n'}
+[30.498135] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/library_path.sh\n'}
+[30.503143] (-) TimerEvent: {}
+[30.512225] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/library_path.dsv\n'}
+[30.528133] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__rosidl_typesupport_fastrtps_c.h\n'}
+[30.542694] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__rosidl_typesupport_fastrtps_c.h\n'}
+[30.557202] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__rosidl_typesupport_fastrtps_c.h\n'}
+[30.571545] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__rosidl_typesupport_fastrtps_c.h\n'}
+[30.585434] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__rosidl_typesupport_fastrtps_c.h\n'}
+[30.599365] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__rosidl_typesupport_fastrtps_c.h\n'}
+[30.603273] (-) TimerEvent: {}
+[30.613365] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__rosidl_typesupport_fastrtps_c.h\n'}
+[30.627266] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__rosidl_typesupport_fastrtps_c.h\n'}
+[30.641834] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__rosidl_typesupport_fastrtps_c.h\n'}
+[30.656220] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__rosidl_typesupport_fastrtps_c.h\n'}
+[30.670451] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__rosidl_typesupport_fastrtps_c.h\n'}
+[30.684337] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__rosidl_typesupport_fastrtps_c.h\n'}
+[30.698306] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__rosidl_typesupport_fastrtps_c.h\n'}
+[30.703397] (-) TimerEvent: {}
+[30.712282] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__rosidl_typesupport_fastrtps_c.h\n'}
+[30.726189] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__rosidl_typesupport_fastrtps_c.h\n'}
+[30.740809] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[30.755111] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__rosidl_typesupport_fastrtps_c.h\n'}
+[30.769595] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__rosidl_typesupport_fastrtps_c.h\n'}
+[30.783431] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[30.797167] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__rosidl_typesupport_fastrtps_c.h\n'}
+[30.803523] (-) TimerEvent: {}
+[30.812942] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/contact.hpp\n'}
+[30.826870] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/contacts.hpp\n'}
+[30.841363] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/dataframe.hpp\n'}
+[30.855682] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__builder.hpp\n'}
+[30.870124] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__struct.hpp\n'}
+[30.884812] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__traits.hpp\n'}
+[30.899106] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__builder.hpp\n'}
+[30.903652] (-) TimerEvent: {}
+[30.913090] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__struct.hpp\n'}
+[30.927109] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__traits.hpp\n'}
+[30.941583] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__builder.hpp\n'}
+[30.956177] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__struct.hpp\n'}
+[30.970439] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__traits.hpp\n'}
+[30.984589] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__builder.hpp\n'}
+[30.998471] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__struct.hpp\n'}
+[31.003781] (-) TimerEvent: {}
+[31.012583] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__traits.hpp\n'}
+[31.026645] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__builder.hpp\n'}
+[31.041322] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__struct.hpp\n'}
+[31.055876] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__traits.hpp\n'}
+[31.070472] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__builder.hpp\n'}
+[31.084515] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__struct.hpp\n'}
+[31.098525] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__traits.hpp\n'}
+[31.103915] (-) TimerEvent: {}
+[31.112557] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__builder.hpp\n'}
+[31.126740] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__struct.hpp\n'}
+[31.141198] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__traits.hpp\n'}
+[31.155419] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__builder.hpp\n'}
+[31.170145] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__struct.hpp\n'}
+[31.184263] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__traits.hpp\n'}
+[31.198192] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__builder.hpp\n'}
+[31.204051] (-) TimerEvent: {}
+[31.212340] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__struct.hpp\n'}
+[31.226573] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__traits.hpp\n'}
+[31.241031] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__builder.hpp\n'}
+[31.255331] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__struct.hpp\n'}
+[31.269774] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__traits.hpp\n'}
+[31.283904] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__builder.hpp\n'}
+[31.297898] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__struct.hpp\n'}
+[31.304183] (-) TimerEvent: {}
+[31.312022] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__traits.hpp\n'}
+[31.326130] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__builder.hpp\n'}
+[31.340788] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__struct.hpp\n'}
+[31.355438] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__traits.hpp\n'}
+[31.370268] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__builder.hpp\n'}
+[31.384504] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__struct.hpp\n'}
+[31.398627] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__traits.hpp\n'}
+[31.404314] (-) TimerEvent: {}
+[31.412899] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__builder.hpp\n'}
+[31.427028] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__struct.hpp\n'}
+[31.442386] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__traits.hpp\n'}
+[31.457039] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__builder.hpp\n'}
+[31.471466] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__struct.hpp\n'}
+[31.485677] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__traits.hpp\n'}
+[31.499824] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity.hpp\n'}
+[31.504443] (-) TimerEvent: {}
+[31.513878] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity_factory.hpp\n'}
+[31.527928] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/float32_array.hpp\n'}
+[31.542587] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/gui_camera.hpp\n'}
+[31.556986] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/joint_wrench.hpp\n'}
+[31.571434] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/light.hpp\n'}
+[31.585966] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/param_vec.hpp\n'}
+[31.600024] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/string_vec.hpp\n'}
+[31.604566] (-) TimerEvent: {}
+[31.613968] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/track_visual.hpp\n'}
+[31.627984] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/video_record.hpp\n'}
+[31.642607] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/world_control.hpp\n'}
+[31.657004] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/world_reset.hpp\n'}
+[31.671434] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/control_world.hpp\n'}
+[31.685318] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/delete_entity.hpp\n'}
+[31.699210] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__builder.hpp\n'}
+[31.704703] (-) TimerEvent: {}
+[31.713353] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__struct.hpp\n'}
+[31.727274] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__traits.hpp\n'}
+[31.742373] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__builder.hpp\n'}
+[31.756764] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__struct.hpp\n'}
+[31.771067] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__traits.hpp\n'}
+[31.784954] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__builder.hpp\n'}
+[31.798788] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__struct.hpp\n'}
+[31.804827] (-) TimerEvent: {}
+[31.813731] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__traits.hpp\n'}
+[31.827144] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__builder.hpp\n'}
+[31.837671] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__struct.hpp\n'}
+[31.847574] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__traits.hpp\n'}
+[31.857457] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/set_entity_pose.hpp\n'}
+[31.866452] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/spawn_entity.hpp\n'}
+[31.876489] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.885226] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.893937] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.902709] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.904934] (-) TimerEvent: {}
+[31.911554] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.920424] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.929391] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.938979] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.947592] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.956671] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.965838] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.974590] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.983405] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.992158] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[32.000949] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[32.005046] (-) TimerEvent: {}
+[32.009754] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[32.018544] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[32.027303] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[32.036889] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[32.045920] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[32.057511] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__rosidl_typesupport_introspection_c.h\n'}
+[32.066830] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__rosidl_typesupport_introspection_c.h\n'}
+[32.076011] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__rosidl_typesupport_introspection_c.h\n'}
+[32.084946] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__rosidl_typesupport_introspection_c.h\n'}
+[32.093526] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__rosidl_typesupport_introspection_c.h\n'}
+[32.102141] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__rosidl_typesupport_introspection_c.h\n'}
+[32.105154] (-) TimerEvent: {}
+[32.110618] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__rosidl_typesupport_introspection_c.h\n'}
+[32.119001] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__rosidl_typesupport_introspection_c.h\n'}
+[32.127273] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__rosidl_typesupport_introspection_c.h\n'}
+[32.136209] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__rosidl_typesupport_introspection_c.h\n'}
+[32.144968] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__rosidl_typesupport_introspection_c.h\n'}
+[32.153865] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__rosidl_typesupport_introspection_c.h\n'}
+[32.163260] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__rosidl_typesupport_introspection_c.h\n'}
+[32.171988] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__rosidl_typesupport_introspection_c.h\n'}
+[32.180412] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__rosidl_typesupport_introspection_c.h\n'}
+[32.188933] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[32.197063] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__rosidl_typesupport_introspection_c.h\n'}
+[32.205298] (-) TimerEvent: {}
+[32.205533] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__rosidl_typesupport_introspection_c.h\n'}
+[32.214607] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_introspection_c.h\n'}
+[32.223457] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__rosidl_typesupport_introspection_c.h\n'}
+[32.233351] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.242662] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.251726] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.261306] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.269967] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.278542] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.287080] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.295501] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.303981] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.305336] (-) TimerEvent: {}
+[32.312529] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.321179] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.329785] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.339239] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.347842] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.356896] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.366023] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.374903] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.383996] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.393118] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.402292] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/pythonpath.sh\n'}
+[32.405446] (-) TimerEvent: {}
+[32.411226] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/pythonpath.dsv\n'}
+[32.420518] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces-0.245.0-py3.10.egg-info/PKG-INFO\n'}
+[32.429380] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces-0.245.0-py3.10.egg-info/SOURCES.txt\n'}
+[32.438689] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces-0.245.0-py3.10.egg-info/dependency_links.txt\n'}
+[32.447681] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces-0.245.0-py3.10.egg-info/top_level.txt\n'}
+[32.458524] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/__init__.py\n'}
+[32.467430] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[32.476260] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[32.484989] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[32.494544] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/libros_gz_interfaces__rosidl_generator_py.so\n'}
+[32.503017] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/__init__.py\n'}
+[32.505561] (-) TimerEvent: {}
+[32.512067] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contact.py\n'}
+[32.520913] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contact_s.c\n'}
+[32.529723] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contacts.py\n'}
+[32.539021] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contacts_s.c\n'}
+[32.548012] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_dataframe.py\n'}
+[32.557530] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_dataframe_s.c\n'}
+[32.566543] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity.py\n'}
+[32.575371] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_factory.py\n'}
+[32.584124] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_factory_s.c\n'}
+[32.592907] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_s.c\n'}
+[32.601702] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_float32_array.py\n'}
+[32.605672] (-) TimerEvent: {}
+[32.610580] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_float32_array_s.c\n'}
+[32.619332] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_gui_camera.py\n'}
+[32.628128] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_gui_camera_s.c\n'}
+[32.637513] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_joint_wrench.py\n'}
+[32.646706] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_joint_wrench_s.c\n'}
+[32.656024] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_light.py\n'}
+[32.665208] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_light_s.c\n'}
+[32.674917] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_param_vec.py\n'}
+[32.683799] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_param_vec_s.c\n'}
+[32.692686] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_string_vec.py\n'}
+[32.701484] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_string_vec_s.c\n'}
+[32.705784] (-) TimerEvent: {}
+[32.710392] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_track_visual.py\n'}
+[32.719237] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_track_visual_s.c\n'}
+[32.728170] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_video_record.py\n'}
+[32.737715] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_video_record_s.c\n'}
+[32.746742] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_control.py\n'}
+[32.755972] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_control_s.c\n'}
+[32.765104] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_reset.py\n'}
+[32.774054] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_reset_s.c\n'}
+[32.783055] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[32.791873] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[32.800731] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[32.805899] (-) TimerEvent: {}
+[32.809657] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/__init__.py\n'}
+[32.818616] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_control_world.py\n'}
+[32.827466] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_control_world_s.c\n'}
+[32.837008] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_delete_entity.py\n'}
+[32.846031] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_delete_entity_s.c\n'}
+[32.855007] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_set_entity_pose.py\n'}
+[32.864099] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_set_entity_pose_s.c\n'}
+[32.873088] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_spawn_entity.py\n'}
+[32.881959] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_spawn_entity_s.c\n'}
+[32.891144] (ros_gz_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[32.891458] (ros_gz_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[32.891785] (ros_gz_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[32.892022] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Contact.idl\n'}
+[32.900856] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Contacts.idl\n'}
+[32.906011] (-) TimerEvent: {}
+[32.909819] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Dataframe.idl\n'}
+[32.918675] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Entity.idl\n'}
+[32.927647] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/EntityFactory.idl\n'}
+[32.937118] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Float32Array.idl\n'}
+[32.946753] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/GuiCamera.idl\n'}
+[32.956158] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/JointWrench.idl\n'}
+[32.965472] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Light.idl\n'}
+[32.974355] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/ParamVec.idl\n'}
+[32.983267] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/StringVec.idl\n'}
+[32.992244] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/TrackVisual.idl\n'}
+[33.001035] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/VideoRecord.idl\n'}
+[33.006129] (-) TimerEvent: {}
+[33.009984] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/WorldControl.idl\n'}
+[33.019002] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/WorldReset.idl\n'}
+[33.027939] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/ControlWorld.idl\n'}
+[33.037591] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/DeleteEntity.idl\n'}
+[33.046998] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SetEntityPose.idl\n'}
+[33.056325] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SpawnEntity.idl\n'}
+[33.065546] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Contact.msg\n'}
+[33.074503] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Contacts.msg\n'}
+[33.083101] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Dataframe.msg\n'}
+[33.091803] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Entity.msg\n'}
+[33.100432] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/EntityFactory.msg\n'}
+[33.106240] (-) TimerEvent: {}
+[33.109034] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Float32Array.msg\n'}
+[33.119383] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/GuiCamera.msg\n'}
+[33.128398] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/JointWrench.msg\n'}
+[33.137825] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Light.msg\n'}
+[33.147011] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/ParamVec.msg\n'}
+[33.156382] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/StringVec.msg\n'}
+[33.165571] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/TrackVisual.msg\n'}
+[33.174480] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/VideoRecord.msg\n'}
+[33.183303] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/WorldControl.msg\n'}
+[33.192179] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/WorldReset.msg\n'}
+[33.201034] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/ControlWorld.srv\n'}
+[33.206353] (-) TimerEvent: {}
+[33.210090] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/ControlWorld_Request.msg\n'}
+[33.218940] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/ControlWorld_Response.msg\n'}
+[33.227907] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/DeleteEntity.srv\n'}
+[33.239263] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/DeleteEntity_Request.msg\n'}
+[33.248372] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/DeleteEntity_Response.msg\n'}
+[33.257894] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SetEntityPose.srv\n'}
+[33.266964] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SetEntityPose_Request.msg\n'}
+[33.276237] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SetEntityPose_Response.msg\n'}
+[33.285084] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SpawnEntity.srv\n'}
+[33.293686] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SpawnEntity_Request.msg\n'}
+[33.302330] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SpawnEntity_Response.msg\n'}
+[33.306461] (-) TimerEvent: {}
+[33.310998] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ament_index/resource_index/package_run_dependencies/ros_gz_interfaces\n'}
+[33.319802] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ament_index/resource_index/parent_prefix_path/ros_gz_interfaces\n'}
+[33.328401] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/ament_prefix_path.sh\n'}
+[33.337765] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/ament_prefix_path.dsv\n'}
+[33.346701] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/path.sh\n'}
+[33.355687] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/path.dsv\n'}
+[33.364843] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/local_setup.bash\n'}
+[33.373695] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/local_setup.sh\n'}
+[33.382579] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/local_setup.zsh\n'}
+[33.391628] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/local_setup.dsv\n'}
+[33.400479] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/package.dsv\n'}
+[33.406578] (-) TimerEvent: {}
+[33.409428] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ament_index/resource_index/packages/ros_gz_interfaces\n'}
+[33.418605] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[33.427557] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[33.436902] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[33.446300] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[33.455805] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[33.464999] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[33.474044] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[33.482831] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfacesConfig.cmake\n'}
+[33.491663] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfacesConfig-version.cmake\n'}
+[33.500400] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/package.xml\n'}
+[33.506691] (-) TimerEvent: {}
+[33.509452] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_generator_c.so\n'}
+[33.510289] (ros_gz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_generator_c.so" to ""\n'}
+[33.510425] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[33.511088] (ros_gz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[33.511289] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[33.512238] (ros_gz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[33.512475] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[33.512882] (ros_gz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[33.513106] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_c.so\n'}
+[33.513513] (ros_gz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[33.513756] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[33.514726] (ros_gz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[33.514959] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_cpp.so\n'}
+[33.515284] (ros_gz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[33.576905] (ros_gz_interfaces) StdoutLine: {'line': b"Listing '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces'...\n"}
+[33.577039] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/__init__.py'...\n"}
+[33.577104] (ros_gz_interfaces) StdoutLine: {'line': b"Listing '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg'...\n"}
+[33.577161] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/__init__.py'...\n"}
+[33.577230] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contact.py'...\n"}
+[33.577294] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contacts.py'...\n"}
+[33.577350] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_dataframe.py'...\n"}
+[33.577416] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity.py'...\n"}
+[33.577471] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_factory.py'...\n"}
+[33.577525] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_float32_array.py'...\n"}
+[33.577578] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_gui_camera.py'...\n"}
+[33.577632] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_joint_wrench.py'...\n"}
+[33.577689] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_light.py'...\n"}
+[33.577747] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_param_vec.py'...\n"}
+[33.577800] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_string_vec.py'...\n"}
+[33.577853] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_track_visual.py'...\n"}
+[33.577906] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_video_record.py'...\n"}
+[33.577959] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_control.py'...\n"}
+[33.578011] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_reset.py'...\n"}
+[33.578064] (ros_gz_interfaces) StdoutLine: {'line': b"Listing '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv'...\n"}
+[33.578117] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/__init__.py'...\n"}
+[33.578170] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_control_world.py'...\n"}
+[33.578236] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_delete_entity.py'...\n"}
+[33.578290] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_set_entity_pose.py'...\n"}
+[33.578344] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_spawn_entity.py'...\n"}
+[33.581227] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_generator_py.so\n'}
+[33.581843] (ros_gz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_generator_py.so" to ""\n'}
+[33.582062] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_cExport.cmake\n'}
+[33.582234] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[33.582408] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[33.582523] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[33.582618] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_cppExport.cmake\n'}
+[33.582749] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[33.582899] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[33.583001] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[33.583085] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[33.583182] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[33.583321] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[33.583529] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[33.583665] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[33.583822] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[33.583965] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[33.584143] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_pyExport.cmake\n'}
+[33.584286] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[33.586533] (ros_gz_interfaces) CommandEnded: {'returncode': 0}
+[33.607072] (-) TimerEvent: {}
+[33.707287] (-) TimerEvent: {}
+[33.807532] (-) TimerEvent: {}
+[33.907766] (-) TimerEvent: {}
+[34.009063] (-) TimerEvent: {}
+[34.016584] (ros_gz_interfaces) JobEnded: {'identifier': 'ros_gz_interfaces', 'rc': 0}
+[34.019241] (ros_gz_bridge) JobStarted: {'identifier': 'ros_gz_bridge'}
+[34.026127] (ros_gz_bridge) JobProgress: {'identifier': 'ros_gz_bridge', 'progress': 'cmake'}
+[34.026875] (ros_gz_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_bridge', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge'], 'cwd': '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soroush'), ('LC_TIME', 'fa_IR.UTF-8'), ('HOSTNAME', 'rosbox.soroush-HP-Laptop-15-da0xxx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/soroush'), ('OLDPWD', '/home/soroush/robatics/Assignment2/assi2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fa_IR.UTF-8'), ('DISTROBOX_ENTER_PATH', '/usr/local/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '2109'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soroush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'soroush'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/soroush/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/home/soroush/.local/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/soroush-HP-Laptop-15-da0xxx:@/tmp/.ICE-unix/2091,unix/soroush-HP-Laptop-15-da0xxx:/tmp/.ICE-unix/2091'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fa_IR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/05fdf6a6_f6e5_42e2_8beb_3951d343f317'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fa_IR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4YYB31'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fa_IR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fa_IR.UTF-8'), ('LC_IDENTIFICATION', 'fa_IR.UTF-8'), ('GZ_VERSION', 'edifice'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge'), ('CONTAINER_ID', 'rosbox'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/soroush/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fa_IR.UTF-8'), ('LC_PAPER', 'fa_IR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble')]), 'shell': False}
+[34.082994] (ros_gz_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[34.109194] (-) TimerEvent: {}
+[34.141471] (ros_gz_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[34.149102] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[34.209368] (-) TimerEvent: {}
+[34.217388] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[34.225395] (ros_gz_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[34.225704] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[34.226120] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[34.229374] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[34.309463] (-) TimerEvent: {}
+[34.309678] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[34.317612] (ros_gz_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[34.317892] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[34.318349] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[34.321462] (ros_gz_bridge) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[34.409566] (-) TimerEvent: {}
+[34.509808] (-) TimerEvent: {}
+[34.610054] (-) TimerEvent: {}
+[34.679666] (ros_gz_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[34.710175] (-) TimerEvent: {}
+[34.743929] (ros_gz_bridge) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[34.780789] (ros_gz_bridge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[34.810281] (-) TimerEvent: {}
+[34.834384] (ros_gz_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[34.840625] (ros_gz_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[34.850045] (ros_gz_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[34.865770] (ros_gz_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[34.886663] (ros_gz_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[34.910386] (-) TimerEvent: {}
+[34.960094] (ros_gz_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[34.963096] (ros_gz_bridge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[35.010500] (-) TimerEvent: {}
+[35.063814] (ros_gz_bridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[35.099923] (ros_gz_bridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[35.110578] (-) TimerEvent: {}
+[35.161173] (ros_gz_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[35.173553] (ros_gz_bridge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[35.210711] (-) TimerEvent: {}
+[35.244387] (ros_gz_bridge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[35.244993] (ros_gz_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[35.310844] (-) TimerEvent: {}
+[35.321650] (ros_gz_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[35.323202] (ros_gz_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[35.410967] (-) TimerEvent: {}
+[35.501952] (ros_gz_bridge) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.3 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[35.511067] (-) TimerEvent: {}
+[35.584326] (ros_gz_bridge) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)\n'}
+[35.588213] (ros_gz_bridge) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:33 (message):\n'}
+[35.588428] (ros_gz_bridge) StderrLine: {'line': b'  This branch is only compatible with Gazebo Garden forward.\n'}
+[35.588493] (ros_gz_bridge) StderrLine: {'line': b'\n'}
+[35.588546] (ros_gz_bridge) StderrLine: {'line': b'\x1b[0m\n'}
+[35.588596] (ros_gz_bridge) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[35.588648] (ros_gz_bridge) StdoutLine: {'line': b'See also "/home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge/CMakeFiles/CMakeOutput.log".\n'}
+[35.595325] (ros_gz_bridge) CommandEnded: {'returncode': 1}
+[35.611390] (-) TimerEvent: {}
+[35.613296] (ros_gz_bridge) JobEnded: {'identifier': 'ros_gz_bridge', 'rc': 1}
+[35.623848] (ros_gz_sim) JobSkipped: {'identifier': 'ros_gz_sim'}
+[35.623913] (ros_gz_image) JobSkipped: {'identifier': 'ros_gz_image'}
+[35.623936] (ros_gz_sim_demos) JobSkipped: {'identifier': 'ros_gz_sim_demos'}
+[35.623954] (ros_gz) JobSkipped: {'identifier': 'ros_gz'}
+[35.623971] (-) EventReactorShutdown: {}

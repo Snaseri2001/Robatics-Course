@@ -1,0 +1,9 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/yangnode.dir/src/yangnode.cpp.o[0m
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:[m[K In constructor ‘[01m[Kyang::yang()[m[K’:
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:29:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kprint[m[K’ was not declared in this scope; did you mean ‘[01m[Krint[m[K’?
+   29 |                         [01;31m[Kprint[m[K(this->colour[i])
+      |                         [01;31m[K^~~~~[m[K
+      |                         [32m[Krint[m[K
+gmake[2]: *** [CMakeFiles/yangnode.dir/build.make:76: CMakeFiles/yangnode.dir/src/yangnode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yangnode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

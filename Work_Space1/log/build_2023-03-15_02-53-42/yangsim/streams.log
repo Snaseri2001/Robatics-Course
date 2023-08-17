@@ -1,0 +1,35 @@
+[0.024s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/yangsim -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/yangsim
+[0.120s] -- The C compiler identification is GNU 11.3.0
+[0.224s] -- The CXX compiler identification is GNU 11.3.0
+[0.239s] -- Detecting C compiler ABI info
+[0.358s] -- Detecting C compiler ABI info - done
+[0.373s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.373s] -- Detecting C compile features
+[0.374s] -- Detecting C compile features - done
+[0.380s] -- Detecting CXX compiler ABI info
+[0.520s] -- Detecting CXX compiler ABI info - done
+[0.535s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.535s] -- Detecting CXX compile features
+[0.536s] -- Detecting CXX compile features - done
+[0.542s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.858s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.062s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[1.062s]   By not providing "Findinterfaces.cmake" in CMAKE_MODULE_PATH this project
+[1.062s]   has asked CMake to find a package configuration file provided by
+[1.062s]   "interfaces", but CMake did not find one.
+[1.062s] 
+[1.062s]   Could not find a package configuration file provided by "interfaces" with
+[1.063s]   any of the following names:
+[1.063s] 
+[1.063s]     interfacesConfig.cmake
+[1.063s]     interfaces-config.cmake
+[1.063s] 
+[1.063s]   Add the installation prefix of "interfaces" to CMAKE_PREFIX_PATH or set
+[1.063s]   "interfaces_DIR" to a directory containing one of the above files.  If
+[1.063s]   "interfaces" provides a separate development package or SDK, be sure it has
+[1.063s]   been installed.
+[1.064s] 
+[1.064s] [0m
+[1.064s] -- Configuring incomplete, errors occurred!
+[1.064s] See also "/home/soroush/robatics/Assignment2/assi2/build/yangsim/CMakeFiles/CMakeOutput.log".
+[1.070s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/yangsim -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/yangsim

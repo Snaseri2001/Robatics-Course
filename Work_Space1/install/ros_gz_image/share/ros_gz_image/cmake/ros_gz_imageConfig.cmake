@@ -1,0 +1,1 @@
+/home/soroush/robatics/Assignment2/assi2/build/ros_gz_image/ament_cmake_core/ros_gz_imageConfig.cmake

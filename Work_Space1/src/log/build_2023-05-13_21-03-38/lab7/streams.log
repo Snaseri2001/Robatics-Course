@@ -1,0 +1,11 @@
+[3.292s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/src/lab7': PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/src/build/lab7/prefix_override:/home/soroush/robatics/Assignment2/assi2/src/install/lab7/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab7 build --build-base /home/soroush/robatics/Assignment2/assi2/src/build/lab7/build install --record /home/soroush/robatics/Assignment2/assi2/src/build/lab7/install.log --single-version-externally-managed
+[4.194s] running egg_info
+[4.195s] creating ../build/lab7/Llb7.egg-info
+[4.258s] writing ../build/lab7/Llb7.egg-info/PKG-INFO
+[4.259s] writing dependency_links to ../build/lab7/Llb7.egg-info/dependency_links.txt
+[4.259s] writing entry points to ../build/lab7/Llb7.egg-info/entry_points.txt
+[4.260s] writing requirements to ../build/lab7/Llb7.egg-info/requires.txt
+[4.260s] writing top-level names to ../build/lab7/Llb7.egg-info/top_level.txt
+[4.261s] writing manifest file '../build/lab7/Llb7.egg-info/SOURCES.txt'
+[4.328s] error: package directory 'Llb7' does not exist
+[4.388s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/src/lab7' returned '1': PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/src/build/lab7/prefix_override:/home/soroush/robatics/Assignment2/assi2/src/install/lab7/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab7 build --build-base /home/soroush/robatics/Assignment2/assi2/src/build/lab7/build install --record /home/soroush/robatics/Assignment2/assi2/src/build/lab7/install.log --single-version-externally-managed

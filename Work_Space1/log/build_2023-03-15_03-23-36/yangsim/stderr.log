@@ -1,0 +1,12 @@
+[31mCMake Error at CMakeLists.txt:28 (install):
+  Syntax error in cmake code at
+
+    /home/soroush/robatics/Assignment2/assi2/src/yangsim/CMakeLists.txt:31
+
+  when parsing string
+
+    lib/${PROJECT_NAME
+
+  There is an unterminated variable reference.
+
+[0m

@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.000873] (turtlesim_controller) JobQueued: {'identifier': 'turtlesim_controller', 'dependencies': OrderedDict()}
+[0.001205] (turtlesim_controller) JobStarted: {'identifier': 'turtlesim_controller'}
+[0.090743] (-) TimerEvent: {}
+[0.191845] (-) TimerEvent: {}
+[0.292916] (-) TimerEvent: {}
+[0.393955] (-) TimerEvent: {}
+[0.494982] (-) TimerEvent: {}
+[0.596111] (-) TimerEvent: {}
+[0.697470] (-) TimerEvent: {}
+[0.798790] (-) TimerEvent: {}
+[0.900095] (-) TimerEvent: {}
+[1.001345] (-) TimerEvent: {}
+[1.102655] (-) TimerEvent: {}
+[1.204018] (-) TimerEvent: {}
+[1.305263] (-) TimerEvent: {}
+[1.406529] (-) TimerEvent: {}
+[1.507934] (-) TimerEvent: {}
+[1.609255] (-) TimerEvent: {}
+[1.710569] (-) TimerEvent: {}
+[1.811984] (-) TimerEvent: {}
+[1.913352] (-) TimerEvent: {}
+[2.014710] (-) TimerEvent: {}
+[2.116135] (-) TimerEvent: {}
+[2.217587] (-) TimerEvent: {}
+[2.318780] (-) TimerEvent: {}
+[2.419927] (-) TimerEvent: {}
+[2.521021] (-) TimerEvent: {}
+[2.622053] (-) TimerEvent: {}
+[2.723375] (-) TimerEvent: {}
+[2.824591] (-) TimerEvent: {}
+[2.925800] (-) TimerEvent: {}
+[3.027125] (-) TimerEvent: {}
+[3.128453] (-) TimerEvent: {}
+[3.229717] (-) TimerEvent: {}
+[3.331106] (-) TimerEvent: {}
+[3.432689] (-) TimerEvent: {}
+[3.534413] (-) TimerEvent: {}
+[3.635576] (-) TimerEvent: {}
+[3.737069] (-) TimerEvent: {}
+[3.838381] (-) TimerEvent: {}
+[3.939976] (-) TimerEvent: {}
+[4.041443] (-) TimerEvent: {}
+[4.142498] (-) TimerEvent: {}
+[4.243544] (-) TimerEvent: {}
+[4.344937] (-) TimerEvent: {}
+[4.446245] (-) TimerEvent: {}
+[4.547506] (-) TimerEvent: {}
+[4.648816] (-) TimerEvent: {}
+[4.750193] (-) TimerEvent: {}
+[4.851506] (-) TimerEvent: {}
+[4.952837] (-) TimerEvent: {}
+[5.054361] (-) TimerEvent: {}
+[5.155726] (-) TimerEvent: {}
+[5.257029] (-) TimerEvent: {}
+[5.358373] (-) TimerEvent: {}
+[5.459798] (-) TimerEvent: {}
+[5.515552] (turtlesim_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/turtlesim_controller', 'build', '--build-base', '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/build', 'install', '--record', '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/install.log', '--single-version-externally-managed'], 'cwd': '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'soroush', 'LC_TIME': 'fa_IR.UTF-8', 'HOSTNAME': 'rosbox.soroush-HP-Laptop-15-da0xxx', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/soroush', 'OLDPWD': '/home/soroush/robatics/Assignment2/assi2/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'fa_IR.UTF-8', 'DISTROBOX_ENTER_PATH': '/usr/local/bin/distrobox-enter', 'SYSTEMD_EXEC_PID': '2116', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'soroush', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'soroush', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/soroush/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/home/soroush/.local/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/soroush-HP-Laptop-15-da0xxx:@/tmp/.ICE-unix/1938,unix/soroush-HP-Laptop-15-da0xxx:/tmp/.ICE-unix/1938', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'fa_IR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/97f12e60_c5be_48e5_a10c_60e08760b37a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'fa_IR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.HQGF11', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.145', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'fa_IR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'fa_IR.UTF-8', 'LC_IDENTIFICATION': 'fa_IR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller', 'CONTAINER_ID': 'rosbox', 'LC_ALL': 'C.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/prefix_override:/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'fa_IR.UTF-8', 'LC_PAPER': 'fa_IR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[5.560069] (-) TimerEvent: {}
+[5.661066] (-) TimerEvent: {}
+[5.762337] (-) TimerEvent: {}
+[5.863462] (-) TimerEvent: {}
+[5.964606] (-) TimerEvent: {}
+[6.066078] (-) TimerEvent: {}
+[6.167854] (-) TimerEvent: {}
+[6.268991] (-) TimerEvent: {}
+[6.370094] (-) TimerEvent: {}
+[6.471064] (-) TimerEvent: {}
+[6.572303] (-) TimerEvent: {}
+[6.673379] (-) TimerEvent: {}
+[6.774506] (-) TimerEvent: {}
+[6.875572] (-) TimerEvent: {}
+[6.976619] (-) TimerEvent: {}
+[7.077708] (-) TimerEvent: {}
+[7.178755] (-) TimerEvent: {}
+[7.279942] (-) TimerEvent: {}
+[7.381482] (-) TimerEvent: {}
+[7.482509] (-) TimerEvent: {}
+[7.583510] (-) TimerEvent: {}
+[7.656639] (turtlesim_controller) StdoutLine: {'line': b'running egg_info\n'}
+[7.662182] (turtlesim_controller) StdoutLine: {'line': b'writing build/turtlesim_controller/turtlesim_controller.egg-info/PKG-INFO\n'}
+[7.663629] (turtlesim_controller) StdoutLine: {'line': b'writing dependency_links to build/turtlesim_controller/turtlesim_controller.egg-info/dependency_links.txt\n'}
+[7.664963] (turtlesim_controller) StdoutLine: {'line': b'writing entry points to build/turtlesim_controller/turtlesim_controller.egg-info/entry_points.txt\n'}
+[7.666309] (turtlesim_controller) StdoutLine: {'line': b'writing requirements to build/turtlesim_controller/turtlesim_controller.egg-info/requires.txt\n'}
+[7.667438] (turtlesim_controller) StdoutLine: {'line': b'writing top-level names to build/turtlesim_controller/turtlesim_controller.egg-info/top_level.txt\n'}
+[7.680679] (turtlesim_controller) StdoutLine: {'line': b"reading manifest file 'build/turtlesim_controller/turtlesim_controller.egg-info/SOURCES.txt'\n"}
+[7.683759] (-) TimerEvent: {}
+[7.688858] (turtlesim_controller) StdoutLine: {'line': b"writing manifest file 'build/turtlesim_controller/turtlesim_controller.egg-info/SOURCES.txt'\n"}
+[7.690785] (turtlesim_controller) StdoutLine: {'line': b'running build\n'}
+[7.692144] (turtlesim_controller) StdoutLine: {'line': b'running build_py\n'}
+[7.693186] (turtlesim_controller) StdoutLine: {'line': b'copying turtlesim_controller/turtlesim_controller.py -> /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/build/lib/turtlesim_controller\n'}
+[7.694536] (turtlesim_controller) StdoutLine: {'line': b'running install\n'}
+[7.695540] (turtlesim_controller) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.696662] (turtlesim_controller) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.697844] (turtlesim_controller) StdoutLine: {'line': b'running install_lib\n'}
+[7.703024] (turtlesim_controller) StdoutLine: {'line': b'copying /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/build/lib/turtlesim_controller/turtlesim_controller.py -> /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/python3.10/site-packages/turtlesim_controller\n'}
+[7.707095] (turtlesim_controller) StdoutLine: {'line': b'byte-compiling /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/python3.10/site-packages/turtlesim_controller/turtlesim_controller.py to turtlesim_controller.cpython-310.pyc\n'}
+[7.712112] (turtlesim_controller) StdoutLine: {'line': b'running install_data\n'}
+[7.716333] (turtlesim_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.729063] (turtlesim_controller) StdoutLine: {'line': b"removing '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/python3.10/site-packages/turtlesim_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.731418] (turtlesim_controller) StdoutLine: {'line': b'Copying build/turtlesim_controller/turtlesim_controller.egg-info to /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/python3.10/site-packages/turtlesim_controller-0.0.0-py3.10.egg-info\n'}
+[7.738499] (turtlesim_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[7.783992] (-) TimerEvent: {}
+[7.884935] (-) TimerEvent: {}
+[7.901876] (turtlesim_controller) StdoutLine: {'line': b'Installing turtlesim_controller script to /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/turtlesim_controller\n'}
+[7.904490] (turtlesim_controller) StdoutLine: {'line': b"writing list of installed files to '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/install.log'\n"}
+[7.985262] (-) TimerEvent: {}
+[8.045594] (turtlesim_controller) CommandEnded: {'returncode': 0}
+[8.085573] (-) TimerEvent: {}
+[8.156020] (turtlesim_controller) JobEnded: {'identifier': 'turtlesim_controller', 'rc': 0}
+[8.161091] (-) EventReactorShutdown: {}

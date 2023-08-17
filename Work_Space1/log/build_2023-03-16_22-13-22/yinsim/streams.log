@@ -1,0 +1,24 @@
+[0.592s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/src/yinsim': CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:/home/soroush/robatics/Assignment2/assi2/install/yangsim PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/build/yinsim/prefix_override:/home/soroush/robatics/Assignment2/assi2/install/yinsim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yinsim build --build-base /home/soroush/robatics/Assignment2/assi2/build/yinsim/build install --record /home/soroush/robatics/Assignment2/assi2/build/yinsim/install.log --single-version-externally-managed
+[0.831s] running egg_info
+[0.832s] writing ../../build/yinsim/yinsim.egg-info/PKG-INFO
+[0.832s] writing dependency_links to ../../build/yinsim/yinsim.egg-info/dependency_links.txt
+[0.832s] writing entry points to ../../build/yinsim/yinsim.egg-info/entry_points.txt
+[0.832s] writing requirements to ../../build/yinsim/yinsim.egg-info/requires.txt
+[0.832s] writing top-level names to ../../build/yinsim/yinsim.egg-info/top_level.txt
+[0.834s] reading manifest file '../../build/yinsim/yinsim.egg-info/SOURCES.txt'
+[0.835s] writing manifest file '../../build/yinsim/yinsim.egg-info/SOURCES.txt'
+[0.835s] running build
+[0.835s] running build_py
+[0.836s] running install
+[0.836s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.836s]   warnings.warn(
+[0.836s] running install_lib
+[0.837s] running install_data
+[0.838s] copying package.xml -> /home/soroush/robatics/Assignment2/assi2/install/yinsim/share/yinsim
+[0.838s] running install_egg_info
+[0.840s] removing '/home/soroush/robatics/Assignment2/assi2/install/yinsim/lib/python3.10/site-packages/yinsim-0.0.0-py3.10.egg-info' (and everything under it)
+[0.840s] Copying ../../build/yinsim/yinsim.egg-info to /home/soroush/robatics/Assignment2/assi2/install/yinsim/lib/python3.10/site-packages/yinsim-0.0.0-py3.10.egg-info
+[0.841s] running install_scripts
+[0.863s] Installing yinnode script to /home/soroush/robatics/Assignment2/assi2/install/yinsim/lib/yinsim
+[0.863s] writing list of installed files to '/home/soroush/robatics/Assignment2/assi2/build/yinsim/install.log'
+[0.886s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/src/yinsim' returned '0': CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:/home/soroush/robatics/Assignment2/assi2/install/yangsim PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/build/yinsim/prefix_override:/home/soroush/robatics/Assignment2/assi2/install/yinsim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yinsim build --build-base /home/soroush/robatics/Assignment2/assi2/build/yinsim/build install --record /home/soroush/robatics/Assignment2/assi2/build/yinsim/install.log --single-version-externally-managed

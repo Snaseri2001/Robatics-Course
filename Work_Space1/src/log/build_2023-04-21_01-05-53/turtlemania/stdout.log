@@ -1,0 +1,21 @@
+running egg_info
+writing ../build/turtlemania/turtlemania.egg-info/PKG-INFO
+writing dependency_links to ../build/turtlemania/turtlemania.egg-info/dependency_links.txt
+writing entry points to ../build/turtlemania/turtlemania.egg-info/entry_points.txt
+writing requirements to ../build/turtlemania/turtlemania.egg-info/requires.txt
+writing top-level names to ../build/turtlemania/turtlemania.egg-info/top_level.txt
+reading manifest file '../build/turtlemania/turtlemania.egg-info/SOURCES.txt'
+writing manifest file '../build/turtlemania/turtlemania.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/launch.py -> /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/share/turtlemania
+running install_egg_info
+removing '/home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/python3.10/site-packages/turtlemania-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/turtlemania/turtlemania.egg-info to /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/python3.10/site-packages/turtlemania-0.0.0-py3.10.egg-info
+running install_scripts
+Installing brodcaster script to /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/turtlemania
+Installing listener script to /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/turtlemania
+writing list of installed files to '/home/soroush/robatics/Assignment2/assi2/src/build/turtlemania/install.log'

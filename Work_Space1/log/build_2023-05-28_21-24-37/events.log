@@ -1,0 +1,566 @@
+[0.000000] (-) TimerEvent: {}
+[0.000467] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000619] (lab7) JobQueued: {'identifier': 'lab7', 'dependencies': OrderedDict()}
+[0.000778] (modelgazebo) JobQueued: {'identifier': 'modelgazebo', 'dependencies': OrderedDict()}
+[0.000935] (peresenr_one) JobQueued: {'identifier': 'peresenr_one', 'dependencies': OrderedDict()}
+[0.001117] (qosexample) JobQueued: {'identifier': 'qosexample', 'dependencies': OrderedDict()}
+[0.001285] (quality_of_service_demo) JobQueued: {'identifier': 'quality_of_service_demo', 'dependencies': OrderedDict()}
+[0.001433] (ros_gz_interfaces) JobQueued: {'identifier': 'ros_gz_interfaces', 'dependencies': OrderedDict()}
+[0.001588] (ros_gz_sim) JobQueued: {'identifier': 'ros_gz_sim', 'dependencies': OrderedDict()}
+[0.001809] (turtlemania) JobQueued: {'identifier': 'turtlemania', 'dependencies': OrderedDict()}
+[0.002703] (turtlesim_controller) JobQueued: {'identifier': 'turtlesim_controller', 'dependencies': OrderedDict()}
+[0.004383] (ros_gz_bridge) JobQueued: {'identifier': 'ros_gz_bridge', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces')])}
+[0.004711] (yangsim) JobQueued: {'identifier': 'yangsim', 'dependencies': OrderedDict([('interfaces', '/home/soroush/robatics/Assignment2/assi2/install/interfaces')])}
+[0.004979] (yinsim) JobQueued: {'identifier': 'yinsim', 'dependencies': OrderedDict([('interfaces', '/home/soroush/robatics/Assignment2/assi2/install/interfaces')])}
+[0.005122] (ros_gz_image) JobQueued: {'identifier': 'ros_gz_image', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces'), ('ros_gz_bridge', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge')])}
+[0.005290] (ros_gz_sim_demos) JobQueued: {'identifier': 'ros_gz_sim_demos', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces'), ('ros_gz_sim', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim'), ('ros_gz_bridge', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge'), ('ros_gz_image', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image')])}
+[0.005476] (ros_gz) JobQueued: {'identifier': 'ros_gz', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces'), ('ros_gz_sim', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim'), ('ros_gz_bridge', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge'), ('ros_gz_image', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image'), ('ros_gz_sim_demos', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos')])}
+[0.005680] (ros_gz_interfaces) JobStarted: {'identifier': 'ros_gz_interfaces'}
+[0.097721] (-) TimerEvent: {}
+[0.134412] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.198515] (-) TimerEvent: {}
+[0.245477] (ros_gz_sim) JobStarted: {'identifier': 'ros_gz_sim'}
+[0.301835] (-) TimerEvent: {}
+[0.355086] (lab7) JobStarted: {'identifier': 'lab7'}
+[0.402031] (-) TimerEvent: {}
+[0.481476] (modelgazebo) JobStarted: {'identifier': 'modelgazebo'}
+[0.505655] (-) TimerEvent: {}
+[0.601850] (peresenr_one) JobStarted: {'identifier': 'peresenr_one'}
+[0.610002] (-) TimerEvent: {}
+[0.711189] (-) TimerEvent: {}
+[0.727012] (qosexample) JobStarted: {'identifier': 'qosexample'}
+[0.812338] (-) TimerEvent: {}
+[0.837163] (quality_of_service_demo) JobStarted: {'identifier': 'quality_of_service_demo'}
+[0.912640] (-) TimerEvent: {}
+[0.963545] (ros_gz_interfaces) JobProgress: {'identifier': 'ros_gz_interfaces', 'progress': 'cmake'}
+[0.969241] (ros_gz_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces'], 'cwd': '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/soroush/robatics/ProjectWS/install/eddiebot_description/share'), ('USER', 'soroush'), ('LC_TIME', 'fa_IR.UTF-8'), ('HOSTNAME', 'rosbox.soroush-HP-Laptop-15-da0xxx'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib:/home/soroush/robatics/ProjectWS/install/ros_gz_sim/lib:/home/soroush/robatics/ProjectWS/install/ros_gz_bridge/lib:/home/soroush/robatics/ProjectWS/install/ros_gz_interfaces/lib:/home/soroush/robatics/ProjectWS/install/eddiebot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/soroush/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/soroush/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/soroush/ws_moveit2/install/moveit_visual_tools/lib:/home/soroush/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/soroush/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/soroush/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/soroush/ws_moveit2/install/moveit_task_constructor_core/lib:/home/soroush/ws_moveit2/install/moveit_ros_control_interface/lib:/home/soroush/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/soroush/ws_moveit2/install/moveit_setup_assistant/lib:/home/soroush/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/soroush/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/soroush/ws_moveit2/install/moveit_setup_controllers/lib:/home/soroush/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/soroush/ws_moveit2/install/moveit_setup_framework/lib:/home/soroush/ws_moveit2/install/moveit_servo/lib:/home/soroush/ws_moveit2/install/moveit_ros_visualization/lib:/home/soroush/ws_moveit2/install/moveit_hybrid_planning/lib:/home/soroush/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/soroush/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/soroush/ws_moveit2/install/moveit_ros_warehouse/lib:/home/soroush/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/soroush/ws_moveit2/install/moveit_ros_perception/lib:/home/soroush/ws_moveit2/install/moveit_ros_move_group/lib:/home/soroush/ws_moveit2/install/moveit_planners_ompl/lib:/home/soroush/ws_moveit2/install/moveit_ros_planning/lib:/home/soroush/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/soroush/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/soroush/ws_moveit2/install/moveit_planners_chomp/lib:/home/soroush/ws_moveit2/install/moveit_kinematics/lib:/home/soroush/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/soroush/ws_moveit2/install/chomp_motion_planner/lib:/home/soroush/ws_moveit2/install/moveit_core/lib:/home/soroush/ws_moveit2/install/srdfdom/lib:/home/soroush/ws_moveit2/install/rviz_marker_tools/lib:/home/soroush/ws_moveit2/install/rosparam_shortcuts/lib:/home/soroush/ws_moveit2/install/moveit_task_constructor_msgs/lib:/home/soroush/ws_moveit2/install/gz_ros2_control/lib'), ('HOME', '/home/soroush'), ('OLDPWD', '/home/soroush/robatics/Assignment2/assi2/src/modelgazebo/launch'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fa_IR.UTF-8'), ('DISTROBOX_ENTER_PATH', '/usr/local/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '5084'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/soroush/robatics/Assignment2/assi2/install:/home/soroush/ws_moveit2/install:/home/soroush/install:/home/soroush/robatics/ProjectWS/install:/home/soroush/robatics/Assignment2/assi2/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soroush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'soroush'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/soroush/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/home/soroush/ws_moveit2/install/moveit_core/bin:/home/soroush/.local/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/soroush-HP-Laptop-15-da0xxx:@/tmp/.ICE-unix/2079,unix/soroush-HP-Laptop-15-da0xxx:/tmp/.ICE-unix/2079'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fa_IR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/93fbbe64_038a_4c3f_8334_d7e73a371fc7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fa_IR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/home/soroush/robatics/Assignment2/assi2/install/peresenr_one:/home/soroush/robatics/Assignment2/assi2/install/modelgazebo:/home/soroush/robatics/Assignment2/assi2/install/interfaces:/home/soroush/robatics/ProjectWS/install/ros_gz:/home/soroush/robatics/ProjectWS/install/ros_gz_sim_demos:/home/soroush/robatics/ProjectWS/install/ros_gz_sim:/home/soroush/robatics/ProjectWS/install/ros_gz_image:/home/soroush/robatics/ProjectWS/install/ros_gz_bridge:/home/soroush/robatics/ProjectWS/install/ros_gz_interfaces:/home/soroush/robatics/ProjectWS/install/rgb_controller:/home/soroush/robatics/ProjectWS/install/eddiebot_virtual_driver:/home/soroush/robatics/ProjectWS/install/eddiebot_vel_controller:/home/soroush/robatics/ProjectWS/install/eddiebot_teleop:/home/soroush/robatics/ProjectWS/install/eddiebot_rviz:/home/soroush/robatics/ProjectWS/install/eddiebot_odom:/home/soroush/robatics/ProjectWS/install/eddiebot_bringup:/home/soroush/robatics/ProjectWS/install/eddiebot_msgs:/home/soroush/robatics/ProjectWS/install/eddiebot_gazebo:/home/soroush/robatics/ProjectWS/install/eddiebot_description:/home/soroush/robatics/Assignment2/assi2/src/install/turtlemania:/home/soroush/robatics/Assignment2/assi2/src/install/modelgazebo:/home/soroush/robatics/Assignment2/assi2/src/install/lab7:/opt/ros/humble:/home/soroush/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/soroush/ws_moveit2/install/moveit_runtime:/home/soroush/ws_moveit2/install/moveit_fum_manipulator:/home/soroush/ws_moveit2/install/moveit2_tutorials:/home/soroush/ws_moveit2/install/moveit:/home/soroush/ws_moveit2/install/model4:/home/soroush/ws_moveit2/install/model:/home/soroush/ws_moveit2/install/fumti3:/home/soroush/ws_moveit2/install/moveit_planners:/home/soroush/ws_moveit2/install/pilz_industrial_motion_planner:/home/soroush/ws_moveit2/install/moveit_visual_tools:/home/soroush/ws_moveit2/install/moveit_task_constructor_visualization:/home/soroush/ws_moveit2/install/moveit_task_constructor_demo:/home/soroush/ws_moveit2/install/moveit_task_constructor_capabilities:/home/soroush/ws_moveit2/install/moveit_task_constructor_core:/home/soroush/ws_moveit2/install/moveit_ros_control_interface:/home/soroush/ws_moveit2/install/moveit_plugins:/home/soroush/ws_moveit2/install/moveit_simple_controller_manager:/home/soroush/ws_moveit2/install/moveit_setup_assistant:/home/soroush/ws_moveit2/install/moveit_setup_srdf_plugins:/home/soroush/ws_moveit2/install/moveit_setup_core_plugins:/home/soroush/ws_moveit2/install/moveit_setup_controllers:/home/soroush/ws_moveit2/install/moveit_setup_app_plugins:/home/soroush/ws_moveit2/install/moveit_setup_framework:/home/soroush/ws_moveit2/install/moveit_servo:/home/soroush/ws_moveit2/install/moveit_ros:/home/soroush/ws_moveit2/install/moveit_ros_visualization:/home/soroush/ws_moveit2/install/moveit_hybrid_planning:/home/soroush/ws_moveit2/install/moveit_ros_planning_interface:/home/soroush/ws_moveit2/install/moveit_ros_benchmarks:/home/soroush/ws_moveit2/install/moveit_ros_warehouse:/home/soroush/ws_moveit2/install/moveit_ros_robot_interaction:/home/soroush/ws_moveit2/install/moveit_ros_perception:/home/soroush/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/soroush/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/soroush/ws_moveit2/install/moveit_ros_move_group:/home/soroush/ws_moveit2/install/moveit_planners_ompl:/home/soroush/ws_moveit2/install/moveit_ros_planning:/home/soroush/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/soroush/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/soroush/ws_moveit2/install/moveit_planners_chomp:/home/soroush/ws_moveit2/install/moveit_kinematics:/home/soroush/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/soroush/ws_moveit2/install/chomp_motion_planner:/home/soroush/ws_moveit2/install/moveit_core:/home/soroush/ws_moveit2/install/moveit_configs_utils:/home/soroush/ws_moveit2/install/srdfdom:/home/soroush/ws_moveit2/install/rviz_marker_tools:/home/soroush/ws_moveit2/install/rosparam_shortcuts:/home/soroush/ws_moveit2/install/moveit_task_constructor_msgs:/home/soroush/ws_moveit2/install/moveit_resources_prbt_support:/home/soroush/ws_moveit2/install/moveit_resources:/home/soroush/ws_moveit2/install/moveit_resources_pr2_description:/home/soroush/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/soroush/ws_moveit2/install/moveit_resources_panda_description:/home/soroush/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/soroush/ws_moveit2/install/moveit_resources_fanuc_description:/home/soroush/ws_moveit2/install/moveit_common:/home/soroush/ws_moveit2/install/model3:/home/soroush/ws_moveit2/install/launch_param_builder:/home/soroush/ws_moveit2/install/gz_ros2_control_demos:/home/soroush/ws_moveit2/install/gz_ros2_control:/home/soroush/ws_moveit2/install/fumti'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fa_IR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share:/home/soroush/robatics/ProjectWS/install/ros_gz_sim_demos/share'), ('LC_MEASUREMENT', 'fa_IR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fa_IR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces'), ('CONTAINER_ID', 'rosbox'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/soroush/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/soroush/robatics/Assignment2/assi2/install/yinsim/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/install/peresenr_one/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/install/modelgazebo/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages:/home/soroush/robatics/ProjectWS/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/soroush/robatics/ProjectWS/install/rgb_controller/lib/python3.10/site-packages:/home/soroush/robatics/ProjectWS/install/eddiebot_msgs/local/lib/python3.10/dist-packages:/home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/src/install/modelgazebo/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/src/install/lab7/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/soroush/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/soroush/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/soroush/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/soroush/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages'), ('LC_NUMERIC', 'fa_IR.UTF-8'), ('LC_PAPER', 'fa_IR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/home/soroush/robatics/Assignment2/assi2/install/interfaces:/home/soroush/robatics/ProjectWS/install/ros_gz:/home/soroush/robatics/ProjectWS/install/ros_gz_sim_demos:/home/soroush/robatics/ProjectWS/install/ros_gz_sim:/home/soroush/robatics/ProjectWS/install/ros_gz_image:/home/soroush/robatics/ProjectWS/install/ros_gz_bridge:/home/soroush/robatics/ProjectWS/install/ros_gz_interfaces:/home/soroush/robatics/ProjectWS/install/eddiebot_virtual_driver:/home/soroush/robatics/ProjectWS/install/eddiebot_vel_controller:/home/soroush/robatics/ProjectWS/install/eddiebot_teleop:/home/soroush/robatics/ProjectWS/install/eddiebot_rviz:/home/soroush/robatics/ProjectWS/install/eddiebot_odom:/home/soroush/robatics/ProjectWS/install/eddiebot_bringup:/home/soroush/robatics/ProjectWS/install/eddiebot_msgs:/home/soroush/robatics/ProjectWS/install/eddiebot_gazebo:/home/soroush/robatics/ProjectWS/install/eddiebot_description:/home/soroush/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/soroush/ws_moveit2/install/moveit_runtime:/home/soroush/ws_moveit2/install/moveit_fum_manipulator:/home/soroush/ws_moveit2/install/moveit2_tutorials:/home/soroush/ws_moveit2/install/moveit:/home/soroush/ws_moveit2/install/model4:/home/soroush/ws_moveit2/install/model:/home/soroush/ws_moveit2/install/fumti3:/home/soroush/ws_moveit2/install/moveit_planners:/home/soroush/ws_moveit2/install/pilz_industrial_motion_planner:/home/soroush/ws_moveit2/install/moveit_visual_tools:/home/soroush/ws_moveit2/install/moveit_task_constructor_visualization:/home/soroush/ws_moveit2/install/moveit_task_constructor_demo:/home/soroush/ws_moveit2/install/moveit_task_constructor_capabilities:/home/soroush/ws_moveit2/install/moveit_task_constructor_core:/home/soroush/ws_moveit2/install/moveit_ros_control_interface:/home/soroush/ws_moveit2/install/moveit_plugins:/home/soroush/ws_moveit2/install/moveit_simple_controller_manager:/home/soroush/ws_moveit2/install/moveit_setup_assistant:/home/soroush/ws_moveit2/install/moveit_setup_srdf_plugins:/home/soroush/ws_moveit2/install/moveit_setup_core_plugins:/home/soroush/ws_moveit2/install/moveit_setup_controllers:/home/soroush/ws_moveit2/install/moveit_setup_app_plugins:/home/soroush/ws_moveit2/install/moveit_setup_framework:/home/soroush/ws_moveit2/install/moveit_servo:/home/soroush/ws_moveit2/install/moveit_ros:/home/soroush/ws_moveit2/install/moveit_ros_visualization:/home/soroush/ws_moveit2/install/moveit_hybrid_planning:/home/soroush/ws_moveit2/install/moveit_ros_planning_interface:/home/soroush/ws_moveit2/install/moveit_ros_benchmarks:/home/soroush/ws_moveit2/install/moveit_ros_warehouse:/home/soroush/ws_moveit2/install/moveit_ros_robot_interaction:/home/soroush/ws_moveit2/install/moveit_ros_perception:/home/soroush/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/soroush/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/soroush/ws_moveit2/install/moveit_ros_move_group:/home/soroush/ws_moveit2/install/moveit_planners_ompl:/home/soroush/ws_moveit2/install/moveit_ros_planning:/home/soroush/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/soroush/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/soroush/ws_moveit2/install/moveit_planners_chomp:/home/soroush/ws_moveit2/install/moveit_kinematics:/home/soroush/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/soroush/ws_moveit2/install/chomp_motion_planner:/home/soroush/ws_moveit2/install/moveit_core:/home/soroush/ws_moveit2/install/srdfdom:/home/soroush/ws_moveit2/install/rviz_marker_tools:/home/soroush/ws_moveit2/install/rosparam_shortcuts:/home/soroush/ws_moveit2/install/moveit_task_constructor_msgs:/home/soroush/ws_moveit2/install/moveit_resources_prbt_support:/home/soroush/ws_moveit2/install/moveit_resources:/home/soroush/ws_moveit2/install/moveit_resources_pr2_description:/home/soroush/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/soroush/ws_moveit2/install/moveit_resources_panda_description:/home/soroush/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/soroush/ws_moveit2/install/moveit_resources_fanuc_description:/home/soroush/ws_moveit2/install/moveit_common:/home/soroush/ws_moveit2/install/model3:/home/soroush/ws_moveit2/install/gz_ros2_control_demos:/home/soroush/ws_moveit2/install/gz_ros2_control:/home/soroush/ws_moveit2/install/fumti:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/home/soroush/robatics/Assignment2/assi2/install/peresenr_one:/home/soroush/robatics/Assignment2/assi2/install/modelgazebo:/home/soroush/robatics/ProjectWS/install/rgb_controller:/home/soroush/robatics/Assignment2/assi2/src/install/turtlemania:/home/soroush/robatics/Assignment2/assi2/src/install/modelgazebo:/home/soroush/robatics/Assignment2/assi2/src/install/lab7:/opt/ros/humble:/home/soroush/ws_moveit2/install/moveit_configs_utils:/home/soroush/ws_moveit2/install/launch_param_builder')]), 'shell': False}
+[0.992261] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.995549] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.999623] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/soroush/robatics/Assignment2/assi2/build/interfaces', '--', '-j8', '-l8'], 'cwd': '/home/soroush/robatics/Assignment2/assi2/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/soroush/robatics/ProjectWS/install/eddiebot_description/share'), ('USER', 'soroush'), ('LC_TIME', 'fa_IR.UTF-8'), ('HOSTNAME', 'rosbox.soroush-HP-Laptop-15-da0xxx'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib:/home/soroush/robatics/ProjectWS/install/ros_gz_sim/lib:/home/soroush/robatics/ProjectWS/install/ros_gz_bridge/lib:/home/soroush/robatics/ProjectWS/install/ros_gz_interfaces/lib:/home/soroush/robatics/ProjectWS/install/eddiebot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/soroush/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/soroush/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/soroush/ws_moveit2/install/moveit_visual_tools/lib:/home/soroush/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/soroush/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/soroush/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/soroush/ws_moveit2/install/moveit_task_constructor_core/lib:/home/soroush/ws_moveit2/install/moveit_ros_control_interface/lib:/home/soroush/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/soroush/ws_moveit2/install/moveit_setup_assistant/lib:/home/soroush/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/soroush/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/soroush/ws_moveit2/install/moveit_setup_controllers/lib:/home/soroush/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/soroush/ws_moveit2/install/moveit_setup_framework/lib:/home/soroush/ws_moveit2/install/moveit_servo/lib:/home/soroush/ws_moveit2/install/moveit_ros_visualization/lib:/home/soroush/ws_moveit2/install/moveit_hybrid_planning/lib:/home/soroush/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/soroush/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/soroush/ws_moveit2/install/moveit_ros_warehouse/lib:/home/soroush/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/soroush/ws_moveit2/install/moveit_ros_perception/lib:/home/soroush/ws_moveit2/install/moveit_ros_move_group/lib:/home/soroush/ws_moveit2/install/moveit_planners_ompl/lib:/home/soroush/ws_moveit2/install/moveit_ros_planning/lib:/home/soroush/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/soroush/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/soroush/ws_moveit2/install/moveit_planners_chomp/lib:/home/soroush/ws_moveit2/install/moveit_kinematics/lib:/home/soroush/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/soroush/ws_moveit2/install/chomp_motion_planner/lib:/home/soroush/ws_moveit2/install/moveit_core/lib:/home/soroush/ws_moveit2/install/srdfdom/lib:/home/soroush/ws_moveit2/install/rviz_marker_tools/lib:/home/soroush/ws_moveit2/install/rosparam_shortcuts/lib:/home/soroush/ws_moveit2/install/moveit_task_constructor_msgs/lib:/home/soroush/ws_moveit2/install/gz_ros2_control/lib'), ('HOME', '/home/soroush'), ('OLDPWD', '/home/soroush/robatics/Assignment2/assi2/src/modelgazebo/launch'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fa_IR.UTF-8'), ('DISTROBOX_ENTER_PATH', '/usr/local/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '5084'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/soroush/robatics/Assignment2/assi2/install:/home/soroush/ws_moveit2/install:/home/soroush/install:/home/soroush/robatics/ProjectWS/install:/home/soroush/robatics/Assignment2/assi2/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soroush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'soroush'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/soroush/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/home/soroush/ws_moveit2/install/moveit_core/bin:/home/soroush/.local/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/soroush-HP-Laptop-15-da0xxx:@/tmp/.ICE-unix/2079,unix/soroush-HP-Laptop-15-da0xxx:/tmp/.ICE-unix/2079'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fa_IR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/93fbbe64_038a_4c3f_8334_d7e73a371fc7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fa_IR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/home/soroush/robatics/Assignment2/assi2/install/peresenr_one:/home/soroush/robatics/Assignment2/assi2/install/modelgazebo:/home/soroush/robatics/Assignment2/assi2/install/interfaces:/home/soroush/robatics/ProjectWS/install/ros_gz:/home/soroush/robatics/ProjectWS/install/ros_gz_sim_demos:/home/soroush/robatics/ProjectWS/install/ros_gz_sim:/home/soroush/robatics/ProjectWS/install/ros_gz_image:/home/soroush/robatics/ProjectWS/install/ros_gz_bridge:/home/soroush/robatics/ProjectWS/install/ros_gz_interfaces:/home/soroush/robatics/ProjectWS/install/rgb_controller:/home/soroush/robatics/ProjectWS/install/eddiebot_virtual_driver:/home/soroush/robatics/ProjectWS/install/eddiebot_vel_controller:/home/soroush/robatics/ProjectWS/install/eddiebot_teleop:/home/soroush/robatics/ProjectWS/install/eddiebot_rviz:/home/soroush/robatics/ProjectWS/install/eddiebot_odom:/home/soroush/robatics/ProjectWS/install/eddiebot_bringup:/home/soroush/robatics/ProjectWS/install/eddiebot_msgs:/home/soroush/robatics/ProjectWS/install/eddiebot_gazebo:/home/soroush/robatics/ProjectWS/install/eddiebot_description:/home/soroush/robatics/Assignment2/assi2/src/install/turtlemania:/home/soroush/robatics/Assignment2/assi2/src/install/modelgazebo:/home/soroush/robatics/Assignment2/assi2/src/install/lab7:/opt/ros/humble:/home/soroush/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/soroush/ws_moveit2/install/moveit_runtime:/home/soroush/ws_moveit2/install/moveit_fum_manipulator:/home/soroush/ws_moveit2/install/moveit2_tutorials:/home/soroush/ws_moveit2/install/moveit:/home/soroush/ws_moveit2/install/model4:/home/soroush/ws_moveit2/install/model:/home/soroush/ws_moveit2/install/fumti3:/home/soroush/ws_moveit2/install/moveit_planners:/home/soroush/ws_moveit2/install/pilz_industrial_motion_planner:/home/soroush/ws_moveit2/install/moveit_visual_tools:/home/soroush/ws_moveit2/install/moveit_task_constructor_visualization:/home/soroush/ws_moveit2/install/moveit_task_constructor_demo:/home/soroush/ws_moveit2/install/moveit_task_constructor_capabilities:/home/soroush/ws_moveit2/install/moveit_task_constructor_core:/home/soroush/ws_moveit2/install/moveit_ros_control_interface:/home/soroush/ws_moveit2/install/moveit_plugins:/home/soroush/ws_moveit2/install/moveit_simple_controller_manager:/home/soroush/ws_moveit2/install/moveit_setup_assistant:/home/soroush/ws_moveit2/install/moveit_setup_srdf_plugins:/home/soroush/ws_moveit2/install/moveit_setup_core_plugins:/home/soroush/ws_moveit2/install/moveit_setup_controllers:/home/soroush/ws_moveit2/install/moveit_setup_app_plugins:/home/soroush/ws_moveit2/install/moveit_setup_framework:/home/soroush/ws_moveit2/install/moveit_servo:/home/soroush/ws_moveit2/install/moveit_ros:/home/soroush/ws_moveit2/install/moveit_ros_visualization:/home/soroush/ws_moveit2/install/moveit_hybrid_planning:/home/soroush/ws_moveit2/install/moveit_ros_planning_interface:/home/soroush/ws_moveit2/install/moveit_ros_benchmarks:/home/soroush/ws_moveit2/install/moveit_ros_warehouse:/home/soroush/ws_moveit2/install/moveit_ros_robot_interaction:/home/soroush/ws_moveit2/install/moveit_ros_perception:/home/soroush/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/soroush/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/soroush/ws_moveit2/install/moveit_ros_move_group:/home/soroush/ws_moveit2/install/moveit_planners_ompl:/home/soroush/ws_moveit2/install/moveit_ros_planning:/home/soroush/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/soroush/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/soroush/ws_moveit2/install/moveit_planners_chomp:/home/soroush/ws_moveit2/install/moveit_kinematics:/home/soroush/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/soroush/ws_moveit2/install/chomp_motion_planner:/home/soroush/ws_moveit2/install/moveit_core:/home/soroush/ws_moveit2/install/moveit_configs_utils:/home/soroush/ws_moveit2/install/srdfdom:/home/soroush/ws_moveit2/install/rviz_marker_tools:/home/soroush/ws_moveit2/install/rosparam_shortcuts:/home/soroush/ws_moveit2/install/moveit_task_constructor_msgs:/home/soroush/ws_moveit2/install/moveit_resources_prbt_support:/home/soroush/ws_moveit2/install/moveit_resources:/home/soroush/ws_moveit2/install/moveit_resources_pr2_description:/home/soroush/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/soroush/ws_moveit2/install/moveit_resources_panda_description:/home/soroush/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/soroush/ws_moveit2/install/moveit_resources_fanuc_description:/home/soroush/ws_moveit2/install/moveit_common:/home/soroush/ws_moveit2/install/model3:/home/soroush/ws_moveit2/install/launch_param_builder:/home/soroush/ws_moveit2/install/gz_ros2_control_demos:/home/soroush/ws_moveit2/install/gz_ros2_control:/home/soroush/ws_moveit2/install/fumti'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fa_IR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share:/home/soroush/robatics/ProjectWS/install/ros_gz_sim_demos/share'), ('LC_MEASUREMENT', 'fa_IR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fa_IR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/soroush/robatics/Assignment2/assi2/build/interfaces'), ('CONTAINER_ID', 'rosbox'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/soroush/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/soroush/robatics/Assignment2/assi2/install/yinsim/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/install/peresenr_one/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/install/modelgazebo/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages:/home/soroush/robatics/ProjectWS/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/soroush/robatics/ProjectWS/install/rgb_controller/lib/python3.10/site-packages:/home/soroush/robatics/ProjectWS/install/eddiebot_msgs/local/lib/python3.10/dist-packages:/home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/src/install/modelgazebo/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/src/install/lab7/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/soroush/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/soroush/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/soroush/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/soroush/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages'), ('LC_NUMERIC', 'fa_IR.UTF-8'), ('LC_PAPER', 'fa_IR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/home/soroush/robatics/Assignment2/assi2/install/interfaces:/home/soroush/robatics/ProjectWS/install/ros_gz:/home/soroush/robatics/ProjectWS/install/ros_gz_sim_demos:/home/soroush/robatics/ProjectWS/install/ros_gz_sim:/home/soroush/robatics/ProjectWS/install/ros_gz_image:/home/soroush/robatics/ProjectWS/install/ros_gz_bridge:/home/soroush/robatics/ProjectWS/install/ros_gz_interfaces:/home/soroush/robatics/ProjectWS/install/eddiebot_virtual_driver:/home/soroush/robatics/ProjectWS/install/eddiebot_vel_controller:/home/soroush/robatics/ProjectWS/install/eddiebot_teleop:/home/soroush/robatics/ProjectWS/install/eddiebot_rviz:/home/soroush/robatics/ProjectWS/install/eddiebot_odom:/home/soroush/robatics/ProjectWS/install/eddiebot_bringup:/home/soroush/robatics/ProjectWS/install/eddiebot_msgs:/home/soroush/robatics/ProjectWS/install/eddiebot_gazebo:/home/soroush/robatics/ProjectWS/install/eddiebot_description:/home/soroush/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/soroush/ws_moveit2/install/moveit_runtime:/home/soroush/ws_moveit2/install/moveit_fum_manipulator:/home/soroush/ws_moveit2/install/moveit2_tutorials:/home/soroush/ws_moveit2/install/moveit:/home/soroush/ws_moveit2/install/model4:/home/soroush/ws_moveit2/install/model:/home/soroush/ws_moveit2/install/fumti3:/home/soroush/ws_moveit2/install/moveit_planners:/home/soroush/ws_moveit2/install/pilz_industrial_motion_planner:/home/soroush/ws_moveit2/install/moveit_visual_tools:/home/soroush/ws_moveit2/install/moveit_task_constructor_visualization:/home/soroush/ws_moveit2/install/moveit_task_constructor_demo:/home/soroush/ws_moveit2/install/moveit_task_constructor_capabilities:/home/soroush/ws_moveit2/install/moveit_task_constructor_core:/home/soroush/ws_moveit2/install/moveit_ros_control_interface:/home/soroush/ws_moveit2/install/moveit_plugins:/home/soroush/ws_moveit2/install/moveit_simple_controller_manager:/home/soroush/ws_moveit2/install/moveit_setup_assistant:/home/soroush/ws_moveit2/install/moveit_setup_srdf_plugins:/home/soroush/ws_moveit2/install/moveit_setup_core_plugins:/home/soroush/ws_moveit2/install/moveit_setup_controllers:/home/soroush/ws_moveit2/install/moveit_setup_app_plugins:/home/soroush/ws_moveit2/install/moveit_setup_framework:/home/soroush/ws_moveit2/install/moveit_servo:/home/soroush/ws_moveit2/install/moveit_ros:/home/soroush/ws_moveit2/install/moveit_ros_visualization:/home/soroush/ws_moveit2/install/moveit_hybrid_planning:/home/soroush/ws_moveit2/install/moveit_ros_planning_interface:/home/soroush/ws_moveit2/install/moveit_ros_benchmarks:/home/soroush/ws_moveit2/install/moveit_ros_warehouse:/home/soroush/ws_moveit2/install/moveit_ros_robot_interaction:/home/soroush/ws_moveit2/install/moveit_ros_perception:/home/soroush/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/soroush/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/soroush/ws_moveit2/install/moveit_ros_move_group:/home/soroush/ws_moveit2/install/moveit_planners_ompl:/home/soroush/ws_moveit2/install/moveit_ros_planning:/home/soroush/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/soroush/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/soroush/ws_moveit2/install/moveit_planners_chomp:/home/soroush/ws_moveit2/install/moveit_kinematics:/home/soroush/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/soroush/ws_moveit2/install/chomp_motion_planner:/home/soroush/ws_moveit2/install/moveit_core:/home/soroush/ws_moveit2/install/srdfdom:/home/soroush/ws_moveit2/install/rviz_marker_tools:/home/soroush/ws_moveit2/install/rosparam_shortcuts:/home/soroush/ws_moveit2/install/moveit_task_constructor_msgs:/home/soroush/ws_moveit2/install/moveit_resources_prbt_support:/home/soroush/ws_moveit2/install/moveit_resources:/home/soroush/ws_moveit2/install/moveit_resources_pr2_description:/home/soroush/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/soroush/ws_moveit2/install/moveit_resources_panda_description:/home/soroush/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/soroush/ws_moveit2/install/moveit_resources_fanuc_description:/home/soroush/ws_moveit2/install/moveit_common:/home/soroush/ws_moveit2/install/model3:/home/soroush/ws_moveit2/install/gz_ros2_control_demos:/home/soroush/ws_moveit2/install/gz_ros2_control:/home/soroush/ws_moveit2/install/fumti:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/home/soroush/robatics/Assignment2/assi2/install/peresenr_one:/home/soroush/robatics/Assignment2/assi2/install/modelgazebo:/home/soroush/robatics/ProjectWS/install/rgb_controller:/home/soroush/robatics/Assignment2/assi2/src/install/turtlemania:/home/soroush/robatics/Assignment2/assi2/src/install/modelgazebo:/home/soroush/robatics/Assignment2/assi2/src/install/lab7:/opt/ros/humble:/home/soroush/ws_moveit2/install/moveit_configs_utils:/home/soroush/ws_moveit2/install/launch_param_builder')]), 'shell': False}
+[1.012932] (-) TimerEvent: {}
+[1.018889] (ros_gz_sim) JobProgress: {'identifier': 'ros_gz_sim', 'progress': 'cmake'}
+[1.031486] (ros_gz_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_sim', '-DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim'], 'cwd': '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/soroush/robatics/ProjectWS/install/eddiebot_description/share'), ('USER', 'soroush'), ('LC_TIME', 'fa_IR.UTF-8'), ('HOSTNAME', 'rosbox.soroush-HP-Laptop-15-da0xxx'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib:/home/soroush/robatics/ProjectWS/install/ros_gz_sim/lib:/home/soroush/robatics/ProjectWS/install/ros_gz_bridge/lib:/home/soroush/robatics/ProjectWS/install/ros_gz_interfaces/lib:/home/soroush/robatics/ProjectWS/install/eddiebot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/soroush/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/soroush/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/soroush/ws_moveit2/install/moveit_visual_tools/lib:/home/soroush/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/soroush/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/soroush/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/soroush/ws_moveit2/install/moveit_task_constructor_core/lib:/home/soroush/ws_moveit2/install/moveit_ros_control_interface/lib:/home/soroush/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/soroush/ws_moveit2/install/moveit_setup_assistant/lib:/home/soroush/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/soroush/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/soroush/ws_moveit2/install/moveit_setup_controllers/lib:/home/soroush/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/soroush/ws_moveit2/install/moveit_setup_framework/lib:/home/soroush/ws_moveit2/install/moveit_servo/lib:/home/soroush/ws_moveit2/install/moveit_ros_visualization/lib:/home/soroush/ws_moveit2/install/moveit_hybrid_planning/lib:/home/soroush/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/soroush/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/soroush/ws_moveit2/install/moveit_ros_warehouse/lib:/home/soroush/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/soroush/ws_moveit2/install/moveit_ros_perception/lib:/home/soroush/ws_moveit2/install/moveit_ros_move_group/lib:/home/soroush/ws_moveit2/install/moveit_planners_ompl/lib:/home/soroush/ws_moveit2/install/moveit_ros_planning/lib:/home/soroush/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/soroush/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/soroush/ws_moveit2/install/moveit_planners_chomp/lib:/home/soroush/ws_moveit2/install/moveit_kinematics/lib:/home/soroush/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/soroush/ws_moveit2/install/chomp_motion_planner/lib:/home/soroush/ws_moveit2/install/moveit_core/lib:/home/soroush/ws_moveit2/install/srdfdom/lib:/home/soroush/ws_moveit2/install/rviz_marker_tools/lib:/home/soroush/ws_moveit2/install/rosparam_shortcuts/lib:/home/soroush/ws_moveit2/install/moveit_task_constructor_msgs/lib:/home/soroush/ws_moveit2/install/gz_ros2_control/lib'), ('HOME', '/home/soroush'), ('OLDPWD', '/home/soroush/robatics/Assignment2/assi2/src/modelgazebo/launch'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fa_IR.UTF-8'), ('DISTROBOX_ENTER_PATH', '/usr/local/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '5084'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/soroush/robatics/Assignment2/assi2/install:/home/soroush/ws_moveit2/install:/home/soroush/install:/home/soroush/robatics/ProjectWS/install:/home/soroush/robatics/Assignment2/assi2/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soroush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'soroush'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/soroush/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/home/soroush/ws_moveit2/install/moveit_core/bin:/home/soroush/.local/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/soroush-HP-Laptop-15-da0xxx:@/tmp/.ICE-unix/2079,unix/soroush-HP-Laptop-15-da0xxx:/tmp/.ICE-unix/2079'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fa_IR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/93fbbe64_038a_4c3f_8334_d7e73a371fc7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fa_IR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/home/soroush/robatics/Assignment2/assi2/install/peresenr_one:/home/soroush/robatics/Assignment2/assi2/install/modelgazebo:/home/soroush/robatics/Assignment2/assi2/install/interfaces:/home/soroush/robatics/ProjectWS/install/ros_gz:/home/soroush/robatics/ProjectWS/install/ros_gz_sim_demos:/home/soroush/robatics/ProjectWS/install/ros_gz_sim:/home/soroush/robatics/ProjectWS/install/ros_gz_image:/home/soroush/robatics/ProjectWS/install/ros_gz_bridge:/home/soroush/robatics/ProjectWS/install/ros_gz_interfaces:/home/soroush/robatics/ProjectWS/install/rgb_controller:/home/soroush/robatics/ProjectWS/install/eddiebot_virtual_driver:/home/soroush/robatics/ProjectWS/install/eddiebot_vel_controller:/home/soroush/robatics/ProjectWS/install/eddiebot_teleop:/home/soroush/robatics/ProjectWS/install/eddiebot_rviz:/home/soroush/robatics/ProjectWS/install/eddiebot_odom:/home/soroush/robatics/ProjectWS/install/eddiebot_bringup:/home/soroush/robatics/ProjectWS/install/eddiebot_msgs:/home/soroush/robatics/ProjectWS/install/eddiebot_gazebo:/home/soroush/robatics/ProjectWS/install/eddiebot_description:/home/soroush/robatics/Assignment2/assi2/src/install/turtlemania:/home/soroush/robatics/Assignment2/assi2/src/install/modelgazebo:/home/soroush/robatics/Assignment2/assi2/src/install/lab7:/opt/ros/humble:/home/soroush/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/soroush/ws_moveit2/install/moveit_runtime:/home/soroush/ws_moveit2/install/moveit_fum_manipulator:/home/soroush/ws_moveit2/install/moveit2_tutorials:/home/soroush/ws_moveit2/install/moveit:/home/soroush/ws_moveit2/install/model4:/home/soroush/ws_moveit2/install/model:/home/soroush/ws_moveit2/install/fumti3:/home/soroush/ws_moveit2/install/moveit_planners:/home/soroush/ws_moveit2/install/pilz_industrial_motion_planner:/home/soroush/ws_moveit2/install/moveit_visual_tools:/home/soroush/ws_moveit2/install/moveit_task_constructor_visualization:/home/soroush/ws_moveit2/install/moveit_task_constructor_demo:/home/soroush/ws_moveit2/install/moveit_task_constructor_capabilities:/home/soroush/ws_moveit2/install/moveit_task_constructor_core:/home/soroush/ws_moveit2/install/moveit_ros_control_interface:/home/soroush/ws_moveit2/install/moveit_plugins:/home/soroush/ws_moveit2/install/moveit_simple_controller_manager:/home/soroush/ws_moveit2/install/moveit_setup_assistant:/home/soroush/ws_moveit2/install/moveit_setup_srdf_plugins:/home/soroush/ws_moveit2/install/moveit_setup_core_plugins:/home/soroush/ws_moveit2/install/moveit_setup_controllers:/home/soroush/ws_moveit2/install/moveit_setup_app_plugins:/home/soroush/ws_moveit2/install/moveit_setup_framework:/home/soroush/ws_moveit2/install/moveit_servo:/home/soroush/ws_moveit2/install/moveit_ros:/home/soroush/ws_moveit2/install/moveit_ros_visualization:/home/soroush/ws_moveit2/install/moveit_hybrid_planning:/home/soroush/ws_moveit2/install/moveit_ros_planning_interface:/home/soroush/ws_moveit2/install/moveit_ros_benchmarks:/home/soroush/ws_moveit2/install/moveit_ros_warehouse:/home/soroush/ws_moveit2/install/moveit_ros_robot_interaction:/home/soroush/ws_moveit2/install/moveit_ros_perception:/home/soroush/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/soroush/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/soroush/ws_moveit2/install/moveit_ros_move_group:/home/soroush/ws_moveit2/install/moveit_planners_ompl:/home/soroush/ws_moveit2/install/moveit_ros_planning:/home/soroush/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/soroush/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/soroush/ws_moveit2/install/moveit_planners_chomp:/home/soroush/ws_moveit2/install/moveit_kinematics:/home/soroush/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/soroush/ws_moveit2/install/chomp_motion_planner:/home/soroush/ws_moveit2/install/moveit_core:/home/soroush/ws_moveit2/install/moveit_configs_utils:/home/soroush/ws_moveit2/install/srdfdom:/home/soroush/ws_moveit2/install/rviz_marker_tools:/home/soroush/ws_moveit2/install/rosparam_shortcuts:/home/soroush/ws_moveit2/install/moveit_task_constructor_msgs:/home/soroush/ws_moveit2/install/moveit_resources_prbt_support:/home/soroush/ws_moveit2/install/moveit_resources:/home/soroush/ws_moveit2/install/moveit_resources_pr2_description:/home/soroush/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/soroush/ws_moveit2/install/moveit_resources_panda_description:/home/soroush/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/soroush/ws_moveit2/install/moveit_resources_fanuc_description:/home/soroush/ws_moveit2/install/moveit_common:/home/soroush/ws_moveit2/install/model3:/home/soroush/ws_moveit2/install/launch_param_builder:/home/soroush/ws_moveit2/install/gz_ros2_control_demos:/home/soroush/ws_moveit2/install/gz_ros2_control:/home/soroush/ws_moveit2/install/fumti'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fa_IR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos/share:/home/soroush/robatics/ProjectWS/install/ros_gz_sim_demos/share'), ('LC_MEASUREMENT', 'fa_IR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fa_IR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim'), ('CONTAINER_ID', 'rosbox'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/soroush/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/soroush/robatics/Assignment2/assi2/install/yinsim/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/install/peresenr_one/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/install/modelgazebo/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages:/home/soroush/robatics/ProjectWS/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/soroush/robatics/ProjectWS/install/rgb_controller/lib/python3.10/site-packages:/home/soroush/robatics/ProjectWS/install/eddiebot_msgs/local/lib/python3.10/dist-packages:/home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/src/install/modelgazebo/lib/python3.10/site-packages:/home/soroush/robatics/Assignment2/assi2/src/install/lab7/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/soroush/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/soroush/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/soroush/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/soroush/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages'), ('LC_NUMERIC', 'fa_IR.UTF-8'), ('LC_PAPER', 'fa_IR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim_demos:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_sim:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_image:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge:/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/home/soroush/robatics/Assignment2/assi2/install/interfaces:/home/soroush/robatics/ProjectWS/install/ros_gz:/home/soroush/robatics/ProjectWS/install/ros_gz_sim_demos:/home/soroush/robatics/ProjectWS/install/ros_gz_sim:/home/soroush/robatics/ProjectWS/install/ros_gz_image:/home/soroush/robatics/ProjectWS/install/ros_gz_bridge:/home/soroush/robatics/ProjectWS/install/ros_gz_interfaces:/home/soroush/robatics/ProjectWS/install/eddiebot_virtual_driver:/home/soroush/robatics/ProjectWS/install/eddiebot_vel_controller:/home/soroush/robatics/ProjectWS/install/eddiebot_teleop:/home/soroush/robatics/ProjectWS/install/eddiebot_rviz:/home/soroush/robatics/ProjectWS/install/eddiebot_odom:/home/soroush/robatics/ProjectWS/install/eddiebot_bringup:/home/soroush/robatics/ProjectWS/install/eddiebot_msgs:/home/soroush/robatics/ProjectWS/install/eddiebot_gazebo:/home/soroush/robatics/ProjectWS/install/eddiebot_description:/home/soroush/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/soroush/ws_moveit2/install/moveit_runtime:/home/soroush/ws_moveit2/install/moveit_fum_manipulator:/home/soroush/ws_moveit2/install/moveit2_tutorials:/home/soroush/ws_moveit2/install/moveit:/home/soroush/ws_moveit2/install/model4:/home/soroush/ws_moveit2/install/model:/home/soroush/ws_moveit2/install/fumti3:/home/soroush/ws_moveit2/install/moveit_planners:/home/soroush/ws_moveit2/install/pilz_industrial_motion_planner:/home/soroush/ws_moveit2/install/moveit_visual_tools:/home/soroush/ws_moveit2/install/moveit_task_constructor_visualization:/home/soroush/ws_moveit2/install/moveit_task_constructor_demo:/home/soroush/ws_moveit2/install/moveit_task_constructor_capabilities:/home/soroush/ws_moveit2/install/moveit_task_constructor_core:/home/soroush/ws_moveit2/install/moveit_ros_control_interface:/home/soroush/ws_moveit2/install/moveit_plugins:/home/soroush/ws_moveit2/install/moveit_simple_controller_manager:/home/soroush/ws_moveit2/install/moveit_setup_assistant:/home/soroush/ws_moveit2/install/moveit_setup_srdf_plugins:/home/soroush/ws_moveit2/install/moveit_setup_core_plugins:/home/soroush/ws_moveit2/install/moveit_setup_controllers:/home/soroush/ws_moveit2/install/moveit_setup_app_plugins:/home/soroush/ws_moveit2/install/moveit_setup_framework:/home/soroush/ws_moveit2/install/moveit_servo:/home/soroush/ws_moveit2/install/moveit_ros:/home/soroush/ws_moveit2/install/moveit_ros_visualization:/home/soroush/ws_moveit2/install/moveit_hybrid_planning:/home/soroush/ws_moveit2/install/moveit_ros_planning_interface:/home/soroush/ws_moveit2/install/moveit_ros_benchmarks:/home/soroush/ws_moveit2/install/moveit_ros_warehouse:/home/soroush/ws_moveit2/install/moveit_ros_robot_interaction:/home/soroush/ws_moveit2/install/moveit_ros_perception:/home/soroush/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/soroush/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/soroush/ws_moveit2/install/moveit_ros_move_group:/home/soroush/ws_moveit2/install/moveit_planners_ompl:/home/soroush/ws_moveit2/install/moveit_ros_planning:/home/soroush/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/soroush/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/soroush/ws_moveit2/install/moveit_planners_chomp:/home/soroush/ws_moveit2/install/moveit_kinematics:/home/soroush/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/soroush/ws_moveit2/install/chomp_motion_planner:/home/soroush/ws_moveit2/install/moveit_core:/home/soroush/ws_moveit2/install/srdfdom:/home/soroush/ws_moveit2/install/rviz_marker_tools:/home/soroush/ws_moveit2/install/rosparam_shortcuts:/home/soroush/ws_moveit2/install/moveit_task_constructor_msgs:/home/soroush/ws_moveit2/install/moveit_resources_prbt_support:/home/soroush/ws_moveit2/install/moveit_resources:/home/soroush/ws_moveit2/install/moveit_resources_pr2_description:/home/soroush/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/soroush/ws_moveit2/install/moveit_resources_panda_description:/home/soroush/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/soroush/ws_moveit2/install/moveit_resources_fanuc_description:/home/soroush/ws_moveit2/install/moveit_common:/home/soroush/ws_moveit2/install/model3:/home/soroush/ws_moveit2/install/gz_ros2_control_demos:/home/soroush/ws_moveit2/install/gz_ros2_control:/home/soroush/ws_moveit2/install/fumti:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/home/soroush/robatics/Assignment2/assi2/install/peresenr_one:/home/soroush/robatics/Assignment2/assi2/install/modelgazebo:/home/soroush/robatics/ProjectWS/install/rgb_controller:/home/soroush/robatics/Assignment2/assi2/src/install/turtlemania:/home/soroush/robatics/Assignment2/assi2/src/install/modelgazebo:/home/soroush/robatics/Assignment2/assi2/src/install/lab7:/opt/ros/humble:/home/soroush/ws_moveit2/install/moveit_configs_utils:/home/soroush/ws_moveit2/install/launch_param_builder')]), 'shell': False}
+[1.113156] (-) TimerEvent: {}
+[1.214281] (-) TimerEvent: {}
+[1.316558] (-) TimerEvent: {}
+[1.417541] (-) TimerEvent: {}
+[1.519050] (-) TimerEvent: {}
+[1.622355] (-) TimerEvent: {}
+[1.723684] (-) TimerEvent: {}
+[1.824767] (-) TimerEvent: {}
+[1.925872] (-) TimerEvent: {}
+[2.027216] (-) TimerEvent: {}
+[2.128626] (-) TimerEvent: {}
+[2.229723] (-) TimerEvent: {}
+[2.331796] (-) TimerEvent: {}
+[2.432872] (-) TimerEvent: {}
+[2.533961] (-) TimerEvent: {}
+[2.635104] (-) TimerEvent: {}
+[2.751442] (-) TimerEvent: {}
+[2.852801] (-) TimerEvent: {}
+[2.953835] (-) TimerEvent: {}
+[3.055016] (-) TimerEvent: {}
+[3.156138] (-) TimerEvent: {}
+[3.259933] (-) TimerEvent: {}
+[3.374565] (-) TimerEvent: {}
+[3.475976] (-) TimerEvent: {}
+[3.577321] (-) TimerEvent: {}
+[3.678490] (-) TimerEvent: {}
+[3.780306] (-) TimerEvent: {}
+[3.881423] (-) TimerEvent: {}
+[3.982529] (-) TimerEvent: {}
+[4.083770] (-) TimerEvent: {}
+[4.186681] (-) TimerEvent: {}
+[4.291662] (-) TimerEvent: {}
+[4.393332] (-) TimerEvent: {}
+[4.494557] (-) TimerEvent: {}
+[4.595726] (-) TimerEvent: {}
+[4.698283] (-) TimerEvent: {}
+[4.799382] (-) TimerEvent: {}
+[4.900568] (-) TimerEvent: {}
+[5.001933] (-) TimerEvent: {}
+[5.103952] (-) TimerEvent: {}
+[5.204994] (-) TimerEvent: {}
+[5.306277] (-) TimerEvent: {}
+[5.407865] (-) TimerEvent: {}
+[5.509324] (-) TimerEvent: {}
+[5.613522] (-) TimerEvent: {}
+[5.715137] (-) TimerEvent: {}
+[5.817683] (-) TimerEvent: {}
+[5.924956] (-) TimerEvent: {}
+[6.029426] (-) TimerEvent: {}
+[6.132951] (-) TimerEvent: {}
+[6.235221] (-) TimerEvent: {}
+[6.336661] (-) TimerEvent: {}
+[6.438096] (-) TimerEvent: {}
+[6.539240] (-) TimerEvent: {}
+[6.648021] (-) TimerEvent: {}
+[6.756637] (-) TimerEvent: {}
+[6.857824] (-) TimerEvent: {}
+[6.959000] (-) TimerEvent: {}
+[7.060574] (-) TimerEvent: {}
+[7.162653] (-) TimerEvent: {}
+[7.264225] (-) TimerEvent: {}
+[7.365669] (-) TimerEvent: {}
+[7.467537] (-) TimerEvent: {}
+[7.570399] (-) TimerEvent: {}
+[7.672859] (-) TimerEvent: {}
+[7.773992] (-) TimerEvent: {}
+[7.875498] (-) TimerEvent: {}
+[7.976824] (-) TimerEvent: {}
+[8.077932] (-) TimerEvent: {}
+[8.179039] (-) TimerEvent: {}
+[8.280156] (-) TimerEvent: {}
+[8.383020] (-) TimerEvent: {}
+[8.484619] (-) TimerEvent: {}
+[8.585673] (-) TimerEvent: {}
+[8.688900] (-) TimerEvent: {}
+[8.790548] (-) TimerEvent: {}
+[8.893567] (-) TimerEvent: {}
+[8.994685] (-) TimerEvent: {}
+[9.095963] (-) TimerEvent: {}
+[9.199485] (-) TimerEvent: {}
+[9.301283] (-) TimerEvent: {}
+[9.403216] (-) TimerEvent: {}
+[9.505325] (-) TimerEvent: {}
+[9.606497] (-) TimerEvent: {}
+[9.707819] (-) TimerEvent: {}
+[9.808855] (-) TimerEvent: {}
+[9.910168] (-) TimerEvent: {}
+[10.011935] (-) TimerEvent: {}
+[10.115061] (-) TimerEvent: {}
+[10.205814] (qosexample) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 241, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 288, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.10/subprocess.py", line 524, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[10.222698] (-) TimerEvent: {}
+[10.224107] (qosexample) JobEnded: {'identifier': 'qosexample', 'rc': 1}
+[10.237987] (interfaces) StdoutLine: {'line': b'[  2%] Built target interfaces__cpp\n'}
+[10.238845] (interfaces) StdoutLine: {'line': b'[ 12%] Built target interfaces__rosidl_generator_c\n'}
+[10.239483] (interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_interfaces\n'}
+[10.240054] (interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/first_srevice_message__type_support.cpp.o\x1b[0m\n'}
+[10.240760] (interfaces) StdoutLine: {'line': b'[ 25%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[10.241373] (interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/first_msg_message__type_support.cpp.o\x1b[0m\n'}
+[10.241931] (interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/first_msg_message__type_support.cpp.o\x1b[0m\n'}
+[10.242484] (interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/first_msg_message__type_support.cpp.o\x1b[0m\n'}
+[10.243007] (interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/first_msg_message__type_support_c.cpp.o\x1b[0m\n'}
+[10.243590] (interfaces) StdoutLine: {'line': b'[ 46%] Built target interfaces__rosidl_typesupport_c\n'}
+[10.244124] (interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/first_srevice_message__type_support.cpp.o\x1b[0m\n'}
+[10.244668] (interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/first_srevice_message__type_support_c.cpp.o\x1b[0m\n'}
+[10.245197] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[10.245738] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[10.246250] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[10.246769] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[10.247308] (interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/first_srevice_message__type_support.cpp.o\x1b[0m\n'}
+[10.247878] (interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.248406] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[10.248909] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[10.249421] (interfaces) StdoutLine: {'line': b'[ 56%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[10.250048] (interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.250843] (interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.251588] (interfaces) StdoutLine: {'line': b'[ 64%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[10.252315] (interfaces) StdoutLine: {'line': b'[ 66%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[10.253043] (interfaces) StdoutLine: {'line': b'[ 69%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[10.255695] (interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.256413] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[10.257031] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces\n'}
+[10.257587] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[10.258235] (ros_gz_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[10.258777] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[10.259323] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[10.259836] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[10.260328] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[10.260828] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.261356] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.261891] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rcl_interfaces: 1.2.1 (/opt/ros/humble/share/rcl_interfaces/cmake)\n'}
+[10.262431] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[10.262965] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[10.263621] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[10.264187] (ros_gz_sim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[10.264801] (ros_gz_sim) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[10.265313] (ros_gz_sim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[10.265824] (ros_gz_sim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[10.266333] (ros_gz_sim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[10.266846] (ros_gz_sim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[10.267441] (ros_gz_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.268023] (ros_gz_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.268560] (ros_gz_sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[10.269097] (ros_gz_sim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[10.269628] (ros_gz_sim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.270193] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.1.0\n'}
+[10.270721] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[10.271341] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[10.271896] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[10.272400] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-transport12 -- found version 12.1.0\n'}
+[10.272894] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport12\n'}
+[10.273388] (lab7) JobEnded: {'identifier': 'lab7', 'rc': 'SIGINT'}
+[10.275370] (modelgazebo) JobEnded: {'identifier': 'modelgazebo', 'rc': 'SIGINT'}
+[10.277800] (peresenr_one) JobEnded: {'identifier': 'peresenr_one', 'rc': 'SIGINT'}
+[10.279596] (quality_of_service_demo) JobEnded: {'identifier': 'quality_of_service_demo', 'rc': 'SIGINT'}
+[10.322933] (-) TimerEvent: {}
+[10.421453] (interfaces) StdoutLine: {'line': b'[ 76%] Built target interfaces__py\n'}
+[10.423363] (-) TimerEvent: {}
+[10.524466] (-) TimerEvent: {}
+[10.532865] (ros_gz_sim) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[10.576534] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[10.624858] (-) TimerEvent: {}
+[10.657741] (interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_first_msg_message_s.c.o\x1b[0m\n'}
+[10.662247] (interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_first_srevice_message_s.c.o\x1b[0m\n'}
+[10.725075] (-) TimerEvent: {}
+[10.772668] (ros_gz_sim) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[10.825317] (-) TimerEvent: {}
+[10.926329] (-) TimerEvent: {}
+[10.933209] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.5 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[10.941429] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.5 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[10.950067] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.5 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[10.961394] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[11.026553] (-) TimerEvent: {}
+[11.127596] (-) TimerEvent: {}
+[11.197005] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[11.227776] (-) TimerEvent: {}
+[11.328714] (-) TimerEvent: {}
+[11.368056] (ros_gz_sim) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[11.428921] (-) TimerEvent: {}
+[11.529988] (-) TimerEvent: {}
+[11.589996] (interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so\x1b[0m\n'}
+[11.630178] (-) TimerEvent: {}
+[11.688964] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[11.692053] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[11.692894] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[11.696032] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.0.0\n'}
+[11.700101] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[11.710208] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.4.0\n'}
+[11.715398] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs9\n'}
+[11.730394] (-) TimerEvent: {}
+[11.831465] (-) TimerEvent: {}
+[11.912690] (interfaces) StdoutLine: {'line': b'[ 84%] Built target interfaces__rosidl_generator_py\n'}
+[11.931684] (-) TimerEvent: {}
+[11.985405] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.1.0\n'}
+[12.031958] (-) TimerEvent: {}
+[12.038171] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[12.132185] (-) TimerEvent: {}
+[12.158466] (interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.167685] (interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.178947] (interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.232371] (-) TimerEvent: {}
+[12.240601] (ros_gz_sim) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[12.332563] (-) TimerEvent: {}
+[12.434292] (-) TimerEvent: {}
+[12.538707] (-) TimerEvent: {}
+[12.623735] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.4.0\n'}
+[12.630663] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sim7 -- found version 7.4.0\n'}
+[12.635008] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sim7\n'}
+[12.640095] (-) TimerEvent: {}
+[12.642691] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for sdformat13 -- found version 13.4.1\n'}
+[12.644909] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of sdformat13\n'}
+[12.695929] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.1.0\n'}
+[12.699654] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[12.716942] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.1\n'}
+[12.718847] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[12.722115] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[12.728331] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [loader]\n'}
+[12.734189] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-plugin2-loader -- found version 2.0.1\n'}
+[12.738424] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-loader\n'}
+[12.740190] (-) TimerEvent: {}
+[12.746465] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [register]\n'}
+[12.753414] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-plugin2-register -- found version 2.0.1\n'}
+[12.756696] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-register\n'}
+[12.763250] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-transport12 -- found version 12.1.0\n'}
+[12.766108] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport12\n'}
+[12.850649] (-) TimerEvent: {}
+[12.952973] (-) TimerEvent: {}
+[13.009442] (interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.032363] (interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.033669] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.053185] (-) TimerEvent: {}
+[13.154208] (-) TimerEvent: {}
+[13.232782] (ros_gz_sim) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[13.254371] (-) TimerEvent: {}
+[13.276814] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[13.326813] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[13.344612] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[13.354595] (-) TimerEvent: {}
+[13.370486] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[13.442455] (ros_gz_sim) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[13.454846] (-) TimerEvent: {}
+[13.461048] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 'SIGINT'}
+[13.555054] (-) TimerEvent: {}
+[13.655963] (-) TimerEvent: {}
+[13.756614] (-) TimerEvent: {}
+[13.819426] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[13.821536] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.4.0\n'}
+[13.822605] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-transport12> component [log]\n'}
+[13.825469] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-transport12-log -- found version 12.1.0\n'}
+[13.828638] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport12-log\n'}
+[13.832624] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-transport12> component [parameters]\n'}
+[13.836351] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-transport12-parameters -- found version 12.1.0\n'}
+[13.840067] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport12-parameters\n'}
+[13.847385] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.4.0\n'}
+[13.852604] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.3.1\n'}
+[13.856005] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[13.856702] (-) TimerEvent: {}
+[13.858722] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[13.860382] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[13.861129] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[13.916387] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [profiler]\n'}
+[13.919013] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5-profiler -- found version 5.3.1\n'}
+[13.921795] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-profiler\n'}
+[13.925448] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[13.928690] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5-events -- found version 5.3.1\n'}
+[13.932474] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-events\n'}
+[13.934861] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.1.0\n'}
+[13.939018] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [av]\n'}
+[13.943761] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5-av -- found version 5.3.1\n'}
+[13.946618] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-av\n'}
+[13.956970] (-) TimerEvent: {}
+[13.981555] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[14.057178] (-) TimerEvent: {}
+[14.132798] (ros_gz_sim) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[14.157395] (-) TimerEvent: {}
+[14.258096] (-) TimerEvent: {}
+[14.358748] (-) TimerEvent: {}
+[14.459470] (-) TimerEvent: {}
+[14.470882] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[14.559715] (-) TimerEvent: {}
+[14.623477] (ros_gz_sim) StdoutLine: {'line': b'--   Found libavdevice , version 58.13.100\n'}
+[14.659896] (-) TimerEvent: {}
+[14.760704] (-) TimerEvent: {}
+[14.861351] (-) TimerEvent: {}
+[14.945809] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[14.961547] (-) TimerEvent: {}
+[14.995175] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[15.061717] (-) TimerEvent: {}
+[15.149583] (ros_gz_sim) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[15.161917] (-) TimerEvent: {}
+[15.262764] (-) TimerEvent: {}
+[15.363453] (-) TimerEvent: {}
+[15.465234] (-) TimerEvent: {}
+[15.519215] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[15.565497] (-) TimerEvent: {}
+[15.666396] (-) TimerEvent: {}
+[15.680869] (ros_gz_sim) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[15.766588] (-) TimerEvent: {}
+[15.867553] (-) TimerEvent: {}
+[15.968506] (-) TimerEvent: {}
+[16.050324] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[16.068671] (-) TimerEvent: {}
+[16.169431] (-) TimerEvent: {}
+[16.212721] (ros_gz_sim) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[16.269707] (-) TimerEvent: {}
+[16.370418] (-) TimerEvent: {}
+[16.416867] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[16.470625] (-) TimerEvent: {}
+[16.522852] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [io]\n'}
+[16.526881] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5-io -- found version 5.3.1\n'}
+[16.532058] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-io\n'}
+[16.540357] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-fuel_tools8 -- found version 8.0.2\n'}
+[16.543821] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-fuel_tools8\n'}
+[16.570805] (-) TimerEvent: {}
+[16.615098] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[16.671014] (-) TimerEvent: {}
+[16.772462] (-) TimerEvent: {}
+[16.793888] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[16.794622] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[16.795203] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[16.872685] (-) TimerEvent: {}
+[16.959818] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[16.972895] (-) TimerEvent: {}
+[17.075425] (-) TimerEvent: {}
+[17.111902] (ros_gz_sim) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[17.175603] (-) TimerEvent: {}
+[17.276446] (-) TimerEvent: {}
+[17.377302] (-) TimerEvent: {}
+[17.458215] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[17.467746] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.5 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[17.472283] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.5 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[17.477540] (-) TimerEvent: {}
+[17.574238] (ros_gz_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.577735] (-) TimerEvent: {}
+[17.610644] (ros_gz_sim) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[17.678039] (-) TimerEvent: {}
+[17.778984] (-) TimerEvent: {}
+[17.879952] (-) TimerEvent: {}
+[17.907381] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[17.909361] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.3.1\n'}
+[17.911823] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.1.0\n'}
+[17.914411] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.4.0\n'}
+[17.925238] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-gui7 -- found version 7.1.0\n'}
+[17.928478] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-gui7\n'}
+[17.980157] (-) TimerEvent: {}
+[18.080944] (-) TimerEvent: {}
+[18.086536] (ros_gz_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[18.106967] (ros_gz_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/soroush/robatics/Assignment2/assi2/build/ros_gz_interfaces\n'}
+[18.144130] (ros_gz_interfaces) JobEnded: {'identifier': 'ros_gz_interfaces', 'rc': 'SIGINT'}
+[18.181226] (-) TimerEvent: {}
+[18.199198] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[18.201566] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.1.0\n'}
+[18.203993] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.3.1\n'}
+[18.206786] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.1\n'}
+[18.210287] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-transport12 -- found version 12.1.0\n'}
+[18.214093] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-rendering7 -- found version 7.3.1\n'}
+[18.217862] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-rendering7\n'}
+[18.220238] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.1.0\n'}
+[18.223777] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[18.226431] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[18.227759] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-math7> component [eigen3]\n'}
+[18.231796] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7-eigen3 -- found version 7.1.0\n'}
+[18.235099] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7-eigen3\n'}
+[18.247766] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.3.1\n'}
+[18.251194] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[18.253890] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[18.255387] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[18.255945] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[18.281383] (-) TimerEvent: {}
+[18.306059] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[18.309424] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5-graphics -- found version 5.3.1\n'}
+[18.313756] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-graphics\n'}
+[18.316138] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.1.0\n'}
+[18.335738] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[18.337956] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [geospatial]\n'}
+[18.341704] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5-geospatial -- found version 5.3.1\n'}
+[18.345610] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-geospatial\n'}
+[18.348381] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.1.0\n'}
+[18.350827] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.3.1\n'}
+[18.358491] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.1\n'}
+[18.360960] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[18.362558] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[18.363189] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [all]\n'}
+[18.366773] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for all libraries of gz-plugin2 -- found version 2.0.1\n'}
+[18.369309] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.1\n'}
+[18.380778] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[18.381446] (-) TimerEvent: {}
+[18.477828] (ros_gz_sim) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL \n'}
+[18.481621] (-) TimerEvent: {}
+[18.485870] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.4.0\n'}
+[18.581876] (-) TimerEvent: {}
+[18.621079] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-physics6 -- found version 6.3.2\n'}
+[18.623339] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics6\n'}
+[18.625138] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.1.0\n'}
+[18.627175] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.1\n'}
+[18.630139] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[18.639976] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-physics6> component [heightmap]\n'}
+[18.643000] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-physics6-heightmap -- found version 6.3.2\n'}
+[18.645640] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics6-heightmap\n'}
+[18.647374] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.3.1\n'}
+[18.650399] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-physics6> component [mesh]\n'}
+[18.653357] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-physics6-mesh -- found version 6.3.2\n'}
+[18.656150] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics6-mesh\n'}
+[18.658306] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.3.1\n'}
+[18.661777] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-physics6> component [sdf]\n'}
+[18.665186] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-physics6-sdf -- found version 6.3.2\n'}
+[18.668653] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics6-sdf\n'}
+[18.671343] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for sdformat13 -- found version 13.4.1\n'}
+[18.678296] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.2.0\n'}
+[18.680808] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7\n'}
+[18.682055] (-) TimerEvent: {}
+[18.782767] (-) TimerEvent: {}
+[18.883472] (-) TimerEvent: {}
+[18.908514] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.1.0\n'}
+[18.910676] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.3.1\n'}
+[18.913490] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-transport12 -- found version 12.1.0\n'}
+[18.916448] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-rendering7 -- found version 7.3.1\n'}
+[18.919663] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.4.0\n'}
+[18.922561] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for sdformat13 -- found version 13.4.1\n'}
+[18.928767] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [air_pressure]\n'}
+[18.932313] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7-air_pressure -- found version 7.2.0\n'}
+[18.934865] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-air_pressure\n'}
+[18.938057] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [air_speed]\n'}
+[18.941096] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7-air_speed -- found version 7.2.0\n'}
+[18.943639] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-air_speed\n'}
+[18.947874] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [altimeter]\n'}
+[18.952005] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7-altimeter -- found version 7.2.0\n'}
+[18.955385] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-altimeter\n'}
+[18.959649] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [imu]\n'}
+[18.963135] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7-imu -- found version 7.2.0\n'}
+[18.965910] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-imu\n'}
+[18.969061] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [force_torque]\n'}
+[18.972109] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7-force_torque -- found version 7.2.0\n'}
+[18.975471] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-force_torque\n'}
+[18.979480] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [logical_camera]\n'}
+[18.983668] (-) TimerEvent: {}
+[18.984571] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7-logical_camera -- found version 7.2.0\n'}
+[18.987971] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-logical_camera\n'}
+[18.991878] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [magnetometer]\n'}
+[18.995017] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7-magnetometer -- found version 7.2.0\n'}
+[18.997614] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-magnetometer\n'}
+[19.001366] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [navsat]\n'}
+[19.004368] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7-navsat -- found version 7.2.0\n'}
+[19.007170] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-navsat\n'}
+[19.012191] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [rendering]\n'}
+[19.015655] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7-rendering -- found version 7.2.0\n'}
+[19.019540] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-rendering\n'}
+[19.023497] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [lidar]\n'}
+[19.026691] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7-lidar -- found version 7.2.0\n'}
+[19.029521] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-lidar\n'}
+[19.032090] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.2.0\n'}
+[19.035702] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [gpu_lidar]\n'}
+[19.038909] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7-gpu_lidar -- found version 7.2.0\n'}
+[19.041601] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-gpu_lidar\n'}
+[19.044621] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.2.0\n'}
+[19.048732] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [camera]\n'}
+[19.052433] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7-camera -- found version 7.2.0\n'}
+[19.056748] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-camera\n'}
+[19.058752] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.2.0\n'}
+[19.061793] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [boundingbox_camera]\n'}
+[19.064874] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7-boundingbox_camera -- found version 7.2.0\n'}
+[19.067641] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-boundingbox_camera\n'}
+[19.070956] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [segmentation_camera]\n'}
+[19.074823] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7-segmentation_camera -- found version 7.2.0\n'}
+[19.079763] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-segmentation_camera\n'}
+[19.083041] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [depth_camera]\n'}
+[19.083686] (-) TimerEvent: {}
+[19.088055] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7-depth_camera -- found version 7.2.0\n'}
+[19.090754] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-depth_camera\n'}
+[19.092690] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.2.0\n'}
+[19.095743] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [rgbd_camera]\n'}
+[19.098775] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7-rgbd_camera -- found version 7.2.0\n'}
+[19.101411] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-rgbd_camera\n'}
+[19.103451] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.2.0\n'}
+[19.107194] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [thermal_camera]\n'}
+[19.111192] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7-thermal_camera -- found version 7.2.0\n'}
+[19.114855] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-thermal_camera\n'}
+[19.117473] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.2.0\n'}
+[19.121416] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [wide_angle_camera]\n'}
+[19.124601] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors7-wide_angle_camera -- found version 7.2.0\n'}
+[19.127068] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-wide_angle_camera\n'}
+[19.132042] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-rendering7 -- found version 7.3.1\n'}
+[19.134164] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.1.0\n'}
+[19.136760] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[19.183878] (-) TimerEvent: {}
+[19.284554] (-) TimerEvent: {}
+[19.367341] (ros_gz_sim) StdoutLine: {'line': b'-- Compiling against Gazebo Garden\n'}
+[19.377835] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gflags - found\n'}
+[19.378830] (ros_gz_sim) StdoutLine: {'line': b'\n'}
+[19.384788] (-) TimerEvent: {}
+[19.448137] (ros_gz_sim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[19.484948] (-) TimerEvent: {}
+[19.585677] (-) TimerEvent: {}
+[19.686387] (-) TimerEvent: {}
+[19.787797] (-) TimerEvent: {}
+[19.888663] (-) TimerEvent: {}
+[19.951206] (ros_gz_sim) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[19.956751] (ros_gz_sim) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[19.988854] (-) TimerEvent: {}
+[20.027635] (ros_gz_sim) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[20.036293] (ros_gz_sim) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[20.037271] (ros_gz_sim) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_sim/include>\n'}
+[20.037758] (ros_gz_sim) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[20.043944] (ros_gz_sim) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[20.044760] (ros_gz_sim) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[20.049091] (ros_gz_sim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[20.057413] (ros_gz_sim) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[20.058143] (ros_gz_sim) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[20.060073] (ros_gz_sim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[20.068228] (ros_gz_sim) StdoutLine: {'line': b'-- Configuring done\n'}
+[20.089029] (-) TimerEvent: {}
+[20.189668] (-) TimerEvent: {}
+[20.214689] (ros_gz_sim) StdoutLine: {'line': b'-- Generating done\n'}
+[20.229178] (ros_gz_sim) StdoutLine: {'line': b'-- Build files have been written to: /home/soroush/robatics/Assignment2/assi2/build/ros_gz_sim\n'}
+[20.290834] (ros_gz_sim) JobEnded: {'identifier': 'ros_gz_sim', 'rc': 'SIGINT'}
+[20.292932] (-) TimerEvent: {}
+[20.303412] (turtlemania) JobSkipped: {'identifier': 'turtlemania'}
+[20.303782] (turtlesim_controller) JobSkipped: {'identifier': 'turtlesim_controller'}
+[20.304044] (ros_gz_bridge) JobSkipped: {'identifier': 'ros_gz_bridge'}
+[20.304205] (yangsim) JobSkipped: {'identifier': 'yangsim'}
+[20.304325] (yinsim) JobSkipped: {'identifier': 'yinsim'}
+[20.304443] (ros_gz_image) JobSkipped: {'identifier': 'ros_gz_image'}
+[20.304522] (ros_gz_sim_demos) JobSkipped: {'identifier': 'ros_gz_sim_demos'}
+[20.304598] (ros_gz) JobSkipped: {'identifier': 'ros_gz'}
+[20.304676] (-) EventReactorShutdown: {}

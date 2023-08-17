@@ -1,0 +1,11 @@
+[0.030s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim': CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/yangsim -- -j8 -l8
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target yangnode[0m
+[0.139s] [ 50%] [32mBuilding CXX object CMakeFiles/yangnode.dir/src/yangnode.cpp.o[0m
+[4.328s] [01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:[m[K In member function ‘[01m[Kint yang::callbackService(interfaces::srv::FirstSreviceMessage_Request_<std::allocator<void> >::SharedPtr, interfaces::srv::FirstSreviceMessage_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.328s] [01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:51:32:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<interfaces::srv::FirstSreviceMessage_Response_<std::allocator<void> > >[m[K’} to ‘[01m[Kint[m[K’ in return
+[4.328s]    51 |                         return [01;31m[Kresponse[m[K ;
+[4.328s]       |                                [01;31m[K^~~~~~~~[m[K
+[5.433s] gmake[2]: *** [CMakeFiles/yangnode.dir/build.make:76: CMakeFiles/yangnode.dir/src/yangnode.cpp.o] Error 1
+[5.434s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yangnode.dir/all] Error 2
+[5.434s] gmake: *** [Makefile:146: all] Error 2
+[5.438s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim' returned '2': CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/yangsim -- -j8 -l8

@@ -1,0 +1,44 @@
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:16:30:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   16 | public : char* colour[7] = { [01;35m[K"Hi Yin, I am Yang the opposite of you."[m[K,
+      |                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:17:1:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   17 | [01;35m[K"Yes, Yin; we ourselves, do not mean anything since we are only employed to express a relation"[m[K,
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:18:1:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   18 | [01;35m[K"Precisely, Yin; we are used to describe how things function inrelation to each other and to the universe."[m[K,
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:19:1:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   19 | [01;35m[K"For what is and what is not beget each other."[m[K,
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:20:1:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   20 | [01;35m[K"High and low place each other."[m[K,
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:21:1:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   21 | [01;35m[K"Before and behind follow each other."[m[K,
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:22:1:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   22 | [01;35m[K"And you fade into the darkness."[m[K }
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:24:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kpublic[m[K’
+   24 | [01;31m[Kpublic[m[K:
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:68:34:[m[K [01;31m[Kerror: [m[K‘[01m[KAddTwoIntsClientNode[m[K’ was not declared in this scope
+   68 |     auto node = std::make_shared<[01;31m[KAddTwoIntsClientNode[m[K>();
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:68:55:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   68 |     auto node = [01;31m[Kstd::make_shared<AddTwoIntsClientNode>()[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:68:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   68 |     auto node = [01;31m[Kstd::make_shared<AddTwoIntsClientNode>()[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/yangnode.dir/build.make:76: CMakeFiles/yangnode.dir/src/yangnode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yangnode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

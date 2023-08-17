@@ -1,0 +1,7 @@
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:[m[K In member function ‘[01m[Kvoid yang::callbackService(interfaces::srv::FirstSreviceMessage_Request_<std::allocator<void> >::SharedPtr, interfaces::srv::FirstSreviceMessage_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:51:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kr[m[K’ was not declared in this scope
+   51 |                         [01;31m[Kr[m[K
+      |                         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/yangnode.dir/build.make:76: CMakeFiles/yangnode.dir/src/yangnode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yangnode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

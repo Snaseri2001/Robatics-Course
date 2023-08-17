@@ -1,0 +1,2 @@
+Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/interfaces
+Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/interfaces

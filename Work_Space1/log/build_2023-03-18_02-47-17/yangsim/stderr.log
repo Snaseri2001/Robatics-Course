@@ -1,0 +1,8 @@
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:[m[K In member function ‘[01m[Kvoid yang::callbackService(interfaces::srv::FirstSreviceMessage_Request_<std::allocator<void> >::SharedPtr, interfaces::srv::FirstSreviceMessage_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:52:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstr[m[K’
+   52 |                message.message = "yang said : Message ->  " [01;31m[Kstr[m[K+ "length -> "+ std::to_string(len)+"result ->"+std::to_string(sum);
+      |                                                             [01;31m[K^~~[m[K
+
+gmake[2]: *** [CMakeFiles/yangnode.dir/build.make:76: CMakeFiles/yangnode.dir/src/yangnode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yangnode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

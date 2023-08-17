@@ -1,0 +1,31 @@
+[0.598s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller': PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/prefix_override:/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/turtlesim_controller build --build-base /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/build install --record /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/install.log --single-version-externally-managed
+[0.836s] running egg_info
+[0.837s] writing build/turtlesim_controller/turtlesim_controller.egg-info/PKG-INFO
+[0.837s] writing dependency_links to build/turtlesim_controller/turtlesim_controller.egg-info/dependency_links.txt
+[0.837s] writing entry points to build/turtlesim_controller/turtlesim_controller.egg-info/entry_points.txt
+[0.838s] writing requirements to build/turtlesim_controller/turtlesim_controller.egg-info/requires.txt
+[0.838s] writing top-level names to build/turtlesim_controller/turtlesim_controller.egg-info/top_level.txt
+[0.841s] reading manifest file 'build/turtlesim_controller/turtlesim_controller.egg-info/SOURCES.txt'
+[0.842s] writing manifest file 'build/turtlesim_controller/turtlesim_controller.egg-info/SOURCES.txt'
+[0.842s] running build
+[0.842s] running build_py
+[0.842s] copying turtlesim_controller/turtlesim_controller.py -> /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/build/lib/turtlesim_controller
+[0.842s] running install
+[0.842s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.843s]   warnings.warn(
+[0.843s] running install_lib
+[0.844s] copying /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/build/lib/turtlesim_controller/turtlesim_controller.py -> /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/python3.10/site-packages/turtlesim_controller
+[0.844s] byte-compiling /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/python3.10/site-packages/turtlesim_controller/turtlesim_controller.py to turtlesim_controller.cpython-310.pyc
+[0.845s] running install_data
+[0.845s]   File "/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/python3.10/site-packages/turtlesim_controller/turtlesim_controller.py", line 5
+[0.845s]     from turtlesim.msg._pose
+[0.845s]                             ^
+[0.845s] SyntaxError: invalid syntax
+[0.845s] 
+[0.846s] running install_egg_info
+[0.847s] removing '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/python3.10/site-packages/turtlesim_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.848s] Copying build/turtlesim_controller/turtlesim_controller.egg-info to /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/python3.10/site-packages/turtlesim_controller-0.0.0-py3.10.egg-info
+[0.849s] running install_scripts
+[0.870s] Installing turtlesim_controller script to /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/turtlesim_controller
+[0.870s] writing list of installed files to '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/install.log'
+[0.897s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller' returned '0': PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/prefix_override:/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/turtlesim_controller build --build-base /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/build install --record /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/install.log --single-version-externally-managed

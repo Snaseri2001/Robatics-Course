@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv/SendMessageInConvo.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module srv {
+    struct SendMessageInConvo_Request {
+      string message;
+
+      int64 len;
+    };
+    struct SendMessageInConvo_Response {
+      int64 result;
+    };
+  };
+};

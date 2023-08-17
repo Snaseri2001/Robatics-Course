@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/peresenr_one/peresenr_one.egg-info
+writing ../../build/peresenr_one/peresenr_one.egg-info/PKG-INFO
+writing dependency_links to ../../build/peresenr_one/peresenr_one.egg-info/dependency_links.txt
+writing entry points to ../../build/peresenr_one/peresenr_one.egg-info/entry_points.txt
+writing requirements to ../../build/peresenr_one/peresenr_one.egg-info/requires.txt
+writing top-level names to ../../build/peresenr_one/peresenr_one.egg-info/top_level.txt
+writing manifest file '../../build/peresenr_one/peresenr_one.egg-info/SOURCES.txt'
+reading manifest file '../../build/peresenr_one/peresenr_one.egg-info/SOURCES.txt'
+writing manifest file '../../build/peresenr_one/peresenr_one.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/soroush/robatics/Assignment2/assi2/build/peresenr_one/build
+creating /home/soroush/robatics/Assignment2/assi2/build/peresenr_one/build/lib
+creating /home/soroush/robatics/Assignment2/assi2/build/peresenr_one/build/lib/peresenr_one
+copying peresenr_one/__init__.py -> /home/soroush/robatics/Assignment2/assi2/build/peresenr_one/build/lib/peresenr_one
+copying peresenr_one/subscriber.py -> /home/soroush/robatics/Assignment2/assi2/build/peresenr_one/build/lib/peresenr_one
+copying peresenr_one/publisher.py -> /home/soroush/robatics/Assignment2/assi2/build/peresenr_one/build/lib/peresenr_one
+running install
+/home/soroush/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/soroush/robatics/Assignment2/assi2/install/peresenr_one/lib/python3.10/site-packages/peresenr_one
+copying /home/soroush/robatics/Assignment2/assi2/build/peresenr_one/build/lib/peresenr_one/__init__.py -> /home/soroush/robatics/Assignment2/assi2/install/peresenr_one/lib/python3.10/site-packages/peresenr_one
+copying /home/soroush/robatics/Assignment2/assi2/build/peresenr_one/build/lib/peresenr_one/subscriber.py -> /home/soroush/robatics/Assignment2/assi2/install/peresenr_one/lib/python3.10/site-packages/peresenr_one
+copying /home/soroush/robatics/Assignment2/assi2/build/peresenr_one/build/lib/peresenr_one/publisher.py -> /home/soroush/robatics/Assignment2/assi2/install/peresenr_one/lib/python3.10/site-packages/peresenr_one
+byte-compiling /home/soroush/robatics/Assignment2/assi2/install/peresenr_one/lib/python3.10/site-packages/peresenr_one/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/soroush/robatics/Assignment2/assi2/install/peresenr_one/lib/python3.10/site-packages/peresenr_one/subscriber.py to subscriber.cpython-310.pyc
+byte-compiling /home/soroush/robatics/Assignment2/assi2/install/peresenr_one/lib/python3.10/site-packages/peresenr_one/publisher.py to publisher.cpython-310.pyc
+running install_data
+creating /home/soroush/robatics/Assignment2/assi2/install/peresenr_one/share/ament_index
+creating /home/soroush/robatics/Assignment2/assi2/install/peresenr_one/share/ament_index/resource_index
+creating /home/soroush/robatics/Assignment2/assi2/install/peresenr_one/share/ament_index/resource_index/packages
+copying resource/peresenr_one -> /home/soroush/robatics/Assignment2/assi2/install/peresenr_one/share/ament_index/resource_index/packages
+copying package.xml -> /home/soroush/robatics/Assignment2/assi2/install/peresenr_one/share/peresenr_one
+running install_egg_info
+Copying ../../build/peresenr_one/peresenr_one.egg-info to /home/soroush/robatics/Assignment2/assi2/install/peresenr_one/lib/python3.10/site-packages/peresenr_one-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/soroush/robatics/Assignment2/assi2/install/peresenr_one/lib/peresenr_one
+Installing talker script to /home/soroush/robatics/Assignment2/assi2/install/peresenr_one/lib/peresenr_one
+writing list of installed files to '/home/soroush/robatics/Assignment2/assi2/build/peresenr_one/install.log'

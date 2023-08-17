@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000106] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.000141] (-) JobUnselected: {'identifier': 'turtlesim_controller'}
+[0.000171] (-) JobUnselected: {'identifier': 'yinsim'}
+[0.000195] (yangsim) JobQueued: {'identifier': 'yangsim', 'dependencies': OrderedDict([('interfaces', '/home/soroush/robatics/Assignment2/assi2/install/interfaces')])}
+[0.000223] (yangsim) JobStarted: {'identifier': 'yangsim'}
+[0.019565] (yangsim) JobProgress: {'identifier': 'yangsim', 'progress': 'cmake'}
+[0.021061] (yangsim) JobProgress: {'identifier': 'yangsim', 'progress': 'build'}
+[0.021102] (yangsim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/soroush/robatics/Assignment2/assi2/build/yangsim', '--', '-j8', '-l8'], 'cwd': '/home/soroush/robatics/Assignment2/assi2/build/yangsim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soroush'), ('LC_TIME', 'fa_IR.UTF-8'), ('HOSTNAME', 'rosbox.soroush-HP-Laptop-15-da0xxx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/soroush'), ('OLDPWD', '/home/soroush'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fa_IR.UTF-8'), ('DISTROBOX_ENTER_PATH', '/usr/local/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '2074'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soroush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'soroush'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/home/soroush/.local/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/soroush-HP-Laptop-15-da0xxx:@/tmp/.ICE-unix/1891,unix/soroush-HP-Laptop-15-da0xxx:/tmp/.ICE-unix/1891'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fa_IR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ee59c0de_cf1e_4815_9353_13949e141e3f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fa_IR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QKHS11'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/soroush/robatics/Assignment2/assi2/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fa_IR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fa_IR.UTF-8'), ('LC_IDENTIFICATION', 'fa_IR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/soroush/robatics/Assignment2/assi2/build/yangsim'), ('CONTAINER_ID', 'rosbox'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fa_IR.UTF-8'), ('LC_PAPER', 'fa_IR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/soroush/robatics/Assignment2/assi2/install/interfaces:/opt/ros/humble')]), 'shell': False}
+[0.099049] (-) TimerEvent: {}
+[0.181634] (yangsim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/yangnode.dir/src/yangnode.cpp.o\x1b[0m\n'}
+[0.199227] (-) TimerEvent: {}
+[0.299571] (-) TimerEvent: {}
+[0.399839] (-) TimerEvent: {}
+[0.500103] (-) TimerEvent: {}
+[0.600365] (-) TimerEvent: {}
+[0.658652] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:18:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing terminating " character\n'}
+[0.658987] (yangsim) StderrLine: {'line': b'   18 | \x1b[01;35m\x1b[K"\x1b[m\x1b[KYes, Yin; we ourselves, do not mean anything since we are only\n'}
+[0.659096] (yangsim) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.659185] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:18:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmissing terminating " character\n'}
+[0.659270] (yangsim) StderrLine: {'line': b'   18 | \x1b[01;31m\x1b[K"Yes, Yin; we ourselves, do not mean anything since we are only\x1b[m\x1b[K\n'}
+[0.659352] (yangsim) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.659432] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:19:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing terminating " character\n'}
+[0.659513] (yangsim) StderrLine: {'line': b'   19 | employed to express a relation\x1b[01;35m\x1b[K"\x1b[m\x1b[K,\n'}
+[0.659595] (yangsim) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.659675] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:19:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmissing terminating " character\n'}
+[0.659756] (yangsim) StderrLine: {'line': b'   19 | employed to express a relation\x1b[01;31m\x1b[K",\x1b[m\x1b[K\n'}
+[0.659836] (yangsim) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[0.659915] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:20:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing terminating " character\n'}
+[0.659996] (yangsim) StderrLine: {'line': b'   20 | \x1b[01;35m\x1b[K"\x1b[m\x1b[KPrecisely, Yin; we are used to describe how things function in\n'}
+[0.660076] (yangsim) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.660156] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:20:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmissing terminating " character\n'}
+[0.660245] (yangsim) StderrLine: {'line': b'   20 | \x1b[01;31m\x1b[K"Precisely, Yin; we are used to describe how things function in\x1b[m\x1b[K\n'}
+[0.660326] (yangsim) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.660405] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:21:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing terminating " character\n'}
+[0.660485] (yangsim) StderrLine: {'line': b'   21 | relation to each other and to the universe.\x1b[01;35m\x1b[K"\x1b[m\x1b[K,\n'}
+[0.660577] (yangsim) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.660660] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:21:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmissing terminating " character\n'}
+[0.660740] (yangsim) StderrLine: {'line': b'   21 | relation to each other and to the universe.\x1b[01;31m\x1b[K",\x1b[m\x1b[K\n'}
+[0.660820] (yangsim) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[0.700492] (-) TimerEvent: {}
+[0.800729] (-) TimerEvent: {}
+[0.900995] (-) TimerEvent: {}
+[1.001258] (-) TimerEvent: {}
+[1.101519] (-) TimerEvent: {}
+[1.201787] (-) TimerEvent: {}
+[1.302056] (-) TimerEvent: {}
+[1.402321] (-) TimerEvent: {}
+[1.502600] (-) TimerEvent: {}
+[1.602879] (-) TimerEvent: {}
+[1.703162] (-) TimerEvent: {}
+[1.803398] (-) TimerEvent: {}
+[1.903674] (-) TimerEvent: {}
+[2.003956] (-) TimerEvent: {}
+[2.104226] (-) TimerEvent: {}
+[2.204507] (-) TimerEvent: {}
+[2.304814] (-) TimerEvent: {}
+[2.405132] (-) TimerEvent: {}
+[2.505440] (-) TimerEvent: {}
+[2.605756] (-) TimerEvent: {}
+[2.706068] (-) TimerEvent: {}
+[2.806351] (-) TimerEvent: {}
+[2.836139] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:5:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFirstSreviceMessage\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.836291] (yangsim) StderrLine: {'line': b'    5 |                           \x1b[01;31m\x1b[KFirstSreviceMessage\x1b[m\x1b[K\n'}
+[2.836364] (yangsim) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.836427] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:16:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.836491] (yangsim) StderrLine: {'line': b'   16 | public\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kconst\x1b[m\x1b[K char* colour[5]\n'}
+[2.836561] (yangsim) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[2.836626] (yangsim) StderrLine: {'line': b'      |       \x1b[32m\x1b[K:\x1b[m\x1b[K\n'}
+[2.845428] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:19:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kemployed\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.845583] (yangsim) StderrLine: {'line': b'   19 | \x1b[01;31m\x1b[Kemployed\x1b[m\x1b[K to express a relation",\n'}
+[2.845671] (yangsim) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.845741] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:19:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kto\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.845809] (yangsim) StderrLine: {'line': b'   19 | employed \x1b[01;31m\x1b[Kto\x1b[m\x1b[K express a relation",\n'}
+[2.845880] (yangsim) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.845944] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:17:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.846010] (yangsim) StderrLine: {'line': b'   17 |       = \x1b[01;36m\x1b[K{\x1b[m\x1b[K "Hi Yin, I am Yang the opposite of you.",\n'}
+[2.846074] (yangsim) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.846137] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:19:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kto\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.846202] (yangsim) StderrLine: {'line': b'   19 | employed \x1b[01;31m\x1b[Kto\x1b[m\x1b[K express a relation",\n'}
+[2.846266] (yangsim) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.902195] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid yang::callForMessage(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.902372] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:41:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.902449] (yangsim) StderrLine: {'line': b'   41 |         \x1b[01;31m\x1b[Kint64_t\x1b[m\x1b[K number_of_character = message.length() ;\n'}
+[2.902517] (yangsim) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.906451] (-) TimerEvent: {}
+[2.913727] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:43:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knumber_of_character\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.913836] (yangsim) StderrLine: {'line': b'   43 |         request->len =  \x1b[01;31m\x1b[Knumber_of_character\x1b[m\x1b[K;\n'}
+[2.913904] (yangsim) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.921799] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:55:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KisClient_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kclient\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.921929] (yangsim) StderrLine: {'line': b'   55 |             \x1b[01;31m\x1b[KisClient_\x1b[m\x1b[K=false;\n'}
+[2.921998] (yangsim) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.922062] (yangsim) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kclient\x1b[m\x1b[K\n'}
+[2.929542] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.929648] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:71:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAddTwoIntsClientNode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.929718] (yangsim) StderrLine: {'line': b'   71 |     auto node = std::make_shared<\x1b[01;31m\x1b[KAddTwoIntsClientNode\x1b[m\x1b[K>();\n'}
+[2.929781] (yangsim) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.929840] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:71:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.929909] (yangsim) StderrLine: {'line': b'   71 |     auto node = \x1b[01;31m\x1b[Kstd::make_shared<AddTwoIntsClientNode>()\x1b[m\x1b[K;\n'}
+[2.929968] (yangsim) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.930648] (yangsim) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[2.930804] (yangsim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[2.930884] (yangsim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:1\x1b[m\x1b[K:\n'}
+[2.930952] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.931021] (yangsim) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[2.931083] (yangsim) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.931148] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.931217] (yangsim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:71:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.931300] (yangsim) StderrLine: {'line': b'   71 |     auto node = \x1b[01;31m\x1b[Kstd::make_shared<AddTwoIntsClientNode>()\x1b[m\x1b[K;\n'}
+[2.931379] (yangsim) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[3.006590] (-) TimerEvent: {}
+[3.106874] (-) TimerEvent: {}
+[3.207145] (-) TimerEvent: {}
+[3.307415] (-) TimerEvent: {}
+[3.407692] (-) TimerEvent: {}
+[3.507973] (-) TimerEvent: {}
+[3.526940] (yangsim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/yangnode.dir/build.make:76: CMakeFiles/yangnode.dir/src/yangnode.cpp.o] Error 1\n'}
+[3.527179] (yangsim) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yangnode.dir/all] Error 2\n'}
+[3.527369] (yangsim) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.529609] (yangsim) CommandEnded: {'returncode': 2}
+[3.580504] (yangsim) JobEnded: {'identifier': 'yangsim', 'rc': 2}
+[3.591049] (-) EventReactorShutdown: {}

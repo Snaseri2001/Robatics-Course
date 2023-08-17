@@ -1,0 +1,311 @@
+[0.000000] (-) TimerEvent: {}
+[0.000120] (-) JobUnselected: {'identifier': 'turtlesim_controller'}
+[0.000148] (-) JobUnselected: {'identifier': 'yangsim'}
+[0.000171] (-) JobUnselected: {'identifier': 'yinsim'}
+[0.000530] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000629] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.010853] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.011591] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/soroush/robatics/Assignment2/assi2/src/interfaces', '-DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/interfaces'], 'cwd': '/home/soroush/robatics/Assignment2/assi2/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soroush'), ('LC_TIME', 'fa_IR.UTF-8'), ('HOSTNAME', 'rosbox.soroush-HP-Laptop-15-da0xxx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/soroush'), ('OLDPWD', '/home/soroush/robatics/Assignment2/assi2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fa_IR.UTF-8'), ('DISTROBOX_ENTER_PATH', '/usr/local/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '2120'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soroush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'soroush'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/home/soroush/.local/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/soroush-HP-Laptop-15-da0xxx:@/tmp/.ICE-unix/1933,unix/soroush-HP-Laptop-15-da0xxx:/tmp/.ICE-unix/1933'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fa_IR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0dcc8446_1cd2_4595_8a04_f5e33400d223'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fa_IR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AWJV11'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fa_IR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fa_IR.UTF-8'), ('LC_IDENTIFICATION', 'fa_IR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/soroush/robatics/Assignment2/assi2/build/interfaces'), ('CONTAINER_ID', 'rosbox'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fa_IR.UTF-8'), ('LC_PAPER', 'fa_IR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.026041] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099084] (-) TimerEvent: {}
+[0.165313] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.167025] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.170235] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.199190] (-) TimerEvent: {}
+[0.202133] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299309] (-) TimerEvent: {}
+[0.399548] (-) TimerEvent: {}
+[0.474135] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.499679] (-) TimerEvent: {}
+[0.599930] (-) TimerEvent: {}
+[0.661524] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700049] (-) TimerEvent: {}
+[0.800297] (-) TimerEvent: {}
+[0.886253] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900418] (-) TimerEvent: {}
+[0.908492] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[0.911040] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.937889] (interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[0.938110] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.938238] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.938313] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.959307] (interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[0.992014] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.000542] (-) TimerEvent: {}
+[1.021931] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.023814] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.026668] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.058899] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.061004] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/soroush/robatics/Assignment2/assi2/build/interfaces\n'}
+[1.064896] (interfaces) CommandEnded: {'returncode': 0}
+[1.065470] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[1.066223] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/soroush/robatics/Assignment2/assi2/build/interfaces', '--', '-j8', '-l8'], 'cwd': '/home/soroush/robatics/Assignment2/assi2/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soroush'), ('LC_TIME', 'fa_IR.UTF-8'), ('HOSTNAME', 'rosbox.soroush-HP-Laptop-15-da0xxx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/soroush'), ('OLDPWD', '/home/soroush/robatics/Assignment2/assi2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fa_IR.UTF-8'), ('DISTROBOX_ENTER_PATH', '/usr/local/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '2120'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soroush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'soroush'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/home/soroush/.local/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/soroush-HP-Laptop-15-da0xxx:@/tmp/.ICE-unix/1933,unix/soroush-HP-Laptop-15-da0xxx:/tmp/.ICE-unix/1933'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fa_IR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0dcc8446_1cd2_4595_8a04_f5e33400d223'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fa_IR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AWJV11'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fa_IR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fa_IR.UTF-8'), ('LC_IDENTIFICATION', 'fa_IR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/soroush/robatics/Assignment2/assi2/build/interfaces'), ('CONTAINER_ID', 'rosbox'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fa_IR.UTF-8'), ('LC_PAPER', 'fa_IR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.100647] (-) TimerEvent: {}
+[1.103461] (interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.113331] (interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.120471] (interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_interfaces\n'}
+[1.200766] (-) TimerEvent: {}
+[1.301027] (-) TimerEvent: {}
+[1.386920] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.387623] (interfaces) StdoutLine: {'line': b'creating interfaces.egg-info\n'}
+[1.387871] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[1.388157] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[1.388319] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[1.388460] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[1.390831] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[1.391317] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[1.401163] (-) TimerEvent: {}
+[1.419176] (interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[1.440873] (interfaces) StdoutLine: {'line': b'[  5%] Built target interfaces__cpp\n'}
+[1.455058] (interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.456096] (interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.458803] (interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.487495] (interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/send_message_in_convo__functions.c.o\x1b[0m\n'}
+[1.487739] (interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/conversation__functions.c.o\x1b[0m\n'}
+[1.501255] (-) TimerEvent: {}
+[1.586383] (interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.601370] (-) TimerEvent: {}
+[1.632143] (interfaces) StdoutLine: {'line': b'[ 20%] Built target interfaces__rosidl_generator_c\n'}
+[1.647607] (interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.647877] (interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.648253] (interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.701480] (-) TimerEvent: {}
+[1.801810] (-) TimerEvent: {}
+[1.843493] (interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/send_message_in_convo__type_support.cpp.o\x1b[0m\n'}
+[1.846036] (interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/conversation__type_support.cpp.o\x1b[0m\n'}
+[1.859200] (interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/conversation__type_support.cpp.o\x1b[0m\n'}
+[1.859445] (interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/send_message_in_convo__type_support.cpp.o\x1b[0m\n'}
+[1.861505] (interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/conversation__type_support.cpp.o\x1b[0m\n'}
+[1.901910] (-) TimerEvent: {}
+[2.002334] (-) TimerEvent: {}
+[2.102724] (-) TimerEvent: {}
+[2.201687] (interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/conversation__type_support.cpp.o\x1b[0m\n'}
+[2.202806] (-) TimerEvent: {}
+[2.261106] (interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/conversation__type_support.c.o\x1b[0m\n'}
+[2.263885] (interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/send_message_in_convo__type_support.cpp.o\x1b[0m\n'}
+[2.302932] (-) TimerEvent: {}
+[2.320653] (interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/conversation__type_support_c.cpp.o\x1b[0m\n'}
+[2.320980] (interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.323665] (interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/send_message_in_convo__type_support.c.o\x1b[0m\n'}
+[2.390887] (interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.403041] (-) TimerEvent: {}
+[2.403345] (interfaces) StdoutLine: {'line': b'[ 58%] Built target interfaces__rosidl_typesupport_c\n'}
+[2.415185] (interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/send_message_in_convo__type_support_c.cpp.o\x1b[0m\n'}
+[2.416534] (interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/send_message_in_convo__type_support.cpp.o\x1b[0m\n'}
+[2.424340] (interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.452619] (interfaces) StdoutLine: {'line': b'[ 66%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[2.484038] (interfaces) StdoutLine: {'line': b'[ 66%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[2.503171] (-) TimerEvent: {}
+[2.603466] (-) TimerEvent: {}
+[2.645579] (interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.703598] (-) TimerEvent: {}
+[2.722621] (interfaces) StdoutLine: {'line': b'[ 69%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.803711] (-) TimerEvent: {}
+[2.904011] (-) TimerEvent: {}
+[2.940002] (interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.997296] (interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.004145] (-) TimerEvent: {}
+[3.021686] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.079693] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.099918] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces\n'}
+[3.104254] (-) TimerEvent: {}
+[3.120624] (interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.204397] (-) TimerEvent: {}
+[3.304693] (-) TimerEvent: {}
+[3.404954] (-) TimerEvent: {}
+[3.505222] (-) TimerEvent: {}
+[3.505491] (interfaces) StdoutLine: {'line': b'[ 76%] Built target interfaces__py\n'}
+[3.524113] (interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_conversation_s.c.o\x1b[0m\n'}
+[3.524266] (interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_send_message_in_convo_s.c.o\x1b[0m\n'}
+[3.605313] (-) TimerEvent: {}
+[3.655093] (interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so\x1b[0m\n'}
+[3.693433] (interfaces) StdoutLine: {'line': b'[ 84%] Built target interfaces__rosidl_generator_py\n'}
+[3.705429] (-) TimerEvent: {}
+[3.712414] (interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.712579] (interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.712654] (interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.805650] (-) TimerEvent: {}
+[3.817932] (interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.822293] (interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.825596] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.851805] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[3.857462] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[3.861400] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.872139] (interfaces) CommandEnded: {'returncode': 0}
+[3.905768] (-) TimerEvent: {}
+[3.950040] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[3.958580] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/soroush/robatics/Assignment2/assi2/build/interfaces'], 'cwd': '/home/soroush/robatics/Assignment2/assi2/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soroush'), ('LC_TIME', 'fa_IR.UTF-8'), ('HOSTNAME', 'rosbox.soroush-HP-Laptop-15-da0xxx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/soroush'), ('OLDPWD', '/home/soroush/robatics/Assignment2/assi2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fa_IR.UTF-8'), ('DISTROBOX_ENTER_PATH', '/usr/local/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '2120'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soroush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'soroush'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/home/soroush/.local/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/soroush-HP-Laptop-15-da0xxx:@/tmp/.ICE-unix/1933,unix/soroush-HP-Laptop-15-da0xxx:/tmp/.ICE-unix/1933'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fa_IR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0dcc8446_1cd2_4595_8a04_f5e33400d223'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fa_IR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AWJV11'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fa_IR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fa_IR.UTF-8'), ('LC_IDENTIFICATION', 'fa_IR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/soroush/robatics/Assignment2/assi2/build/interfaces'), ('CONTAINER_ID', 'rosbox'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fa_IR.UTF-8'), ('LC_PAPER', 'fa_IR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.965839] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.965999] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[3.966113] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces\n'}
+[3.966381] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg\n'}
+[3.966593] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.966729] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/conversation.h\n'}
+[3.966806] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[3.966877] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__functions.h\n'}
+[3.966979] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__type_support.h\n'}
+[3.967045] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__functions.c\n'}
+[3.967153] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__struct.h\n'}
+[3.967284] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv\n'}
+[3.967429] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/send_message_in_convo.h\n'}
+[3.967514] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[3.967595] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__struct.h\n'}
+[3.967674] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__functions.h\n'}
+[3.967794] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__type_support.h\n'}
+[3.967917] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__functions.c\n'}
+[3.968202] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[3.968368] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[3.968621] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[3.969217] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""\n'}
+[3.969390] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces\n'}
+[3.969504] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg\n'}
+[3.969634] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[3.969773] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__rosidl_typesupport_fastrtps_c.h\n'}
+[3.969846] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.969909] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv\n'}
+[3.969990] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[3.970052] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__rosidl_typesupport_fastrtps_c.h\n'}
+[3.970113] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.970471] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.970591] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces\n'}
+[3.970681] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg\n'}
+[3.970754] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.970855] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[3.970928] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__rosidl_typesupport_introspection_c.h\n'}
+[3.970991] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__type_support.c\n'}
+[3.971113] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv\n'}
+[3.971201] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[3.971264] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__type_support.c\n'}
+[3.971359] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__rosidl_typesupport_introspection_c.h\n'}
+[3.971483] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.971945] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.972087] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[3.972488] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""\n'}
+[3.972599] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces\n'}
+[3.972699] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg\n'}
+[3.972769] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/conversation.hpp\n'}
+[3.972860] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[3.972923] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__struct.hpp\n'}
+[3.973000] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__builder.hpp\n'}
+[3.973108] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__traits.hpp\n'}
+[3.973227] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv\n'}
+[3.973324] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/send_message_in_convo.hpp\n'}
+[3.973424] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[3.973504] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__traits.hpp\n'}
+[3.973610] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__builder.hpp\n'}
+[3.973713] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__struct.hpp\n'}
+[3.973898] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces\n'}
+[3.973981] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg\n'}
+[3.974060] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.974137] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[3.974234] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps\n'}
+[3.974318] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.974413] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv\n'}
+[3.974504] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[3.974568] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.974647] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/dds_fastrtps\n'}
+[3.974787] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.975292] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.975407] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces\n'}
+[3.975530] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg\n'}
+[3.975595] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[3.975682] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__type_support.cpp\n'}
+[3.975752] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.975899] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv\n'}
+[3.976024] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[3.976129] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__type_support.cpp\n'}
+[3.976256] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.976360] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.976667] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.976773] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[3.977211] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[3.977324] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[3.977487] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[3.977647] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info\n'}
+[3.977778] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.977910] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.978042] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.978167] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.978341] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces\n'}
+[3.978506] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.978631] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py\n'}
+[3.978769] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg\n'}
+[3.978900] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py\n'}
+[3.979025] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_conversation.py\n'}
+[3.979149] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_conversation_s.c\n'}
+[3.979270] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[3.979394] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.979518] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv\n'}
+[3.979643] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_send_message_in_convo.py\n'}
+[3.979767] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py\n'}
+[3.979895] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_send_message_in_convo_s.c\n'}
+[3.980020] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.980145] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.980274] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so\n'}
+[3.980379] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.005890] (-) TimerEvent: {}
+[4.016714] (interfaces) StdoutLine: {'line': b"Listing '/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...\n"}
+[4.016845] (interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...\n"}
+[4.016909] (interfaces) StdoutLine: {'line': b"Listing '/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...\n"}
+[4.016965] (interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py'...\n"}
+[4.017028] (interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_conversation.py'...\n"}
+[4.017082] (interfaces) StdoutLine: {'line': b"Listing '/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv'...\n"}
+[4.017135] (interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py'...\n"}
+[4.017187] (interfaces) StdoutLine: {'line': b"Compiling '/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_send_message_in_convo.py'...\n"}
+[4.020740] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.021099] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.021312] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.021709] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.021918] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.022261] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.022437] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[4.022754] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""\n'}
+[4.022927] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/msg/Conversation.idl\n'}
+[4.023093] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/srv/SendMessageInConvo.idl\n'}
+[4.023275] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/msg/Conversation.msg\n'}
+[4.023368] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/srv/SendMessageInConvo.srv\n'}
+[4.023448] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/srv/SendMessageInConvo_Request.msg\n'}
+[4.023507] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/srv/SendMessageInConvo_Response.msg\n'}
+[4.023584] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[4.023789] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[4.023892] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[4.024027] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[4.024194] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/environment/path.sh\n'}
+[4.024341] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[4.024452] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/local_setup.bash\n'}
+[4.024615] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/local_setup.sh\n'}
+[4.024719] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[4.024851] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[4.024954] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/package.dsv\n'}
+[4.025106] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[4.025277] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.025457] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.025665] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.025775] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.025917] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.026029] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.026121] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.026350] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.026511] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.026697] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.026807] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.026908] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.027003] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.027104] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.027237] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.027380] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[4.027516] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.027684] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.027844] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.027959] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.028120] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.028228] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.028371] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.028473] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.028563] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[4.028669] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[4.028796] (interfaces) StdoutLine: {'line': b'-- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/package.xml\n'}
+[4.030886] (interfaces) CommandEnded: {'returncode': 0}
+[4.106014] (-) TimerEvent: {}
+[4.141972] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[4.142621] (-) EventReactorShutdown: {}

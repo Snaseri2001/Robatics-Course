@@ -1,0 +1,225 @@
+[0.009s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge
+[0.020s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.161s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.169s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.204s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.206s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.212s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.223s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.240s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.299s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.300s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.445s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.604s] -- Found rclcpp_components: 16.0.3 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.666s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[0.670s] -- Looking for gz-transport12 -- found version 12.1.0
+[0.679s] -- Searching for dependencies of gz-transport12
+[0.727s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.748s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.753s] -- Checking for module 'libzmq >= 4'
+[0.767s] --   Found libzmq , version 4.3.4
+[0.801s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[0.807s] -- Checking for module 'uuid'
+[0.818s] --   Found uuid, version 2.37.2
+[0.850s] -- Found UUID: TRUE  
+[0.853s] -- Looking for gz-utils2 -- found version 2.0.0
+[0.854s] -- Searching for dependencies of gz-utils2
+[0.854s] -- Searching for <gz-utils2> component [cli]
+[0.858s] -- Looking for gz-utils2-cli -- found version 2.0.0
+[0.859s] -- Searching for dependencies of gz-utils2-cli
+[0.863s] -- Looking for gz-msgs9 -- found version 9.4.0
+[0.863s] -- Searching for dependencies of gz-msgs9
+[0.891s] -- Looking for gz-math7 -- found version 7.1.0
+[0.891s] -- Searching for dependencies of gz-math7
+[0.891s] -- Looking for gz-utils2 -- found version 2.0.0
+[0.897s] -- Checking for module 'tinyxml2'
+[0.908s] --   Found tinyxml2, version 9.0.0
+[0.937s] -- Looking for gz-msgs9 -- found version 9.4.0
+[0.937s] -- Compiling against Gazebo Garden
+[0.938s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.984s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.029s] -- Found gps_msgs: 1.0.4 (/opt/ros/humble/share/gps_msgs/cmake)
+[1.121s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.121s] -- Found rcl_interfaces: 1.2.1 (/opt/ros/humble/share/rcl_interfaces/cmake)
+[1.231s] -- Found ros_gz_interfaces: 0.245.0 (/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake)
+[1.231s] -- Found rosgraph_msgs: 1.2.1 (/opt/ros/humble/share/rosgraph_msgs/cmake)
+[1.340s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.340s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[1.502s] -- Found tf2_msgs: 0.25.2 (/opt/ros/humble/share/tf2_msgs/cmake)
+[1.592s] -- Found trajectory_msgs: 4.2.3 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[1.679s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.774s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.795s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[1.800s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[1.800s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.800s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.800s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.821s] -- Found PythonExtra: .so  
+[1.865s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.892s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.897s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.898s] -- Configured cppcheck include dirs: /home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_bridge/include;/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_bridge/src;/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_bridge/test;/home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_bridge/test/subscribers
+[1.898s] -- Configured cppcheck exclude dirs and/or files: 
+[1.903s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.903s] -- Configured cpplint exclude dirs and/or files: 
+[1.905s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.906s] -- Added test 'lint_cmake' to check CMake code style
+[1.907s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.912s] -- Added test 'uncrustify' to check C / C++ code style
+[1.912s] -- Configured uncrustify additional arguments: 
+[1.913s] -- Added test 'xmllint' to check XML markup files
+[1.916s] -- Configuring done
+[2.017s] -- Generating done
+[2.020s] -- Build files have been written to: /home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge
+[2.034s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge' returned '0': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/ros_gz/ros_gz_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge
+[2.036s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge -- -j8 -l8
+[2.083s] [  1%] [34m[1mGenerating factories for interface types[0m
+[2.094s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.095s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.095s] [  4%] [32mBuilding CXX object CMakeFiles/bridge_node.dir/rclcpp_components/node_main_bridge_node.cpp.o[0m
+[2.332s] [  5%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/src/bridge_handle.cpp.o[0m
+[2.332s] [  7%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/src/bridge_config.cpp.o[0m
+[2.332s] [  8%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/src/factory_interface.cpp.o[0m
+[2.334s] [  9%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/src/bridge_handle_gz_to_ros.cpp.o[0m
+[2.337s] [ 10%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/src/bridge_handle_ros_to_gz.cpp.o[0m
+[3.973s] [ 11%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.027s] [ 11%] Built target gtest_main
+[4.042s] [ 13%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/src/service_factories/ros_gz_interfaces.cpp.o[0m
+[8.716s] [ 14%] [32m[1mLinking CXX executable bridge_node[0m
+[9.029s] [ 15%] [32m[1mLinking CXX static library libgtest.a[0m
+[9.123s] [ 15%] Built target bridge_node
+[9.149s] [ 16%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/src/ros_gz_bridge.cpp.o[0m
+[9.193s] [ 16%] Built target gtest
+[9.250s] [ 17%] [32mBuilding CXX object CMakeFiles/test_rcl_interfaces.dir/src/convert/rcl_interfaces.cpp.o[0m
+[9.998s] [ 19%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/src/convert/utils.cpp.o[0m
+[10.498s] [ 20%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/src/convert/builtin_interfaces.cpp.o[0m
+[10.522s] [ 21%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/src/convert/geometry_msgs.cpp.o[0m
+[10.715s] [ 22%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/src/convert/gps_msgs.cpp.o[0m
+[10.773s] [ 23%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/src/convert/nav_msgs.cpp.o[0m
+[10.849s] [ 25%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/src/convert/rcl_interfaces.cpp.o[0m
+[12.670s] [ 26%] [32mBuilding CXX object CMakeFiles/test_rcl_interfaces.dir/src/convert/rcl_interfaces_TEST.cpp.o[0m
+[13.674s] [ 27%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/src/convert/ros_gz_interfaces.cpp.o[0m
+[14.310s] [ 28%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/src/convert/rosgraph_msgs.cpp.o[0m
+[14.441s] [ 29%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/src/convert/sensor_msgs.cpp.o[0m
+[14.594s] [ 30%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/src/convert/std_msgs.cpp.o[0m
+[14.647s] [ 32%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/src/convert/tf2_msgs.cpp.o[0m
+[17.245s] [ 33%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/src/convert/trajectory_msgs.cpp.o[0m
+[17.724s] [ 34%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/generated/get_factory.cpp.o[0m
+[18.189s] [ 35%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/generated/get_mappings.cpp.o[0m
+[18.244s] [ 36%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/generated/factories/builtin_interfaces.cpp.o[0m
+[18.687s] [ 38%] [32m[1mLinking CXX executable test_rcl_interfaces[0m
+[19.343s] [ 38%] Built target test_rcl_interfaces
+[19.393s] [ 39%] [32mBuilding CXX object CMakeFiles/test_utils.dir/test/utils/gz_test_msg.cpp.o[0m
+[19.803s] [ 40%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/generated/factories/geometry_msgs.cpp.o[0m
+[20.716s] [ 41%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/generated/factories/gps_msgs.cpp.o[0m
+[21.070s] [ 42%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/generated/factories/nav_msgs.cpp.o[0m
+[21.774s] [ 44%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/generated/factories/rcl_interfaces.cpp.o[0m
+[22.812s] [ 45%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/generated/factories/ros_gz_interfaces.cpp.o[0m
+[26.826s] [ 46%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/generated/factories/rosgraph_msgs.cpp.o[0m
+[35.816s] [ 47%] [32mBuilding CXX object CMakeFiles/test_utils.dir/test/utils/ros_test_msg.cpp.o[0m
+[42.031s] [ 48%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/generated/factories/sensor_msgs.cpp.o[0m
+[44.467s] [ 50%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/generated/factories/std_msgs.cpp.o[0m
+[45.179s] [ 51%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/generated/factories/tf2_msgs.cpp.o[0m
+[45.651s] [ 52%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_lib.dir/generated/factories/trajectory_msgs.cpp.o[0m
+[49.928s] [ 53%] [32m[1mLinking CXX static library libtest_utils.a[0m
+[50.168s] [ 53%] Built target test_utils
+[50.195s] [ 54%] [34m[1mGenerating test helpers[0m
+[50.838s] [ 55%] [32mBuilding CXX object CMakeFiles/test_gz_publisher.dir/generated/test/gz_publisher.cpp.o[0m
+[52.232s] [ 57%] [32mBuilding CXX object CMakeFiles/test_ros_publisher.dir/generated/test/ros_publisher.cpp.o[0m
+[64.306s] [ 58%] [32m[1mLinking CXX executable test_gz_publisher[0m
+[65.595s] [ 58%] Built target test_gz_publisher
+[65.639s] [ 59%] [32mBuilding CXX object CMakeFiles/test_gz_subscriber.dir/generated/test/gz_subscriber.cpp.o[0m
+[68.379s] [ 60%] [32mBuilding CXX object CMakeFiles/test_gz_server.dir/test/serverclient/gz_server.cpp.o[0m
+[68.557s] [ 61%] [32mBuilding CXX object CMakeFiles/test_ros_client.dir/test/serverclient/ros_client.cpp.o[0m
+[80.556s] [ 63%] [32m[1mLinking CXX executable test_ros_client[0m
+[81.380s] [ 63%] Built target test_ros_client
+[81.437s] [ 64%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/test/subscribers/ros_subscriber.cpp.o[0m
+[84.489s] [ 65%] [32m[1mLinking CXX executable test_gz_server[0m
+[85.245s] [ 65%] Built target test_gz_server
+[85.265s] [ 66%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/builtin_interfaces_subscriber.cpp.o[0m
+[96.311s] [ 67%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/geometry_msgs_subscriber.cpp.o[0m
+[109.323s] [ 69%] [32m[1mLinking CXX executable test_gz_subscriber[0m
+[111.958s] [ 70%] Built target test_gz_subscriber
+[111.980s] [ 71%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/gps_msgs_subscriber.cpp.o[0m
+[114.883s] [ 72%] [32m[1mLinking CXX executable test_ros_publisher[0m
+[115.174s] [ 73%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/nav_msgs_subscriber.cpp.o[0m
+[119.624s] [ 75%] Built target test_ros_publisher
+[119.647s] [ 76%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/rcl_interfaces_subscriber.cpp.o[0m
+[129.705s] [ 77%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/ros_gz_interfaces_subscriber.cpp.o[0m
+[133.148s] [ 78%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/rosgraph_msgs_subscriber.cpp.o[0m
+[146.217s] [ 79%] [32m[1mLinking CXX shared library libros_gz_bridge_lib.so[0m
+[146.755s] [ 80%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/tf2_msgs_subscriber.cpp.o[0m
+[147.395s] [ 82%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/std_msgs_subscriber.cpp.o[0m
+[156.602s] [ 84%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/sensor_msgs_subscriber.cpp.o[0m
+[156.602s] [ 84%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/trajectory_msgs_subscriber.cpp.o[0m
+[184.654s] [ 84%] Built target ros_gz_bridge_lib
+[184.693s] [ 85%] [32mBuilding CXX object CMakeFiles/static_bridge.dir/src/static_bridge.cpp.o[0m
+[184.694s] [ 86%] [32mBuilding CXX object CMakeFiles/parameter_bridge.dir/src/parameter_bridge.cpp.o[0m
+[184.699s] [ 88%] [32mBuilding CXX object CMakeFiles/bridge_types.dir/src/bridge_types.cpp.o[0m
+[185.737s] [ 89%] [32mBuilding CXX object CMakeFiles/test_ros_gz_interfaces.dir/src/convert/ros_gz_interfaces.cpp.o[0m
+[185.785s] [ 90%] [32m[1mLinking CXX executable bridge_types[0m
+[186.797s] [ 91%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_bridge_config.dir/test/bridge_config.cpp.o[0m
+[190.636s] [ 92%] [32m[1mLinking CXX executable ros_gz_bridge_bridge_config[0m
+[193.345s] [ 94%] [32m[1mLinking CXX executable parameter_bridge[0m
+[193.683s] [ 95%] [32m[1mLinking CXX executable static_bridge[0m
+[195.050s] [ 96%] [32mBuilding CXX object CMakeFiles/test_ros_gz_interfaces.dir/src/convert/ros_gz_interfaces_TEST.cpp.o[0m
+[205.844s] [ 96%] Built target bridge_types
+[206.612s] [ 97%] [32m[1mLinking CXX executable test_ros_gz_interfaces[0m
+[210.852s] [ 97%] Built target ros_gz_bridge_bridge_config
+[213.677s] [ 97%] Built target static_bridge
+[213.741s] [ 97%] Built target parameter_bridge
+[220.555s] [ 97%] Built target test_ros_gz_interfaces
+[230.688s] [ 98%] [32m[1mLinking CXX executable test_ros_subscriber[0m
+[248.570s] [100%] Built target test_ros_subscriber
+[248.584s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge' returned '0': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge -- -j8 -l8
+[248.762s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge
+[248.771s] -- Install configuration: ""
+[248.773s] -- Execute custom install script
+[248.774s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib/ros_gz_bridge/bridge_node
+[248.799s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib/libros_gz_bridge_lib.so
+[248.817s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/include/ros_gz_bridge/bridge_config.hpp
+[248.827s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/include/ros_gz_bridge/convert.hpp
+[248.836s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/include/ros_gz_bridge/convert/builtin_interfaces.hpp
+[248.846s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/include/ros_gz_bridge/convert/geometry_msgs.hpp
+[248.855s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/include/ros_gz_bridge/convert/gps_msgs.hpp
+[248.863s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/include/ros_gz_bridge/convert/nav_msgs.hpp
+[248.871s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/include/ros_gz_bridge/convert/rcl_interfaces.hpp
+[248.881s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/include/ros_gz_bridge/convert/ros_gz_interfaces.hpp
+[248.888s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/include/ros_gz_bridge/convert/rosgraph_msgs.hpp
+[248.896s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/include/ros_gz_bridge/convert/sensor_msgs.hpp
+[248.904s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/include/ros_gz_bridge/convert/std_msgs.hpp
+[248.912s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/include/ros_gz_bridge/convert/tf2_msgs.hpp
+[248.919s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/include/ros_gz_bridge/convert/trajectory_msgs.hpp
+[248.927s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/include/ros_gz_bridge/convert_decl.hpp
+[248.934s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge.hpp
+[248.941s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/environment/library_path.sh
+[248.948s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/environment/library_path.dsv
+[248.957s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib/ros_gz_bridge/parameter_bridge
+[248.965s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib/ros_gz_bridge/static_bridge
+[248.972s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib/ros_gz_bridge/bridge_types
+[248.979s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib/ros_gz_bridge/test_ros_publisher
+[248.987s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib/ros_gz_bridge/test_ros_subscriber
+[248.994s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib/ros_gz_bridge/test_gz_publisher
+[249.002s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib/ros_gz_bridge/test_gz_subscriber
+[249.009s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib/ros_gz_bridge/test_gz_server
+[249.016s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/lib/ros_gz_bridge/test_ros_client
+[249.024s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ament_index/resource_index/package_run_dependencies/ros_gz_bridge
+[249.031s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ament_index/resource_index/parent_prefix_path/ros_gz_bridge
+[249.039s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/environment/ament_prefix_path.sh
+[249.046s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/environment/ament_prefix_path.dsv
+[249.054s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/environment/path.sh
+[249.061s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/environment/path.dsv
+[249.069s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/local_setup.bash
+[249.076s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/local_setup.sh
+[249.083s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/local_setup.zsh
+[249.091s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/local_setup.dsv
+[249.099s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/package.dsv
+[249.106s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ament_index/resource_index/packages/ros_gz_bridge
+[249.114s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ament_index/resource_index/rclcpp_components/ros_gz_bridge
+[249.121s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[249.128s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+[249.135s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[249.142s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ros_gz_bridgeConfig.cmake
+[249.150s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ros_gz_bridgeConfig-version.cmake
+[249.157s] -- Symlinking: /home/soroush/robatics/Assignment2/assi2/install/ros_gz_bridge/share/ros_gz_bridge/package.xml
+[249.177s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge' returned '0': AMENT_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/ros_gz_bridge

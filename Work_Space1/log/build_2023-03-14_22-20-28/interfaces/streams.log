@@ -1,0 +1,259 @@
+[0.012s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/interfaces
+[0.026s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.165s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.166s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.170s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.202s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.474s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.661s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.886s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.908s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[0.910s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.937s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[0.938s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.938s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.938s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.959s] -- Found PythonExtra: .so  
+[0.991s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.021s] -- Added test 'lint_cmake' to check CMake code style
+[1.023s] -- Added test 'xmllint' to check XML markup files
+[1.026s] -- Configuring done
+[1.058s] -- Generating done
+[1.060s] -- Build files have been written to: /home/soroush/robatics/Assignment2/assi2/build/interfaces
+[1.064s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/install/interfaces
+[1.066s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/interfaces -- -j8 -l8
+[1.103s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.113s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.120s] [  5%] Built target ament_cmake_python_copy_interfaces
+[1.386s] running egg_info
+[1.387s] creating interfaces.egg-info
+[1.387s] writing interfaces.egg-info/PKG-INFO
+[1.388s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[1.388s] writing top-level names to interfaces.egg-info/top_level.txt
+[1.388s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[1.390s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[1.391s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[1.419s] [  5%] Built target ament_cmake_python_build_interfaces_egg
+[1.440s] [  5%] Built target interfaces__cpp
+[1.455s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.456s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.458s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.487s] [ 17%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/send_message_in_convo__functions.c.o[0m
+[1.487s] [ 17%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/conversation__functions.c.o[0m
+[1.586s] [ 20%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[1.632s] [ 20%] Built target interfaces__rosidl_generator_c
+[1.647s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.647s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.648s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.843s] [ 30%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/send_message_in_convo__type_support.cpp.o[0m
+[1.846s] [ 33%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/conversation__type_support.cpp.o[0m
+[1.859s] [ 38%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/conversation__type_support.cpp.o[0m
+[1.859s] [ 38%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/send_message_in_convo__type_support.cpp.o[0m
+[1.861s] [ 41%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/conversation__type_support.cpp.o[0m
+[2.201s] [ 43%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/conversation__type_support.cpp.o[0m
+[2.261s] [ 46%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/conversation__type_support.c.o[0m
+[2.263s] [ 48%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/send_message_in_convo__type_support.cpp.o[0m
+[2.320s] [ 53%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/conversation__type_support_c.cpp.o[0m
+[2.320s] [ 53%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[2.323s] [ 56%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/send_message_in_convo__type_support.c.o[0m
+[2.390s] [ 58%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[2.403s] [ 58%] Built target interfaces__rosidl_typesupport_c
+[2.415s] [ 61%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/send_message_in_convo__type_support_c.cpp.o[0m
+[2.416s] [ 64%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/send_message_in_convo__type_support.cpp.o[0m
+[2.424s] [ 66%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[2.452s] [ 66%] Built target interfaces__rosidl_typesupport_introspection_c
+[2.484s] [ 66%] Built target interfaces__rosidl_typesupport_cpp
+[2.645s] [ 69%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.722s] [ 69%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[2.940s] [ 71%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.997s] [ 74%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.021s] [ 74%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[3.079s] [ 74%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[3.099s] [ 74%] Built target interfaces
+[3.120s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.505s] [ 76%] Built target interfaces__py
+[3.524s] [ 82%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_conversation_s.c.o[0m
+[3.524s] [ 82%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_send_message_in_convo_s.c.o[0m
+[3.655s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so[0m
+[3.693s] [ 84%] Built target interfaces__rosidl_generator_py
+[3.712s] [ 89%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.712s] [ 89%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.712s] [ 92%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.817s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.822s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.825s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.851s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[3.857s] [100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[3.861s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.872s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/interfaces -- -j8 -l8
+[3.958s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/interfaces
+[3.965s] -- Install configuration: ""
+[3.965s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[3.966s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces
+[3.966s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg
+[3.966s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.966s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/conversation.h
+[3.966s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail
+[3.966s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__functions.h
+[3.966s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__type_support.h
+[3.966s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__functions.c
+[3.967s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__struct.h
+[3.967s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv
+[3.967s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/send_message_in_convo.h
+[3.967s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail
+[3.967s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__struct.h
+[3.967s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__functions.h
+[3.967s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__type_support.h
+[3.967s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__functions.c
+[3.968s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/environment/library_path.sh
+[3.968s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/environment/library_path.dsv
+[3.968s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[3.969s] -- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[3.969s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces
+[3.969s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg
+[3.969s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail
+[3.969s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__rosidl_typesupport_fastrtps_c.h
+[3.969s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.969s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv
+[3.969s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail
+[3.969s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__rosidl_typesupport_fastrtps_c.h
+[3.970s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[3.970s] -- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.970s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces
+[3.970s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg
+[3.970s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.970s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail
+[3.970s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__rosidl_typesupport_introspection_c.h
+[3.970s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__type_support.c
+[3.971s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv
+[3.971s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail
+[3.971s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__type_support.c
+[3.971s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__rosidl_typesupport_introspection_c.h
+[3.971s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[3.971s] -- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.971s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[3.972s] -- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[3.972s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces
+[3.972s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg
+[3.972s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/conversation.hpp
+[3.972s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail
+[3.972s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__struct.hpp
+[3.972s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__builder.hpp
+[3.973s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__traits.hpp
+[3.973s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv
+[3.973s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/send_message_in_convo.hpp
+[3.973s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail
+[3.973s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__traits.hpp
+[3.973s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__builder.hpp
+[3.973s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__struct.hpp
+[3.973s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces
+[3.973s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg
+[3.973s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.974s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail
+[3.974s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps
+[3.974s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__rosidl_typesupport_fastrtps_cpp.hpp
+[3.974s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv
+[3.974s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail
+[3.974s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__rosidl_typesupport_fastrtps_cpp.hpp
+[3.974s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/dds_fastrtps
+[3.974s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.975s] -- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.975s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces
+[3.975s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg
+[3.975s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail
+[3.975s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__type_support.cpp
+[3.975s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/msg/detail/conversation__rosidl_typesupport_introspection_cpp.hpp
+[3.975s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv
+[3.975s] -- Up-to-date: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail
+[3.976s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__type_support.cpp
+[3.976s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/include/interfaces/interfaces/srv/detail/send_message_in_convo__rosidl_typesupport_introspection_cpp.hpp
+[3.976s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[3.976s] -- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.976s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[3.977s] -- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[3.977s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/environment/pythonpath.sh
+[3.977s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[3.977s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info
+[3.977s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.977s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.977s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.978s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.978s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces
+[3.978s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.978s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py
+[3.978s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg
+[3.978s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py
+[3.978s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_conversation.py
+[3.979s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_conversation_s.c
+[3.979s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[3.979s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.979s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv
+[3.979s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_send_message_in_convo.py
+[3.979s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py
+[3.979s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_send_message_in_convo_s.c
+[3.979s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.980s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.980s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so
+[3.980s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.016s] Listing '/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...
+[4.016s] Compiling '/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...
+[4.016s] Listing '/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...
+[4.016s] Compiling '/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py'...
+[4.016s] Compiling '/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_conversation.py'...
+[4.016s] Listing '/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv'...
+[4.017s] Compiling '/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py'...
+[4.017s] Compiling '/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_send_message_in_convo.py'...
+[4.020s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.021s] -- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.021s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.021s] -- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.021s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.022s] -- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.022s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[4.022s] -- Set runtime path of "/home/soroush/robatics/Assignment2/assi2/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""
+[4.022s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/msg/Conversation.idl
+[4.023s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/srv/SendMessageInConvo.idl
+[4.023s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/msg/Conversation.msg
+[4.023s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/srv/SendMessageInConvo.srv
+[4.023s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/srv/SendMessageInConvo_Request.msg
+[4.023s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/srv/SendMessageInConvo_Response.msg
+[4.023s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[4.023s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[4.023s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[4.023s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[4.024s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/environment/path.sh
+[4.024s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/environment/path.dsv
+[4.024s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/local_setup.bash
+[4.024s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/local_setup.sh
+[4.024s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/local_setup.zsh
+[4.024s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/local_setup.dsv
+[4.024s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/package.dsv
+[4.025s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[4.025s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[4.025s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.025s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.025s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.025s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.025s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.026s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[4.026s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.026s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[4.026s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.026s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.026s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.026s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.027s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[4.027s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.027s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[4.027s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.027s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[4.027s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.027s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.028s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.028s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.028s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.028s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.028s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[4.028s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[4.028s] -- Installing: /home/soroush/robatics/Assignment2/assi2/install/interfaces/share/interfaces/package.xml
+[4.031s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soroush/robatics/Assignment2/assi2/build/interfaces

@@ -1,0 +1,21 @@
+[0.102s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/src/build/sensor_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/soroush/ws_moveit2/install/moveit_configs_utils:/home/soroush/ws_moveit2/install/launch_param_builder /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/src/install/sensor_gazebo
+[0.604s] -- The C compiler identification is GNU 11.3.0
+[0.950s] -- The CXX compiler identification is GNU 11.3.0
+[0.994s] -- Detecting C compiler ABI info
+[1.401s] -- Detecting C compiler ABI info - done
+[1.435s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.438s] -- Detecting C compile features
+[1.440s] -- Detecting C compile features - done
+[1.455s] -- Detecting CXX compiler ABI info
+[1.910s] -- Detecting CXX compiler ABI info - done
+[1.945s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.946s] -- Detecting CXX compile features
+[1.949s] -- Detecting CXX compile features - done
+[3.295s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[4.961s] [31mCMake Error at CMakeLists.txt:17 (ament_package):
+[4.962s]   Unknown CMake command "ament_package".
+[4.963s] 
+[4.963s] [0m
+[4.963s] -- Configuring incomplete, errors occurred!
+[4.963s] See also "/home/soroush/robatics/Assignment2/assi2/src/build/sensor_gazebo/CMakeFiles/CMakeOutput.log".
+[4.983s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/src/build/sensor_gazebo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/soroush/ws_moveit2/install/moveit_configs_utils:/home/soroush/ws_moveit2/install/launch_param_builder /usr/bin/cmake /home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo -DCMAKE_INSTALL_PREFIX=/home/soroush/robatics/Assignment2/assi2/src/install/sensor_gazebo

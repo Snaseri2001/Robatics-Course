@@ -1,0 +1,43 @@
+[2.245s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/src/py_srvcli': PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/build/py_srvcli/prefix_override:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/soroush/robatics/Assignment2/assi2/build/py_srvcli/build install --record /home/soroush/robatics/Assignment2/assi2/build/py_srvcli/install.log --single-version-externally-managed
+[3.262s] running egg_info
+[3.265s] creating ../../build/py_srvcli/py_srvcli.egg-info
+[3.266s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[3.266s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[3.267s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[3.267s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[3.268s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[3.268s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[3.275s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[3.278s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[3.279s] running build
+[3.280s] running build_py
+[3.281s] creating /home/soroush/robatics/Assignment2/assi2/build/py_srvcli/build
+[3.281s] creating /home/soroush/robatics/Assignment2/assi2/build/py_srvcli/build/lib
+[3.282s] creating /home/soroush/robatics/Assignment2/assi2/build/py_srvcli/build/lib/py_srvcli
+[3.282s] copying py_srvcli/__init__.py -> /home/soroush/robatics/Assignment2/assi2/build/py_srvcli/build/lib/py_srvcli
+[3.283s] copying py_srvcli/service_member_function.py -> /home/soroush/robatics/Assignment2/assi2/build/py_srvcli/build/lib/py_srvcli
+[3.283s] copying py_srvcli/client_member_function.py.py -> /home/soroush/robatics/Assignment2/assi2/build/py_srvcli/build/lib/py_srvcli
+[3.283s] running install
+[3.284s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.284s]   warnings.warn(
+[3.284s] running install_lib
+[3.286s] creating /home/soroush/robatics/Assignment2/assi2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[3.287s] copying /home/soroush/robatics/Assignment2/assi2/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/soroush/robatics/Assignment2/assi2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[3.287s] copying /home/soroush/robatics/Assignment2/assi2/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/soroush/robatics/Assignment2/assi2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[3.288s] copying /home/soroush/robatics/Assignment2/assi2/build/py_srvcli/build/lib/py_srvcli/client_member_function.py.py -> /home/soroush/robatics/Assignment2/assi2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[3.290s] byte-compiling /home/soroush/robatics/Assignment2/assi2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__init__.py to __init__.cpython-310.pyc
+[3.291s] byte-compiling /home/soroush/robatics/Assignment2/assi2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-310.pyc
+[3.292s] byte-compiling /home/soroush/robatics/Assignment2/assi2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/client_member_function.py.py to client_member_function.py.cpython-310.pyc
+[3.294s] running install_data
+[3.296s] creating /home/soroush/robatics/Assignment2/assi2/install/py_srvcli/share/ament_index
+[3.296s] creating /home/soroush/robatics/Assignment2/assi2/install/py_srvcli/share/ament_index/resource_index
+[3.297s] creating /home/soroush/robatics/Assignment2/assi2/install/py_srvcli/share/ament_index/resource_index/packages
+[3.297s] copying resource/py_srvcli -> /home/soroush/robatics/Assignment2/assi2/install/py_srvcli/share/ament_index/resource_index/packages
+[3.298s] copying package.xml -> /home/soroush/robatics/Assignment2/assi2/install/py_srvcli/share/py_srvcli
+[3.298s] running install_egg_info
+[3.303s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/soroush/robatics/Assignment2/assi2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[3.307s] running install_scripts
+[3.393s] Installing client script to /home/soroush/robatics/Assignment2/assi2/install/py_srvcli/lib/py_srvcli
+[3.393s] Installing service script to /home/soroush/robatics/Assignment2/assi2/install/py_srvcli/lib/py_srvcli
+[3.394s] writing list of installed files to '/home/soroush/robatics/Assignment2/assi2/build/py_srvcli/install.log'
+[3.473s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/src/py_srvcli' returned '0': PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/build/py_srvcli/prefix_override:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/soroush/robatics/Assignment2/assi2/build/py_srvcli/build install --record /home/soroush/robatics/Assignment2/assi2/build/py_srvcli/install.log --single-version-externally-managed

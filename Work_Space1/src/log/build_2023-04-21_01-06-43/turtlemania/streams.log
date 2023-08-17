@@ -1,0 +1,25 @@
+[2.796s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/src/turtlemania': PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/src/build/turtlemania/prefix_override:/home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/turtlemania build --build-base /home/soroush/robatics/Assignment2/assi2/src/build/turtlemania/build install --record /home/soroush/robatics/Assignment2/assi2/src/build/turtlemania/install.log --single-version-externally-managed
+[3.620s] running egg_info
+[3.672s] writing ../build/turtlemania/turtlemania.egg-info/PKG-INFO
+[3.673s] writing dependency_links to ../build/turtlemania/turtlemania.egg-info/dependency_links.txt
+[3.674s] writing entry points to ../build/turtlemania/turtlemania.egg-info/entry_points.txt
+[3.674s] writing requirements to ../build/turtlemania/turtlemania.egg-info/requires.txt
+[3.675s] writing top-level names to ../build/turtlemania/turtlemania.egg-info/top_level.txt
+[3.796s] reading manifest file '../build/turtlemania/turtlemania.egg-info/SOURCES.txt'
+[3.799s] writing manifest file '../build/turtlemania/turtlemania.egg-info/SOURCES.txt'
+[3.800s] running build
+[3.800s] running build_py
+[3.802s] running install
+[3.802s] /home/soroush/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.803s]   warnings.warn(
+[3.821s] running install_lib
+[3.877s] running install_data
+[3.932s] copying launch/launch.py -> /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/share/turtlemania
+[3.933s] running install_egg_info
+[3.992s] removing '/home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/python3.10/site-packages/turtlemania-0.0.0-py3.10.egg-info' (and everything under it)
+[3.993s] Copying ../build/turtlemania/turtlemania.egg-info to /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/python3.10/site-packages/turtlemania-0.0.0-py3.10.egg-info
+[3.996s] running install_scripts
+[4.612s] Installing brodcaster script to /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/turtlemania
+[4.612s] Installing listener script to /home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/turtlemania
+[4.613s] writing list of installed files to '/home/soroush/robatics/Assignment2/assi2/src/build/turtlemania/install.log'
+[4.695s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/src/turtlemania' returned '0': PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/src/build/turtlemania/prefix_override:/home/soroush/robatics/Assignment2/assi2/src/install/turtlemania/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/turtlemania build --build-base /home/soroush/robatics/Assignment2/assi2/src/build/turtlemania/build install --record /home/soroush/robatics/Assignment2/assi2/src/build/turtlemania/install.log --single-version-externally-managed

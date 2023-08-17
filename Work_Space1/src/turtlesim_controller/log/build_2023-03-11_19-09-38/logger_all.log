@@ -1,0 +1,86 @@
+[0.283s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'turtlesim_controller']
+[0.283s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['turtlesim_controller'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fdcf102dbd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fdcf1993490>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fdcf1993490>>, mixin_verb=('build',))
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.303s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.324s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'turtlesim_controller'
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_controller' build argument 'cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_controller' build argument 'cmake_target' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.350s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller', 'merge_install': False, 'path': '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller', 'symlink_install': False, 'test_result_base': None}
+[0.351s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.354s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.354s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller' with build type 'ament_python'
+[0.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_controller', 'ament_prefix_path')
+[0.358s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/share/turtlesim_controller/hook/ament_prefix_path.ps1'
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/share/turtlesim_controller/hook/ament_prefix_path.dsv'
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/share/turtlesim_controller/hook/ament_prefix_path.sh'
+[0.361s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.361s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.608s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller'
+[0.610s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.610s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller': PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/prefix_override:/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/turtlesim_controller build --build-base /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/build install --record /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/install.log --single-version-externally-managed
+[1.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller' returned '0': PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/prefix_override:/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/turtlesim_controller build --build-base /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/build install --record /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/install.log --single-version-externally-managed
+[1.214s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller' for CMake module files
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller' for CMake config files
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib'
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/bin'
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/pkgconfig/turtlesim_controller.pc'
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/python3.10/site-packages'
+[1.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_controller', 'pythonpath')
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/share/turtlesim_controller/hook/pythonpath.ps1'
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/share/turtlesim_controller/hook/pythonpath.dsv'
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/share/turtlesim_controller/hook/pythonpath.sh'
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/bin'
+[1.219s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_controller)
+[1.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/share/turtlesim_controller/package.ps1'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/share/turtlesim_controller/package.dsv'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/share/turtlesim_controller/package.sh'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/share/turtlesim_controller/package.bash'
+[1.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/share/turtlesim_controller/package.zsh'
+[1.224s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/share/colcon-core/packages/turtlesim_controller)
+[1.224s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.225s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.225s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.225s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.233s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.233s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.233s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.233s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.244s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.246s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/local_setup.ps1'
+[1.247s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/_local_setup_util_ps1.py'
+[1.248s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/setup.ps1'
+[1.250s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/local_setup.sh'
+[1.250s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/_local_setup_util_sh.py'
+[1.251s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/setup.sh'
+[1.252s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/local_setup.bash'
+[1.253s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/setup.bash'
+[1.254s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/local_setup.zsh'
+[1.255s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/setup.zsh'

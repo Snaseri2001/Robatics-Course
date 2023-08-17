@@ -1,0 +1,26 @@
+[5.347s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller': PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/prefix_override:/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/turtlesim_controller build --build-base /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/build install --record /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/install.log --single-version-externally-managed
+[7.415s] running egg_info
+[7.420s] writing build/turtlesim_controller/turtlesim_controller.egg-info/PKG-INFO
+[7.422s] writing dependency_links to build/turtlesim_controller/turtlesim_controller.egg-info/dependency_links.txt
+[7.424s] writing entry points to build/turtlesim_controller/turtlesim_controller.egg-info/entry_points.txt
+[7.425s] writing requirements to build/turtlesim_controller/turtlesim_controller.egg-info/requires.txt
+[7.426s] writing top-level names to build/turtlesim_controller/turtlesim_controller.egg-info/top_level.txt
+[7.440s] reading manifest file 'build/turtlesim_controller/turtlesim_controller.egg-info/SOURCES.txt'
+[7.448s] writing manifest file 'build/turtlesim_controller/turtlesim_controller.egg-info/SOURCES.txt'
+[7.449s] running build
+[7.450s] running build_py
+[7.451s] copying turtlesim_controller/turtlesim_controller.py -> /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/build/lib/turtlesim_controller
+[7.452s] running install
+[7.453s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.454s]   warnings.warn(
+[7.455s] running install_lib
+[7.461s] copying /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/build/lib/turtlesim_controller/turtlesim_controller.py -> /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/python3.10/site-packages/turtlesim_controller
+[7.465s] byte-compiling /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/python3.10/site-packages/turtlesim_controller/turtlesim_controller.py to turtlesim_controller.cpython-310.pyc
+[7.470s] running install_data
+[7.474s] running install_egg_info
+[7.486s] removing '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/python3.10/site-packages/turtlesim_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[7.488s] Copying build/turtlesim_controller/turtlesim_controller.egg-info to /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/python3.10/site-packages/turtlesim_controller-0.0.0-py3.10.egg-info
+[7.495s] running install_scripts
+[7.660s] Installing turtlesim_controller script to /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/turtlesim_controller
+[7.662s] writing list of installed files to '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/install.log'
+[7.802s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller' returned '0': PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/prefix_override:/home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/install/turtlesim_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/turtlesim_controller build --build-base /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/build install --record /home/soroush/robatics/Assignment2/assi2/src/turtlesim_controller/build/turtlesim_controller/install.log --single-version-externally-managed

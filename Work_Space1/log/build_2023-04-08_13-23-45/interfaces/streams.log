@@ -1,0 +1,23 @@
+[0.060s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/interfaces -- -j8 -l8
+[0.644s] [  2%] Built target interfaces__cpp
+[0.644s] [ 12%] Built target interfaces__rosidl_generator_c
+[0.645s] [ 12%] Built target ament_cmake_python_copy_interfaces
+[0.645s] [ 23%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[0.645s] [ 33%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[0.645s] [ 53%] Built target interfaces__rosidl_typesupport_introspection_c
+[0.645s] [ 53%] Built target interfaces__rosidl_typesupport_cpp
+[0.645s] [ 64%] Built target interfaces__rosidl_typesupport_c
+[0.645s] [ 74%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[0.645s] [ 74%] Built target interfaces
+[0.645s] [ 76%] Built target interfaces__py
+[0.645s] [ 84%] Built target interfaces__rosidl_generator_py
+[0.645s] [ 89%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[0.645s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[0.645s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.645s] running egg_info
+[0.645s] writing interfaces.egg-info/PKG-INFO
+[0.646s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[0.646s] writing top-level names to interfaces.egg-info/top_level.txt
+[0.646s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[0.646s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[0.646s] [100%] Built target ament_cmake_python_build_interfaces_egg

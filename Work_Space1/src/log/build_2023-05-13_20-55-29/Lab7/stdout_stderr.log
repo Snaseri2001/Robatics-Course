@@ -1,0 +1,21 @@
+running egg_info
+writing ../build/Lab7/Lab7.egg-info/PKG-INFO
+writing dependency_links to ../build/Lab7/Lab7.egg-info/dependency_links.txt
+writing entry points to ../build/Lab7/Lab7.egg-info/entry_points.txt
+writing requirements to ../build/Lab7/Lab7.egg-info/requires.txt
+writing top-level names to ../build/Lab7/Lab7.egg-info/top_level.txt
+reading manifest file '../build/Lab7/Lab7.egg-info/SOURCES.txt'
+writing manifest file '../build/Lab7/Lab7.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+/home/soroush/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/soroush/robatics/Assignment2/assi2/src/install/Lab7/lib/python3.10/site-packages/Lab7-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/Lab7/Lab7.egg-info to /home/soroush/robatics/Assignment2/assi2/src/install/Lab7/lib/python3.10/site-packages/Lab7-0.0.0-py3.10.egg-info
+running install_scripts
+Installing modelgazebo script to /home/soroush/robatics/Assignment2/assi2/src/install/Lab7/lib/Lab7
+writing list of installed files to '/home/soroush/robatics/Assignment2/assi2/src/build/Lab7/install.log'

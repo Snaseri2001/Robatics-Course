@@ -1,0 +1,15 @@
+[0.035s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim': CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/yangsim -- -j8 -l8
+[0.113s] [35m[1mConsolidate compiler generated dependencies of target yangnode[0m
+[0.149s] [ 50%] [32mBuilding CXX object CMakeFiles/yangnode.dir/src/yangnode.cpp.o[0m
+[4.503s] [01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:[m[K In member function ‘[01m[Kvoid yang::callbackService(interfaces::srv::FirstSreviceMessage_Request_<std::allocator<void> >::SharedPtr, interfaces::srv::FirstSreviceMessage_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.503s] [01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:47:25:[m[K [01;31m[Kerror: [m[K‘[01m[KstSd[m[K’ has not been declared
+[4.504s]    47 |                         [01;31m[KstSd[m[K::string str = request->message;
+[4.504s]       |                         [01;31m[K^~~~[m[K
+[4.511s] [01m[K/home/soroush/robatics/Assignment2/assi2/src/yangsim/src/yangnode.cpp:50:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kstr[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd[m[K’?
+[4.512s]    50 |                         int64_t sum = this->asci_convertor([01;31m[Kstr[m[K , len) ;
+[4.512s]       |                                                            [01;31m[K^~~[m[K
+[4.512s]       |                                                            [32m[Kstd[m[K
+[6.893s] gmake[2]: *** [CMakeFiles/yangnode.dir/build.make:76: CMakeFiles/yangnode.dir/src/yangnode.cpp.o] Error 1
+[6.893s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yangnode.dir/all] Error 2
+[6.894s] gmake: *** [Makefile:146: all] Error 2
+[6.897s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/build/yangsim' returned '2': CMAKE_PREFIX_PATH=/home/soroush/robatics/Assignment2/assi2/install/interfaces:/home/soroush/robatics/Assignment2/assi2/install/yangsim:/home/soroush/robatics/Assignment2/assi2/install/yinsim:/home/soroush/robatics/Assignment2/assi2/install/py_srvcli:/opt/ros/humble /usr/bin/cmake --build /home/soroush/robatics/Assignment2/assi2/build/yangsim -- -j8 -l8

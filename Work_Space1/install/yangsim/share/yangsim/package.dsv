@@ -1,0 +1,8 @@
+source;share/yangsim/hook/cmake_prefix_path.ps1
+source;share/yangsim/hook/cmake_prefix_path.dsv
+source;share/yangsim/hook/cmake_prefix_path.sh
+source;share/yangsim/local_setup.bash
+source;share/yangsim/local_setup.dsv
+source;share/yangsim/local_setup.ps1
+source;share/yangsim/local_setup.sh
+source;share/yangsim/local_setup.zsh

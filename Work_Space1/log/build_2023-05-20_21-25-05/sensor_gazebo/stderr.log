@@ -1,0 +1,67 @@
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo/src/sensor.cpp:1:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kgz[m[K’ does not name a type
+    1 | [01;31m[Kgz[m[K::transport::Node node;
+      | [01;31m[K^~[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo/src/sensor.cpp:2:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+    2 | std::[01;31m[Kstring[m[K topic_pub = "/cmd_vel";
+      |      [01;31m[K^~~~~~[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo/src/sensor.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string[m[K’ is defined in header ‘[01m[K<string>[m[K’; did you forget to ‘[01m[K#include <string>[m[K’?
+  +++ |+[32m[K#include <string>[m[K
+    1 | gz::transport::Node node;
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo/src/sensor.cpp:3:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kgz[m[K’ does not name a type
+    3 | [01;31m[Kgz[m[K::msgs::Twist data;
+      | [01;31m[K^~[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo/src/sensor.cpp:4:12:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+    4 | auto pub = [01;31m[Knode[m[K.Advertise<gz::msgs::Twist>(topic_pub);
+      |            [01;31m[K^~~~[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo/src/sensor.cpp:4:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kgz[m[K’ has not been declared
+    4 | auto pub = node.Advertise<[01;31m[Kgz[m[K::msgs::Twist>(topic_pub);
+      |                           [01;31m[K^~[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo/src/sensor.cpp:4:44:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_pub[m[K’ was not declared in this scope
+    4 | auto pub = node.Advertise<gz::msgs::Twist>([01;31m[Ktopic_pub[m[K);
+      |                                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo/src/sensor.cpp:5:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kgz[m[K’ does not name a type
+    5 | void cb(const [01;31m[Kgz[m[K::msgs::LaserScan &_msg)
+      |               [01;31m[K^~[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo/src/sensor.cpp:5:23:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+    5 | void cb(const gz::msgs[01;31m[K::[m[KLaserScan &_msg)
+      |                       [01;31m[K^~[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo/src/sensor.cpp:5:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+    5 | void cb[34m[K([m[Kconst gz::msgs[01;31m[K:[m[K[32m[K:[m[KLaserScan &_msg)
+      |        [34m[K~[m[K              [01;31m[K^[m[K[32m[K~[m[K
+      |                       [32m[K)[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo/src/sensor.cpp:5:23:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+    5 | void cb(const gz::msgs[01;31m[K::[m[KLaserScan &_msg)
+      |                       [01;31m[K^~[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo/src/sensor.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo/src/sensor.cpp:30:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   30 |     std::[01;31m[Kstring[m[K topic = "/lidar";
+      |          [01;31m[K^~~~~~[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo/src/sensor.cpp:30:10:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string[m[K’ is defined in header ‘[01m[K<string>[m[K’; did you forget to ‘[01m[K#include <string>[m[K’?
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo/src/sensor.cpp:32:10:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+   32 |     if (![01;31m[Knode[m[K.Subscribe(topic, cb))
+      |          [01;31m[K^~~~[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo/src/sensor.cpp:32:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic[m[K’ was not declared in this scope
+   32 |     if (!node.Subscribe([01;31m[Ktopic[m[K, cb))
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo/src/sensor.cpp:32:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kcb[m[K’ was not declared in this scope
+   32 |     if (!node.Subscribe(topic, [01;31m[Kcb[m[K))
+      |                                [01;31m[K^~[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo/src/sensor.cpp:34:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcerr[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   34 |         std::[01;31m[Kcerr[m[K << "Error subscribing to topic [" << topic << "]" << std::endl;
+      |              [01;31m[K^~~~[m[K
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo/src/sensor.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cerr[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+  +++ |+[32m[K#include <iostream>[m[K
+    1 | gz::transport::Node node;
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo/src/sensor.cpp:34:77:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   34 | d::cerr << "Error subscribing to topic [" << topic << "]" << std::[01;31m[Kendl[m[K;
+      |                                                                   [01;31m[K^~~~[m[K
+
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo/src/sensor.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+  +++ |+[32m[K#include <ostream>[m[K
+    1 | gz::transport::Node node;
+[01m[K/home/soroush/robatics/Assignment2/assi2/src/sensor_gazebo/src/sensor.cpp:39:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgz[m[K’ has not been declared
+   39 |     [01;31m[Kgz[m[K::transport::waitForShutdown();
+      |     [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/sensor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

@@ -1,0 +1,24 @@
+[0.660s] Invoking command in '/home/soroush/robatics/Assignment2/assi2/src/peresenr_one': PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/build/peresenr_one/prefix_override:/home/soroush/robatics/Assignment2/assi2/install/peresenr_one/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/peresenr_one build --build-base /home/soroush/robatics/Assignment2/assi2/build/peresenr_one/build install --record /home/soroush/robatics/Assignment2/assi2/build/peresenr_one/install.log --single-version-externally-managed
+[0.864s] running egg_info
+[0.876s] writing ../../build/peresenr_one/peresenr_one.egg-info/PKG-INFO
+[0.877s] writing dependency_links to ../../build/peresenr_one/peresenr_one.egg-info/dependency_links.txt
+[0.877s] writing entry points to ../../build/peresenr_one/peresenr_one.egg-info/entry_points.txt
+[0.877s] writing requirements to ../../build/peresenr_one/peresenr_one.egg-info/requires.txt
+[0.877s] writing top-level names to ../../build/peresenr_one/peresenr_one.egg-info/top_level.txt
+[0.904s] reading manifest file '../../build/peresenr_one/peresenr_one.egg-info/SOURCES.txt'
+[0.905s] writing manifest file '../../build/peresenr_one/peresenr_one.egg-info/SOURCES.txt'
+[0.905s] running build
+[0.905s] running build_py
+[0.905s] running install
+[0.905s] /home/soroush/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.905s]   warnings.warn(
+[0.910s] running install_lib
+[0.924s] running install_data
+[0.937s] running install_egg_info
+[0.950s] removing '/home/soroush/robatics/Assignment2/assi2/install/peresenr_one/lib/python3.10/site-packages/peresenr_one-0.0.0-py3.10.egg-info' (and everything under it)
+[0.951s] Copying ../../build/peresenr_one/peresenr_one.egg-info to /home/soroush/robatics/Assignment2/assi2/install/peresenr_one/lib/python3.10/site-packages/peresenr_one-0.0.0-py3.10.egg-info
+[0.952s] running install_scripts
+[1.103s] Installing listener script to /home/soroush/robatics/Assignment2/assi2/install/peresenr_one/lib/peresenr_one
+[1.103s] Installing talker script to /home/soroush/robatics/Assignment2/assi2/install/peresenr_one/lib/peresenr_one
+[1.103s] writing list of installed files to '/home/soroush/robatics/Assignment2/assi2/build/peresenr_one/install.log'
+[1.128s] Invoked command in '/home/soroush/robatics/Assignment2/assi2/src/peresenr_one' returned '0': PYTHONPATH=/home/soroush/robatics/Assignment2/assi2/build/peresenr_one/prefix_override:/home/soroush/robatics/Assignment2/assi2/install/peresenr_one/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/peresenr_one build --build-base /home/soroush/robatics/Assignment2/assi2/build/peresenr_one/build install --record /home/soroush/robatics/Assignment2/assi2/build/peresenr_one/install.log --single-version-externally-managed

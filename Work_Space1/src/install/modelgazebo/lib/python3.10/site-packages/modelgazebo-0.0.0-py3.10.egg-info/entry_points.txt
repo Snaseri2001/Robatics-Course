@@ -1,0 +1,2 @@
+[console_scripts]
+modelgazebo = modelgazebo.modelgazebo:main

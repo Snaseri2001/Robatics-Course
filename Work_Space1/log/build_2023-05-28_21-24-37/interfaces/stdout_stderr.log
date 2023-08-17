@@ -1,0 +1,43 @@
+[  2%] Built target interfaces__cpp
+[ 12%] Built target interfaces__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_interfaces
+[ 15%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/first_srevice_message__type_support.cpp.o[0m
+[ 25%] Built target interfaces__rosidl_typesupport_introspection_c
+[ 28%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/first_msg_message__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/first_msg_message__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/first_msg_message__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/first_msg_message__type_support_c.cpp.o[0m
+[ 46%] Built target interfaces__rosidl_typesupport_c
+[ 48%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/first_srevice_message__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/first_srevice_message__type_support_c.cpp.o[0m
+running egg_info
+writing interfaces.egg-info/PKG-INFO
+writing dependency_links to interfaces.egg-info/dependency_links.txt
+writing top-level names to interfaces.egg-info/top_level.txt
+[ 53%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/first_srevice_message__type_support.cpp.o[0m
+[ 56%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+reading manifest file 'interfaces.egg-info/SOURCES.txt'
+writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[ 56%] Built target ament_cmake_python_build_interfaces_egg
+[ 58%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 61%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 64%] Built target interfaces__rosidl_typesupport_cpp
+[ 66%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[ 69%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[ 71%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 74%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[ 74%] Built target interfaces
+[ 76%] Built target interfaces__py
+[ 79%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_first_msg_message_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_first_srevice_message_s.c.o[0m
+[ 84%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so[0m
+[ 84%] Built target interfaces__rosidl_generator_py
+[ 87%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target interfaces__rosidl_typesupport_c__pyext
+[100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
