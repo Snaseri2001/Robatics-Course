@@ -40,4 +40,4 @@ Each node has a service. To send a message, in one step, yin sends its message i
 Sends where \<name\> is the name of the opposite node, \<msg\> is the message received from the opposite node, \<length\> is the length of the message and \<checksum\> is the numerical sum of the characters of the received string. The whole message is of string type.
 
 ## Results 
-The answer of the first question is [here.]([https://github.com/Snaseri2001/Robatics-Course/blob/main/Assignmnet1/assinment1.pdf](https://github.com/Snaseri2001/Robatics-Course/blob/main/Assignmnet2/9812762758_Soroush_Naseri_HW2-2.pdf)https://github.com/Snaseri2001/Robatics-Course/blob/main/Assignmnet2/9812762758_Soroush_Naseri_HW2-2.pdf) .
+The answer of the first question is [here.](https://github.com/Snaseri2001/Robatics-Course/blob/main/Assignmnet1/assinment1.pdf](https://github.com/Snaseri2001/Robatics-Course/blob/main/Assignmnet2/9812762758_Soroush_Naseri_HW2-2.pdf)https://github.com/Snaseri2001/Robatics-Course/blob/main/Assignmnet2/9812762758_Soroush_Naseri_HW2-2.pdf) .
